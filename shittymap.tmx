@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="10">
+ <tileset firstgid="1" name="shittytileset" tilewidth="32" tileheight="32">
+  <image source="../shittytileset.png" width="480" height="800"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="5" duration="1200"/>
+    <frame tileid="1" duration="1200"/>
+    <frame tileid="5" duration="1200"/>
+    <frame tileid="20" duration="1200"/>
+   </animation>
+  </tile>
+  <tile id="35">
+   <animation>
+    <frame tileid="35" duration="350"/>
+    <frame tileid="36" duration="350"/>
+    <frame tileid="37" duration="350"/>
+    <frame tileid="38" duration="350"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="376" name="Alex" tilewidth="32" tileheight="32">
+  <image source="Alex.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="1" duration="800"/>
+    <frame tileid="2" duration="800"/>
+    <frame tileid="0" duration="800"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="600"/>
+    <frame tileid="8" duration="600"/>
+    <frame tileid="6" duration="600"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="800"/>
+    <frame tileid="11" duration="800"/>
+    <frame tileid="9" duration="800"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="Image Layer 1">
+  <image source="clouds.png"/>
+ </imagelayer>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztWFtuxCAMTLN7gJYLbNsbQO5/t80HlqYjmzyKlzaypRHZDQEPNmaSaQoLCwsLCwsLCwsLC/t/9nYCf8XO+O7Bbakotf1Ycat4V+bItW+uWOA60/8y5pbfcwcUmDMbPNiXrPhSYCyNn8anh/8CnEeLh6y/+Ip9kQP7iTGTay8OM6ybjK/xEF/KpPsl99h/XAPs35uDxAPX18or5KDFA/OT18Yzn5AHzqHx4Pzm3xgfLYe8OczKPK39sQctDt48UoNHoT5n2hlaL9wBFo97R3jySDt4pE6tF48EsPZ56ojgsb3PsVbu1VessY7UNI+6xVrD4oFn3ELPIDcczzo3R+gS5MHntxaPZfrpN/fzOkPYR0uXZGpZB3JcOA85Jl48LH2F91B7YK6xXre0lzzvEQ/MZ4sH61z0V9PAmGc8vrfebdUr1rroV+s9SdOUXjxwXVv7XNO4W9pWq8ceHGaYS8ur7xWPg2At7/3+hPvD0u1nIBxekUu8P5DL14rPXwDr2Sv8F3Ddxdy2vhFswYqFJy+sOVqt1K6t7z5YEyxN5Xmej8QVeFwpHr34jfa5F5fR/l6dx1Fuo33rxekJlFREiA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztllEOgjAMhscduIE8qxcQUV/VqKfxwYSrO5IRl2ZlLdtgYL/kz8ic0o+BVClBEARBEARBEAThH6l1Hjr7GWuokGNsjYva5Diyhq3Ozgrnerhqw+ZSexys3+DsLdVhaN4mtgfFJbaDMuc96dyJ6yFXnZuVRvmvSyqP3uGscyF+D6P3wq4Lt16qR7cXpTl+6ryQdWWkMZXHBoyUNaEjJNShp/QvibYfLjjPC0au+8H1sGkLpT7Fb3ybxATWF+uegrTFb1yyx1RUYMQ+zx1fnak9YF/oiq+/itHfhuLqp2AovZrPJQcPbp+Yqwe3T5zDo+sDG5XeY2g+FrBXd4XT7471mOu/mXv/5OrhYi0eHUt8p4+pLWTPUsI9d64eNpQ6cveg1pC7Bwb1PbkE1uIyR881FWvxsIFOX5aEMeg=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1lkKgCAQgOF86GJ1gjpND0HQyStKsAmLyVyC/wMRXHCbzKoCAAAAAOCqWVP7otxXH5tv3G5N/UO529eW+/rFFjJurjmH8J1bfeSTSTgZhzaO5d7L/rm+i9CYkP3/GGPAF4ZMdxHOtHdraW8SS3u3lvwmKfUMJO2ZaOpTrNGOETMWUsSZdgx3b2uR37UtjVz3bPb/yvbOHc19WwAAAADvLLTbG0o=
+  </data>
+ </layer>
+ <layer name="Grass Trans" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJADAMA0Ev5f1XSxsCSRtk7kADfKcqAAAAYILelqxrTgsAwA/nn0r+VbeWtJ5XR1LLlA4AAGZboIkHdQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt11EKgCAQRVHbWq2gltTK8zMkx9EGHfEe8CMUeTqCGQIAAACAleyxHco+aewI7zxnbFdmXNqXflusSzvH1zgpew2LebRzWGUexfvZ1pLOtrc1tebxdtZq8nirQStvNQCwrnvTj53lri/lKv3H9lLaOylXbo0jalKzd2m+3BvC+z1ZytdSO0t/3lFaPWq0yjsKAAAAmNUDXjYaiQ==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+</map>

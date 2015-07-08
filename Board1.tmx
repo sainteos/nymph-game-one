@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="shittytileset" tilewidth="32" tileheight="32">
+  <image source="../shittytileset.png" width="480" height="800"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="800"/>
+    <frame tileid="5" duration="800"/>
+    <frame tileid="20" duration="800"/>
+    <frame tileid="5" duration="800"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="1200"/>
+    <frame tileid="94" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="35">
+   <animation>
+    <frame tileid="35" duration="300"/>
+    <frame tileid="36" duration="300"/>
+    <frame tileid="37" duration="300"/>
+    <frame tileid="38" duration="300"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="376" name="Alex" tilewidth="32" tileheight="32">
+  <image source="Alex.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="600"/>
+    <frame tileid="2" duration="600"/>
+    <frame tileid="0" duration="600"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="40"/>
+    <frame tileid="5" duration="40"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="600"/>
+    <frame tileid="8" duration="600"/>
+    <frame tileid="6" duration="600"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="600"/>
+    <frame tileid="11" duration="600"/>
+    <frame tileid="9" duration="600"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ground Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzdWUFu40AMc7AGFntre2iPu1+w8/+/NQEigOWSkmaStGkPQpOxZyxKlCin27Is28n2y9/4vNMa2tGsse0TpvZvtNb1N/YoDGovn3P+eyBz+Bj7tvzvP54T6wfYH9fWb26I4+WbWuDYfwiOyIerU7Wu6gf5rnitOM716u7PanOFZ67mXNUvMiyVcYw6PY9rn5+5wlnronsP73HxupXNPGOFvcwrFSfXJ7mXuhxVuXRrXRz42Z2tcuV8Zv2q9IbPU8/DMxSv4lp8rvzmmsk0Xt2jcsNcGuUW88r1nrCM0yp2Lq9ZPVecxf0ZrzLDPqz8U+sdfnd7rZulVngO9mDkYTbzqXpV853ikeJddS6eqXh1XD7WCp/n4uFwqvtmNUbpDceC9YM1p9NnOj6oPqHu537l+jH7EDno1kdWN67/4/qttBLjgb5jbly/UfzIasDph9NNt0dZRwcRr/O70q+shhRHslmhwpXVh9N0dc3lJOM6XrsFz0b1o+rvrmY5Bl29y/ow8jzywT2Yn+f6VKa1jiOKM+ivyyPzulsffK+aQbq9jHFzn1Oc5++H5WOMMAYKh9JLh89pQuXXkfZ3eKbyir7H+iruUzqKMczqBrHinkqfVQwqXjOOihsj9V/pWHVmp5cF1qxfYdxmeuEm9rJWqPru1B7ywc0lFWeeT/brYk8NPMzDkbxyDPAcjBPPJRUfZnAofzqx5rxlvJ3RwWtwKAzcyzq55fUZHO531VEcIxoUGDKfnH/V78Fqn5qJuQeP+j+D46VhzKtYz3KjtCDTCTUHZ/MWv5/fAkeH54rzzmfWbqX5jCN7VsSJcaAW4fM4pkqrR7mV8SrDoWYa1a8iJqO+ZfOIerfheS2uq7n9bL9P9tfYH8KBHD3AM9wskNXIjDkcO8U8s+AVxwFjxrVezX9cy10c3LsQx9vJ/iX2Cufx+4uaz9jXGe7xd9V3ow4Cx4hez7wXZ7O46w+Kl8yrOOercFzTr9Tne+HgPnOt/w5HGOK4x/+672GBQ2n209LT+Eewn4YDbaY+Zi16NPdVdS+vV/PDZ+FQ2qd8c/PYV+DAmVbpcmBQ+pDF4RHy0cGdvT9Vv+U8Ag72V3GOcbwDsJX05A==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztms1OwzAMx90rcEIcgCt32BMgja8jiK8XGHsJBAiJJycWs7D+c9J0neYk6k/6S1nmJvZaO206oj8WQW9BS2jnkLLvG2ubx55VLuE46KhS7UEctcK+36h2rbDvz0F3VH8cnO+vVH8czJLaiAPbtdFSHFO9KoepXpVFS3lutWujtXol7VqReiXtWmkpP5gW1kHO8xbWQc7zFtbBKc/LYVoHy2LKj7LYJD9i+6qe4HNtzn7wCf3vq+5TGTHhc23OnvAhyNor3jVyXQ1Zzw9AeiwvsO5eGJoFXQVdq+M+O3ssL+S6kvy4BM2D7oMeg57g2C+IxTsORvID/Uc+jPOAY3mA+z6pGHLH8gDXQY5jkxhwrF0j9UryYz5yLC+kXkl+pM7FecZYXki96ls/OIYHWq9nWt5x6LZ1f8Gf+2Jgna5sZzT83fdYyb0E54e+99B4vxvPleyXIN/GWsG2t6u4S0D7I/sl6ONPZ9u+0HrcOfH12cS+1/1oo/1ZGH3Me2fbWv9Z0TYxf/psYr+R7kcby5+Yj7o/5ssYmyHzx2xkHt1Onddt+JvyeQjW9U6JOb39jWFd76k5vf2NYc35C1bBfKw=
+  </data>
+ </layer>
+ <layer name="Extra Trees" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmcFuwjAMhn3hAk/ArlzGidPYHgD2AsAZie39n2GzWktWZILbtNgO+aSoVtNUv93YSVuA+Bz6495URRmf/+3E7KjgM7j19tJSSCHLO3Y0mh++QO1Yr74hvh9Yry4Q3w+sV78Q3w/JjkZNfhyYHRXKc7KjQnleQ91Faqi7SKu7Pmj1yhdUr8iOSk35gbT1wwdt/fBFyw9fvHJ+8O/AXr6lcu3viusl3ftM37Pgfmh0rIRz6/5o+b1+zLzaJm3o+DkY48dX0oaOnwPp/eNacC8rpnz/sPZjqvcPaz8ku/Rez6YmP4b8/9hlmrUfQ/5/LPrjBztH9c3aD/r/QfuSdF3HdXqjaDR+M69kkTdm0/4i3XuswT/SfikH5tIRunzithe0WjCXztDlE7ctkOKo1cLHYl79QJdbFkhx1GqZ+hlIMc3N3ani+GhsLmekPikuubn7KI5jclarK9cnxYWfS/vvxZG0jJkvWl2avlJIyx+KXjka
+  </data>
+ </layer>
+</map>
