@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="interiortileset" tilewidth="32" tileheight="32">
+  <image source="interiortileset.png" width="480" height="800"/>
+  <tile id="21">
+   <animation>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="22" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="23" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="100"/>
+    <frame tileid="33" duration="100"/>
+    <frame tileid="48" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="49">
+   <animation>
+    <frame tileid="49" duration="250"/>
+    <frame tileid="50" duration="250"/>
+    <frame tileid="51" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="376" name="Aidan" tilewidth="32" tileheight="32">
+  <image source="Aidan.png" width="192" height="256"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="26" duration="400"/>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="24" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="400"/>
+    <frame tileid="29" duration="400"/>
+    <frame tileid="28" duration="400"/>
+    <frame tileid="27" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="424" name="Acerbus" tilewidth="32" tileheight="32">
+  <image source="Acerbus.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Darkness" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYB7Fo3gUj+JRPIpH8ZDGAPgyBd0=
+  </data>
+ </layer>
+ <layer name="Ground Layer" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAB6QKwPxAYUmKGCA7Pgwbj04ALKODA+O3DpIdUOdhzms1PRDmGoeWxImB0qTk07hNH8ABMj1Q5cAJ8d1AKjdoxcO7BhWgBamTsKIAAAjg0Mbg==
+  </data>
+ </layer>
+ <layer name="Player Layer" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AQcePAoGAWjYBQMVlDDONAuGAWUAgBOAQC2
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfEGBgSGAE0tTCAljsAIonMAFpamGgeQuw2SEEpKmFcdmBMyDJACPZDjECfGrYoUqAT4wdwPR8gBELFsSiFhkIQszD0CdAQB+aexJANK6wwuZeUgHMDlxhRU078MhTzY7RsCIMBLCkY+T0SkoaHQWEAQAy6h+e
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiegJUATao6bEAUC82BB2NTTwnQA2J9IDag0BxsgBO3eAMt7aG2+aNgFIwCwmAiI4Sewkhbe0Roa/yIBwBeRQPL
+  </data>
+ </layer>
+ <layer name="Above Layer" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AaiQCwPxApArAjlUxNw4xZvoNRsIyQzuKD0CkY4vwGqBlk92UCMRHFCAJtbVHGohYkbURBm5PqdEjtHwSgYBaMAFwAAxpUFsg==
+  </data>
+ </layer>
+</map>
