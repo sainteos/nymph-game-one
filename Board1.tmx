@@ -177,13 +177,139 @@
   </tile>
  </tileset>
  <tileset firstgid="424" name="Knight" tilewidth="32" tileheight="32">
-  <image source="Knight.png" width="96" height="128"/>
+  <image source="Knight.png" width="192" height="256"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
     <frame tileid="2" duration="400"/>
     <frame tileid="1" duration="400"/>
     <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="11" duration="400"/>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="9" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="26" duration="400"/>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="24" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="400"/>
+    <frame tileid="29" duration="400"/>
+    <frame tileid="28" duration="400"/>
+    <frame tileid="27" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="400"/>
+    <frame tileid="32" duration="400"/>
+    <frame tileid="31" duration="400"/>
+    <frame tileid="30" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="400"/>
+    <frame tileid="38" duration="400"/>
+    <frame tileid="37" duration="400"/>
+    <frame tileid="36" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="46">
+   <animation>
+    <frame tileid="46" duration="400"/>
+    <frame tileid="47" duration="400"/>
+    <frame tileid="46" duration="400"/>
+    <frame tileid="45" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="472" name="Aidan" tilewidth="32" tileheight="32">
+  <image source="Aidan.png" width="192" height="256"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="26" duration="400"/>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="24" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="400"/>
+    <frame tileid="8" duration="400"/>
+    <frame tileid="7" duration="400"/>
+    <frame tileid="6" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="400"/>
+    <frame tileid="20" duration="400"/>
+    <frame tileid="19" duration="400"/>
+    <frame tileid="18" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="26" duration="400"/>
+    <frame tileid="25" duration="400"/>
+    <frame tileid="24" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="400"/>
+    <frame tileid="29" duration="400"/>
+    <frame tileid="28" duration="400"/>
+    <frame tileid="27" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="520" name="Acerbus" tilewidth="32" tileheight="32">
+  <image source="Acerbus.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
    </animation>
   </tile>
  </tileset>
@@ -199,7 +325,7 @@
  </layer>
  <layer name="Player Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2EEKgCAQhWFddM7OERVFJwiCoEUQBIG3TMFWLVpE2gz/ByHu3qgljTEAANw1NneCdzafv/XPGkep9pj9EFwD0nHW9I6zAgDAb3Xxnh64rwG1pP9LA0Aq5cP8Ivm7WsfsknuTGkx+/WcFe7D4GkYFdWhU5A4AsUJvIPQJKt5tAPjECZjdDWU=
+   eJzt2NEJgCAQgGENgrZskIqiPdqgJXpyiZYIGqCD7M3yqeTs/0BE7uUE8U6NAQD8kbPP8TYS16CTPUz2nLWritQZQINFzvpszZA6DwAAENb7vnTMoD8FEJbDWxoAvlBH1hfN92rjc8/hbxLAvTJ1AlBrk/qwytipEwDwigNE7wtX
   </data>
  </layer>
  <layer name="Behind Walls" width="50" height="50">
@@ -214,7 +340,7 @@
  </layer>
  <layer name="Wall Decoration" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2D0OwiAYBmB6ELt4gLq66uCsR+nSwXT338HRE3RRx25eTUho2tQCglBo8z7JG0kgXz5SiVRCAAD8yXhI6zPrXq5VN+X5t5Zvcx7oNvXdwEC0z1l1PkTzIUoamXnuxVTiqO5NEBdc7UFkQbOUzL8Mava9B9bjmmYjWfOmeWjU7HMPRVSPnxbr9v0cxiCP6gCMVU6zbeXC564dc0cPPf7iQHPXXB8i3b587COmmSjW6PZ1MuzFFNtD9R6s2ssQFJbrnS3XE2FnlvVevROVRP5+FOr3iu2j5ONXYywS+jmv7p+qu/KefP9GyLJz0SwAgGWpeklwbPy371vcGLO72YpniMbwPAAAAABMfQD9VjJq
+   eJztmL0OgjAUhcuDyOID4Oqqg7M+CguDYfffwdEnYFFHNl/NNmkDQdraSmkh50tOuMm9uTk3paGFEAAA8EfGRRrPrL3cqG/K9W8v38y5QDtT3wYGQnOfif0hy4dIUtPMsxdbEkd9bxK5wNUMMhZUS0X+ZdGz7xmYxzXVRlHzpnoY9OxzhiKq4meHfftehzGQR5UAGCs51bahC89dW3JHDx5/4UB1N6wPEVNfPuaIqSaaGlNfJ0svtrAZxD1YN8sQKDT5s2E/03pb2J5l3sWdqCTq+1Go7xWbo+TxqxbLCH2fi/On7qy8J9/fCJV2LswCAEDHpPqS4Oji375v4lrMzmYrriEyhvUAAAAAALDlAzCvMvc=
   </data>
  </layer>
  <layer name="Shading" width="50" height="50">
