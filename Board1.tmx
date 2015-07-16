@@ -312,6 +312,14 @@
     <frame tileid="1" duration="200"/>
    </animation>
   </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="11" duration="400"/>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="9" duration="400"/>
+   </animation>
+  </tile>
  </tileset>
  <layer name="Ground Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
@@ -325,12 +333,12 @@
  </layer>
  <layer name="Player Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2NEJgCAQgGENgrZskIqiPdqgJXpyiZYIGqCD7M3yqeTs/0BE7uUE8U6NAQD8kbPP8TYS16CTPUz2nLWritQZQINFzvpszZA6DwAAENb7vnTMoD8FEJbDWxoAvlBH1hfN92rjc8/hbxLAvTJ1AlBrk/qwytipEwDwigNE7wtX
+   eJzt2d0JgCAUgFENgrZskIqiPdqgJXpqiZYIGiAjewgkXyy59h0QuQhyRRF/lAIA/NGsn9trT7sEjRnDoM9auiKLnQEkmMxaH7XqYucBAADcWnsu7RM4nwJwS+EuDQBfKD3xRfK+WtncU3ibBCTy/YGEkgfu73jjnfQ9RppWM7eLKRtzDACv2AEpdA5l
   </data>
  </layer>
  <layer name="Behind Walls" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt1uEJwjAQBeBMJK4gqFAr/aOCv1VQNxDEDRzBCXQCnc4TEjhiqTFpuNO+Dx6lpU37KC1nDAAA/JsrC0CX3VmcCwtAlz1YnBsLAMgrbCY2pc2vkehxohxbXlOixznDmgVLaeR6DCkjyjhyTdfBkeoxo8wpi8g1i5pjEj1WlDVlk/nebcrxfUj41KOy22nuB0nU1KPy9jV3qesxMO8dtPN7aHn+LWX3xfm8h6YOS8rBJoTG/9Wrg5sF9oHXaOzhzzQh/B79hnNT55VQMbNZ3ftwXXre8dR5JZSba1LeRxPN84rG7yNGjrldQo65XQLmdgAAgDRPqMEx1w==
+   eJztltEJwjAURYsjOIi4gqBCrfRHBb9VUDcQxA0cwQl0Ap3OV0gwxFhj0pjX9h44iKWmOZTISxIAAABN46oIQJu5K0ouigC0mYei5KYIAIhPKpwIM2HdiNFxIo8Vrxmj4xxgzVQxS+J1DMkROXZcUzZIYnXMyDm5cFwzNVyL0bEi1+Qm8LOrJMT5iMG3jlx8TkNvxJOyjlz7zrnF1DFI3hu4o3dw2f+W3P1wv9rBqWFJHoQ2cPy/KhrkLLC3/A3HDn2msUHv6Jfc6zuv2OIym5neh2zpadd95xVb5Fzj8z7K4DyvcDwfLoSY22MgO7qd17V/nYOqKPZu6uB8Dj7RlPMBAACgfjwBbVkyEw==
   </data>
  </layer>
  <layer name="Walls and Such" width="50" height="50">
