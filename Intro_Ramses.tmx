@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Leon" tilewidth="32" tileheight="32">
+  <image source="Leon.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="13" name="Ramsestileset" tilewidth="32" tileheight="32">
+  <image source="Ramsestileset.png" width="480" height="800"/>
+ </tileset>
+ <layer name="Ground Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzSEBAAAIA7AXgP5xqYADMTG9SlLAiX509ILDAfwxa5gf+w==
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlNEJgDAMRLOBdQ+LAygu4BKO5iiOZqoWIlQTTeKXgYN8hLzetbQDgE6gAd6X934JQ7tfwhg/YFiUd04co3dmJA9v7qICmFBz6sPem3ugjNTX2HOMfBZOQcE45uBOx9ysYQgzUjM4L78PnQ98awv2yxWjRUUyxykUGLnu/pLEaQSKZz+PGFLRs3gxqDKD+jPcnbUx6J1a+yjlaJlPxbxVC4ZnHhxjBUCZdt8=
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AbCSJjW5lPLHmxmDkU7RsEoGAWjYBSMguECAKTWAe8=
+  </data>
+ </layer>
+ <layer name="Player Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAcgM9AOGMGAaaAdMApGwSgYkQAAudwAHw==
+  </data>
+ </layer>
+ <layer name="Above Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoAAUgloFiWgF5GppNjh0KDAg/E8Lk2gFSq0gA49JHih3EACEq2EHIH0B1DZTaQYS6A5TaMUj8QbYdcgzEpVtZPPpGwSgYBbgBAM+TCpM=
+  </data>
+ </layer>
+</map>

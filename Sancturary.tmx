@@ -85,7 +85,7 @@
  </layer>
  <layer name="Wall Decoration" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBiegJUATao6bEAUC82BB2NTTwnQA2J9IDag0BxsgBO3eAMt7aG2+aNgFIwCwmAiI4Sewkhbe0Roa/yIBwBeRQPL
+   eJxjYBiegJUATao6bEASC80BxDxo6nig4tjUEwKiOGhpINYDYn0gNoDy8aknFXDiFm8g00ii7KG2+aNgFIwCwmAiI4Sewkhbe0Roa/yIBwDVYQSH
   </data>
  </layer>
  <layer name="Above Layer" width="25" height="20">
