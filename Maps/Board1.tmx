@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="shittytileset" tilewidth="32" tileheight="32">
-  <image source="shittytileset.png" width="480" height="800"/>
+  <image source="../Tilesets/shittytileset.png" width="480" height="800"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="800"/>
@@ -56,7 +56,7 @@
   </tile>
  </tileset>
  <tileset firstgid="376" name="Alex" tilewidth="32" tileheight="32">
-  <image source="Alex.png" width="96" height="128"/>
+  <image source="../Sprites/Alex.png" width="96" height="128"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="600"/>
@@ -86,7 +86,7 @@
   </tile>
  </tileset>
  <tileset firstgid="388" name="dice" tilewidth="32" tileheight="32">
-  <image source="dice.png" width="96" height="128"/>
+  <image source="../Sprites/dice.png" width="96" height="128"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="200"/>
@@ -107,7 +107,7 @@
   </tile>
  </tileset>
  <tileset firstgid="400" name="alex2" tilewidth="32" tileheight="32">
-  <image source="alex2.png" width="96" height="128"/>
+  <image source="../Sprites/alex2.png" width="96" height="128"/>
   <tile id="0">
    <animation>
     <frame tileid="1" duration="800"/>
@@ -142,7 +142,7 @@
   </tile>
  </tileset>
  <tileset firstgid="412" name="Leon" tilewidth="32" tileheight="32">
-  <image source="Leon.png" width="96" height="128"/>
+  <image source="../Sprites/Leon.png" width="96" height="128"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
@@ -177,7 +177,7 @@
   </tile>
  </tileset>
  <tileset firstgid="424" name="Knight" tilewidth="32" tileheight="32">
-  <image source="Knight.png" width="192" height="256"/>
+  <image source="../Sprites/Knight.png" width="192" height="256"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
@@ -244,7 +244,7 @@
   </tile>
  </tileset>
  <tileset firstgid="472" name="Aidan" tilewidth="32" tileheight="32">
-  <image source="Aidan.png" width="192" height="256"/>
+  <image source="../Sprites/Aidan.png" width="192" height="256"/>
   <tile id="0">
    <animation>
     <frame tileid="25" duration="400"/>
@@ -303,7 +303,7 @@
   </tile>
  </tileset>
  <tileset firstgid="520" name="Acerbus" tilewidth="32" tileheight="32">
-  <image source="Acerbus.png" width="96" height="128"/>
+  <image source="../Sprites/Acerbus.png" width="96" height="128"/>
   <tile id="0">
    <animation>
     <frame tileid="0" duration="200"/>
@@ -322,7 +322,7 @@
   </tile>
  </tileset>
  <tileset firstgid="532" name="imp" tilewidth="32" tileheight="32">
-  <image source="imp.png" width="192" height="256"/>
+  <image source="../Sprites/imp.png" width="192" height="256"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
@@ -381,7 +381,7 @@
  </layer>
  <layer name="Player Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2MEJwjAYhuFEEFxAPOkIrtRBVAzu4UmPLuGpS7iE4AD+YApeaihF45e8D4QQcvkS2j9pnQMA1Kj1n+e3iXkFO1vD0b96dbNJ7gT1mQvu+dWe9Yt3IXcOAEhZWo1dCdZZYKx9vJce/vh+erJ2fhuvBd9Vyx9sHaHrc+dBXUr4lsZvLWKdVam3Q3KqrKk0KvveJMYd5bq6idlL+DcJoN80dwDIutv5cLP24JwAgK94ApXKEos=
+   eJzt2MEJgzAUxvGk4AjiqR3BlRxEpcFV6tEleuoSLlFwAN9Bob00hKLxmf8PQgi5fAn6EjUGAJCil/0933jmNWjtdw+EyC+xE4R7yrM+WONi5wAAn6vU2JvCOgv8677cS7sD308f0vqPcanwXZX8Ttbh1j52HqTlDN/S2Fex1Fkt9TYkp5Y1nY2Wfa8845XmulrzbxJIQhY7ANR6y/kwSps4JwBgEzOCIhHj
   </data>
  </layer>
  <layer name="Behind Walls" width="50" height="50">

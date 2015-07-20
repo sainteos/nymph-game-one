@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="interiortileset" tilewidth="32" tileheight="32">
-  <image source="interiortileset.png" width="480" height="800"/>
+  <image source="../Tilesets/interiortileset.png" width="480" height="800"/>
   <tile id="21">
    <animation>
     <frame tileid="21" duration="100"/>
@@ -26,7 +26,7 @@
   </tile>
  </tileset>
  <tileset firstgid="376" name="Aidan" tilewidth="32" tileheight="32">
-  <image source="Aidan.png" width="192" height="256"/>
+  <image source="../Sprites/Aidan.png" width="192" height="256"/>
   <tile id="4">
    <animation>
     <frame tileid="4" duration="400"/>
@@ -53,7 +53,7 @@
   </tile>
  </tileset>
  <tileset firstgid="424" name="Acerbus" tilewidth="32" tileheight="32">
-  <image source="Acerbus.png" width="96" height="128"/>
+  <image source="../Sprites/Acerbus.png" width="96" height="128"/>
   <tile id="0">
    <animation>
     <frame tileid="0" duration="200"/>

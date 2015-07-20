@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Leon" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="13" name="Ramsestileset" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/Ramsestileset.png" width="480" height="800"/>
+  <tile id="11">
+   <animation>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="12" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="41">
+   <animation>
+    <frame tileid="41" duration="100"/>
+    <frame tileid="40" duration="100"/>
+    <frame tileid="55" duration="100"/>
+    <frame tileid="40" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="52">
+   <animation>
+    <frame tileid="52" duration="100"/>
+    <frame tileid="53" duration="100"/>
+    <frame tileid="52" duration="500"/>
+    <frame tileid="53" duration="300"/>
+    <frame tileid="52" duration="200"/>
+    <frame tileid="53" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Veldes.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="11" duration="400"/>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="9" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="400" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ground Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzjZWBg4B3Fo3gQY99B4AZqYD4oRhejhT3k2MFHBB61Y9QOWuJRO0aeHaOYMgwAbdogSQ==
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlV8OgyAMxnuCwY6xP86XZQ/qeN/0EByNo+xoK7ONxKiI1b1sTb5AIuHXj1YoAaD8ARnUc4HuCYwalsUjgSOJORwjZHBMMaqNGd5DrBZXlAZ4NagdzlkKwEH7zapEDwfUMdj/1uOobvwwcLR7nMcYnEtMAcemMmgdTInWOdp/EWO8Il2swYh5+fuQ+dDUz2OMHJUF62LSAwyOqbvEc84zlZHnVEaK8i8wTI9xIm9rMPidrInREKMIaipl+P7jO61pGU4Tg89Q6iHI33F/+fMphHsP/UNcA+6zy0aMsdzflGGRDw==
+  </data>
+ </layer>
+ <layer name="Player Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuIDaQDtgFNANtDIOtAsoBwID7YARDJgG2gGjYBSMghEJAEHeAL8=
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6ECYDubDMK3NJ9YefxwYn5nUskMGivGZS6wdATgwNYEfDizEwNBAZaswgBytLRgFo2AUjIJRMGQAAGqLCj8=
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwGcSVAbhAPjA4ZoNKXAAYxQ+GBgjOA3UMMOAyjbEGoHiG8EpUm1wxyILYDYkgi1rqQYDASBUNoNiN2B2INE/aSAUCAOA+JwGtoxCigHExkH2gWjYBSMgpEGAJrmCl8=
+  </data>
+ </layer>
+ <layer name="Above Layer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAekKCiWdiAChCLA7EaDc0XAWIxIFamkpmqaBhkvhJUTpRK9qDboYQmL0oFOzTQMAw4UsFsGLBHw9iAAhDLQDGtgDwNzSbHDgUGhJ8JYXLtAKlVJIBx6SPFDmKAEBXsIOQPoLoGSu0gQt0BSu0YJP5oiADSkUAMpBtIsUOOgbh0KwvE6VA9QLoBWd8oGAWjADcAABnkEf4=
+  </data>
+ </layer>
+</map>
