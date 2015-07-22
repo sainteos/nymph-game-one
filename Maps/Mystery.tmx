@@ -27,22 +27,22 @@
  </tileset>
  <layer name="Ground Layer" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJzzY2Bg8BvFdMcRQByGhiOgmJDeACx0AIn2o5tBT8xEoV5y9ZOrl4nG9gIAGzxB4Q==
+   eJzzY2Bg8BvFdMcRQByGhiOgmJDeACx0AIn2o5sxlDDTIHADNd0MAF97REE=
   </data>
  </layer>
  <layer name="Ground Layer 2" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJzVjzsOwjAQRDcKPVfKEagSkFBwCQTokzQ0NJyCo+RozCqLNDFrWaJjpSd/n2ct8t+1z5/ff/FSPns12DnU5KTyG7CNOIqEJtPPBZzAZr7/GQP2Qov5AawjZzDEXKE31NP1FdycvEGWvtYKTjmP2Yrd0vIq8s+gMzxf+3qSa++81GudDHZH67eK3D7xN+55pMy+EHkU367nUe6E3MnL5XoDLh4o7A==
+   eJzVkD0OwjAMhS3RnSv1CEwUJFQy8lPYU5au9BQ5CkfjGcdgRQmR2HjSpyaunx2b6L81/vh/NFzB3TBn8lS7mMNag20GxKeSX9WBTcKByHWVeQZwBCvJ169DzPU478GyMCtFL5ka7OP7hWQPqeyerBrM2FTemvZWLdCzlRovncA5UvLfJJ99U6wR2NcXeqiXZ5rF+2iFgHPwX2bTGO9y+PR9v9lXfNavffXNPuN7Ahg4L+8=
   </data>
  </layer>
  <layer name="Fauna" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQwFkQzE/BWbEA3EOBfqrB9BufCCdTH2UhCU1AQDHRANt
+   eJxjYBgF5IBOIO6io33ZUMxPgRnxQJxDgf7qAbQbH0gnUx8lYUksIMbPAEwdBOw=
   </data>
  </layer>
  <layer name="Player Layer" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCQAAAOEAAE=
+   eJxjYBgFo2AUEAKVjAwMrYy0MRsAXWoBAQ==
   </data>
  </layer>
  <layer name="Wall Layer" width="15" height="15" opacity="0.9">
@@ -52,7 +52,7 @@
  </layer>
  <layer name="Wall Decoration" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4gWw666MEAAB75ADX
+   eJxjYBj6IBsLziFS3ygYnoDcuB2INAEAWkwDxQ==
   </data>
  </layer>
  <layer name="Above Layer" width="15" height="15">

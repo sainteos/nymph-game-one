@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="dunegon" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/dunegon.png" width="480" height="800"/>
+ </tileset>
+ <tileset firstgid="376" name="Leon" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Veldes.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="436" name="Acerbus" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Acerbus.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="250"/>
+    <frame tileid="1" duration="250"/>
+    <frame tileid="2" duration="250"/>
+    <frame tileid="1" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="448" name="Bat" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bat.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="460" name="bear" tilewidth="64" tileheight="64">
+  <image source="../Sprites/bear.png" width="192" height="256"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="500"/>
+    <frame tileid="1" duration="500"/>
+    <frame tileid="2" duration="500"/>
+    <frame tileid="1" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ground Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJytlEtywzAMQ+NeJO79L9kuqhkNS+CBchaaOLZEgvjo6/V6Xb/r62/tz/v/a1v1+9Wcrefqc93T1ev6Kjzuu6qnMCaYFD5Vg/aqGYiThOe6lI5un8IwxTn1huOJvpOXk3fEF+0hrOobceFyWXlXOtAsxJHT1Hl/omXqrye6JVqozE3mJx5cxkj3JO/dGTXLSZYJs5vrSXYT/1BeyI+UL+fJk/kSnSdnqAZ5hjJCXiDOiSPC4vJJOJyn0r2qZ4LHzedwJXoqP5/q5+olWT/Rm/LneiWZdIt8SnolWqc1VG9Xy/VzZ4jnBFfiG+Ih1Y1yltTrPJdmPPEEZYrmd950OXK6nfDmPJP6h3xBMybvqCdllHokvkn+K32mGU30Is+Sd1I/q3qk7SnOKZ8uL2515yY5Teu5XJMnHKZkZqVFym+SryQb5J9EC8qh82LqiRSv8x5lOMmCw5Xy5ThUnqMcTPw94TTN6sR7xGPC8fSOIM8kenScJpk8wUkzpDN1NRJfpj0n/pzmQOF22BLuT/Lg+inMDhvx6TBOZklyq3zs5qd3pPMnvE1em2TK8ZT4cpI9tZd8lvDm3ifakkedls7X6b3iNFrru6xEz0nuHA9KL9KIsuy8W+cljhKe0+ylvnXLzdbhubf1Bn6Iuye+VLVUf+JO+WXNuX7VPudtwpHopjCn/ki1uMtys7kMf3LuyX2Q+Ht/v3RdGlPNaV6d15WXEv1UbVf3KrNWP09/T7zo8krvVX/3f815b/pOOE087nRU2VvrvS2Vc+WdDsuas9bsuJnw7nBN3u16UAaS2e+yuhrEAWWvw7Hrts+knpUWdFfU/rWu4tnxR3N233aO6+zqXfWBwqX0vV7/+d3vaVWzw1TveMrTLZabm+4MxfP+vavdzdJ9V/uUPnUuVVPhcXc93ZH7+4pB9VOY1Vk1l/re7dv3J/e+0nZ/Vrp1M3W6qhnUUjXdXufb7pm8Xvu7e9NpQJqrHLj7VfnS5TTxere36+P2ql/HVedJNecTLk7mJK+4M8p3LnOndxRpOvHGpK/DThzTueQ3weD8NPGbeiY/0uq87/wzmdF53vU+9X56jvI48R1lLc1igkfpkWqWaqU0msyndFGYptykuSTPEtepDyazJ9wld42b1dXt9ih+Va8nfCSeoD2nNRNOHf8nvkjmSrKs5qZspT5K85Rw6TyneCZeaX6nA+XeYUhwnXCk6tCvy7vD4TKWzHq63/V33p/4lPqlmVO9KJ/kkTTX5JGnGjrMaZ8EX/fuBwqDNMA=
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2CEOAyEQBVBETd3qFtc9AXtBjtKjlmTtVqwYRvBe8hOC+gMoSgEAAAAAuOczsp/pY92T64RrI8eZ3haYF4BYz1K+V/vb5B7ZHtkFAABgIe/sAhNFzvoKSv3z51jDJsk17qhfncNK7xQAAGCmH3vaCHg=
+  </data>
+ </layer>
+ <layer name="Player Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1zERgEAQA8C8FlAA6ui+wR2ieAd0dwW7M+mTMgkAAAAAAF/2ZG4r3T2qnGvr8aO9AJXukVyjuwUAAECdxwcCAACANi9kxAR6
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmUEKwyAQRS0tcdFNNzUt9LAeqgdshQyZiFpr1MT4HwxIIuKPZvyqEAAA0Da3jLF3qJ+XTLFn/byfJdp06d/D/BgKtauE0CnzoxeG6ftA87GB5n7IuXaA/jiih/SR6itb1ZyaG5BTAOgbnu9H9vxb1q3mQx/2uqDYO3UwX0laQ3twrrnlNZ+0ql8Vxbx/aHnNj9Vqs8e9kxTz3JMF2ifNNThPcWXBMfpsz+nSPDqe1UQuyzqlDVf+sf85+h4pczknw7Ksf9Xn48vPsV25lv9z0lOnJWgMbR3v01wmzbm0HtGLhFAVcxYAubmz6IES93tb8BDLsXOFgfzJM9EbhKiZ62POBA3kT0ro/Wffuea81t7fx1BCr4F7olDEjI2PFF9ZSq8h5s56jV9q3VeCNnht3QEAAAAAAAAAACCRDzddGTg=
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2UsOgjAUheE7UDCOHBiJU1fKUlwKS5PGFzYUSx/Q0v9LCAxI7RG4XqkIAOSvXnsCC6olTN5GpA0wTFQneWatAox10fLOzV8v8H3tYn/ADCrvEplTQuYykHn7qsLyKlVheWOb22flfL+59JU51xSXvjLnmuLaQ1NTgF8lvW9QpvL2/6O7XGvimMbinGHe/riLNpnIbLLq6o1dbxup9TnqeTyI3PcSr+f0HfdmOHaYxyfvWcavRYh6nEKfM9aDv3tOreZkqxnUy6kcKT1vPvT3zgCgu3737ZrzWMrxtS8lb2xb+b20ZZvXp8dIrc+yWbP+l1etqZu21PL6Ur2zWlM3bQAAAAAAADB7AGriHzQ=
+  </data>
+ </layer>
+ <layer name="Wall Decoration2" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEKACEMBEBBxA/4/7faioWCcIeRGUi3xS5JCQAAAAAAuFk+uMh2O17dOyqL3At7Z22RrR92+UP0fwEAAAAAAACxdZ9qAHg=
+  </data>
+ </layer>
+ <layer name="Above Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2l1OwzAMAGBP4wKhL/w9cBSO0qPsjTdugMRRhsRBOAqJtiIvyp8bO0krW7I0tHbtl7RpYnoEgKOmpqbmxvMe4MtUpv2Nc29HqXUCmKEy7G/A6H4ua4l/hOvDSEBXhmsfafNIXhfSZmnvdLlW51ja78+BfcTM3F7fZ8/7lBk/oKU5djyKieKLnUOor3ubF+ca09rzMELX9dLGKH/9lHKmzFLekRKPKdJe275vvecIrbzOaq+lExBCYkxp5V37bDLM97V61SvpxfML+/l1z97pMgb/e67PxxszhxfXG/D6tOVc2rfGzLXe3BpcymxujxG0hsw13tJ6A64dcNmp940hbFtjDdk5zK29NWtRDjOnd+m71HnVrr1rx26KFxJe/zoNmTnqhC29sf6NObCZqybay4vHztxzJbcNJXp5e0XtmLU1r4uaPqZ6AzWgYH11CW8eHt1uVG9pG6Da5Yy3S5l/DgAfNr8PY3upbZPr5/cdeUvNe/L6x43FQ6SuxuVt8b+6Eu9y/94Jeynm1LsBuf2vc62gxcVno/sXm3M16NT55van1n85vbVjR6t4RG3EUFsZ2vzi/c1RO+s5T3Sep0T6wVQr7NbHz4RtczW2rfRxSXBae/dxSXDX+Cnm3Dspa9dE3O9NlJpzjtJjh9qvh6ll+u2H14iampqampqamppj5x/ygefU
+  </data>
+ </layer>
+</map>
