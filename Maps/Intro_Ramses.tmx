@@ -80,32 +80,37 @@
  </tileset>
  <layer name="Ground Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJzjZWBg4B3Fo3gQY99B4AZqYD4oRhejhT3k2MFHBB61Y9QOWuJRO0aeHaOYMgwAbdogSQ==
+   eJzjZWBg4B3Fo3gQYt9B4AZqYD4oxiaGLk6pPeTYwUcEHrVj1A5a55FRO0aWHaOYOhgAuZ4gVw==
   </data>
  </layer>
  <layer name="Ground Layer 2" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlV8OgyAMxnuCwY6xP86XZQ/qeN/0EByNo+xoK7ONxKiI1b1sTb5AIuHXj1YoAaD8ARnUc4HuCYwalsUjgSOJORwjZHBMMaqNGd5DrBZXlAZ4NagdzlkKwEH7zapEDwfUMdj/1uOobvwwcLR7nMcYnEtMAcemMmgdTInWOdp/EWO8Il2swYh5+fuQ+dDUz2OMHJUF62LSAwyOqbvEc84zlZHnVEaK8i8wTI9xIm9rMPidrInREKMIaipl+P7jO61pGU4Tg89Q6iHI33F/+fMphHsP/UNcA+6zy0aMsdzflGGRDw==
+   eJztlFEOgyAMhjnBYO+7gXO+LHuYm9nrpofwaBzFow1j/4yQooiNTyP5I8S2H6XQWilV/yWqxumTqGdm/Falj3cCpwl81sT3OXM5PQL7E2ntgF/KuWgn462v03ronA5uDjk7q6Z/vSY/nZADMQbn90L8W8DRv68l+/5I8/EbY4R7icnj9GsZZKfmRHaW4mcxmGPjznEzYymXHEa1Qx71DnmEjJw8DN1niGOUjF1MhmFgxN45anJOVEk5c4yCbLb2/IphIPZFID76m88ohGOPvbslRkeMu1B8vFX0tG5iWCPIQP+n/Vvcr7EWUgy/36AGuGdStQgZS3v/Aq2kmT4=
+  </data>
+ </layer>
+ <layer name="Fauna" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AbWdLDDiw52DGbgSaQ6TSDWgrKloLQ0FnUhFLglmAK9pAJsbocBfP4b7ECKsJIBBbpQmhx3EqvHioHhABnGgwGxcU6sHZSkIVL9MdjjfhSMgsEMAL0GBgc=
   </data>
  </layer>
  <layer name="Player Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFuIDaQDtgFNANtDIOtAsoBwID7YARDJgG2gGjYBSMghEJAEHeAL8=
+   eJxjYBgF6EBtoB0wCugGWhkH2gWUA4GBdsAIBkwD7YBRMApGwYgGAEfOAL8=
   </data>
  </layer>
  <layer name="Wall Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF6ECYDubDMK3NJ9YefxwYn5nUskMGivGZS6wdATgwNYEfDizEwNBAZaswgBytLRgFo2AUjIJRMGQAAGqLCj8=
+   eJxjYBgFMCBMB/NhGATMgdgCiC1pYD4MuwGxOxB74NDjjwPjMxMdhwJxGBCHU9kOBjQ2PhCAA1MT+OHAQgwMDVS2CgPI0dqCUTAKRsEoGAVDDgAAqxkMhg==
   </data>
  </layer>
  <layer name="Wall Decoration" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwGcSVAbhAPjA4ZoNKXAAYxQ+GBgjOA3UMMOAyjbEGoHiG8EpUm1wxyILYDYkgi1rqQYDASBUNoNiN2B2INE/aSAUCAOA+JwGtoxCigHExkH2gWjYBSMgpEGAJrmCl8=
+   eJxjYBgF9ATOJKgNwoHxAUM0mlLgAEYofDAwRvAbqGGHAZRtCLUDxDeC0qTaYQ7EFkBsSYRaV1IMBoJAKO0GxO5A7EGiflJAKBCHAXE4De0YBZSDiYwD7YJRMApGwUgFAO3WCl8=
   </data>
  </layer>
  <layer name="Above Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYKAekKCiWdiAChCLA7EaDc0XAWIxIFamkpmqaBhkvhJUTpRK9qDboYQmL0oFOzTQMAw4UsFsGLBHw9iAAhDLQDGtgDwNzSbHDgUGhJ8JYXLtAKlVJIBx6SPFDmKAEBXsIOQPoLoGSu0gQt0BSu0YJP5oiADSkUAMpBtIsUOOgbh0KwvE6VA9QLoBWd8oGAWjADcAABnkEf4=
+   eJxjYKAcSFDBDHxABYjFgViNhuaLALEYECtTyUxVNAwyXwkqJ0ole9DtUEKTF6WCHRpoGAYcqWA2DNijYWxAAYhloJhWQJ6AvA4Q69LYDmSgwIDwMyFMrh0gtYoEMC59pNhBDBCigh2E/AFU10CpHUSoO0CpHYPEHw0RQDoSiIF0Ayl2yDEQl25lgTgdqgdINyDrGwWjYBQQBgD0DhJX
   </data>
  </layer>
 </map>

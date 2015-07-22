@@ -381,7 +381,7 @@
  </layer>
  <layer name="Player Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2MEJgzAUxvGk4AjiqR3BlRxEpcFV6tEleuoSLlFwAN9Bob00hKLxmf8PQgi5fAn6EjUGAJCil/0933jmNWjtdw+EyC+xE4R7yrM+WONi5wAAn6vU2JvCOgv8677cS7sD308f0vqPcanwXZX8Ttbh1j52HqTlDN/S2Fex1Fkt9TYkp5Y1nY2Wfa8845XmulrzbxJIQhY7ANR6y/kwSps4JwBgEzOCIhHj
+   eJzt2MEJwjAUxvGk4AjiqR2hKzmISoOr2GOX8OQSXaLgAL5De+ilIQR9vub/gxBKLl+gvLzEOQBAiV5+e/0aWbfg5tczkOJYaSdI95R/ffAuaOcAgJhaamxjsM4Cubq5L73/cX/6kNFrh8gk+YPsIyyzdh6UZQ93afzWae6JWiO9UUpOK3uCjnPke2G5rl54mwSKcNAOALMmOR9GGW/OCQD4ig8kDBGD
   </data>
  </layer>
  <layer name="Behind Walls" width="50" height="50">

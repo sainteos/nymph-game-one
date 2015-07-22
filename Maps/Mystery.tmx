@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Ramsestileset" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/Ramsestileset.png" width="480" height="800"/>
+ </tileset>
+ <tileset firstgid="376" name="Leon" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Veldes.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ground Layer" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzzY2Bg8BvFdMcRQByGhiOgmJDeACx0AIn2o5tBT8xEoV5y9ZOrl4nG9gIAGzxB4Q==
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzVjzsOwjAQRDcKPVfKEagSkFBwCQTokzQ0NJyCo+RozCqLNDFrWaJjpSd/n2ct8t+1z5/ff/FSPns12DnU5KTyG7CNOIqEJtPPBZzAZr7/GQP2Qov5AawjZzDEXKE31NP1FdycvEGWvtYKTjmP2Yrd0vIq8s+gMzxf+3qSa++81GudDHZH67eK3D7xN+55pMy+EHkU367nUe6E3MnL5XoDLh4o7A==
+  </data>
+ </layer>
+ <layer name="Fauna" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwFkQzE/BWbEA3EOBfqrB9BufCCdTH2UhCU1AQDHRANt
+  </data>
+ </layer>
+ <layer name="Player Layer" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="15" height="15" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcIBQPxgdiGRgaQoA0LhyLR18MEOMzOwaLfmL04dKPrC8KiMOxYHT9uABQ/wN8fHzAC4hToXpI0UdvQCju8ekLIVMvufooAQCeXBTs
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4gWw666MEAAB75ADX
+  </data>
+ </layer>
+ <layer name="Above Layer" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwLYGBgCBgEOJiBYYE/FgwUP0BIXxADdhCERz8+ffj0E6MPl35/JDltINYBYl0ksQwGhoRMIIbx/XHotQJiayC2wWM3st5AiFvA5noCcRoDQ4M3kE4B0oT0ousnBND1orudFL2khDWyXhLj6ADQfwmkuhVdHyX+BACZdD4u
+  </data>
+ </layer>
+</map>
