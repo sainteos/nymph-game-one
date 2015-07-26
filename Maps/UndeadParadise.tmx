@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="dunegon" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/dunegon.png" width="480" height="800"/>
+ </tileset>
+ <layer name="Ground Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENACAMBLGfN+zfswGiIlJw4f6ukhQAAAAAAAAAAADw3DrobvPr16/f29+Jzz+9AgAw2wbypdMe
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
+  </data>
+ </layer>
+ <layer name="Player Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJACAQBLFtWSu40q1A/QiHkMD8JwEAAAAAAAAAAAAA2JtJner+e21cAgCAXywoAQsZ
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0yEOACAMA0AejOAJPB0MEixJd5fMrKqirQEAAAAAAAAAAAA/9MclqtYXEpyNjku+/zNpx9X6AgCQbwGcjQwJ
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
+  </data>
+ </layer>
+ <layer name="Above Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENgDAMBEBLLMoCgRUYhVEYDTcpQCBBgyDcSd/YKfKNIwAAAAAAAAAAAHib7kZa8Ne+Q6ZEzPvkfGqxbznZ53zR97v03Wqtb71LY/Y62ue8r2+e/RkAAHDFCtG5E7Y=
+  </data>
+ </layer>
+</map>

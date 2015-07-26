@@ -41,7 +41,7 @@
   </tile>
  </tileset>
  <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32">
-  <image source="../Sprites/Veldes.png" width="96" height="128"/>
+  <image source="../Sprites/Veldes.png" width="192" height="256"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
@@ -67,7 +67,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="400" name="Leon2" tilewidth="32" tileheight="32">
+ <tileset firstgid="436" name="Leon2" tilewidth="32" tileheight="32">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -105,7 +105,7 @@
  </layer>
  <layer name="Wall Decoration" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9ATOJKgNwoHxAUM0mlLgAEYofDAwRvAbqGGHAZRtCLUDxDeC0qTaYQ7EFkBsSYRaV1IMBoJAKO0GxO5A7EGiflJAKBCHAXE4De0YBZSDiYwD7YJRMApGwUgFAO3WCl8=
+   eJxjYBgF9ATOJKgNwoHxAUM0mlLgAEYofDAwRvAbqGGHAZRtCLUDxDeC0qTaYQ7EFkBsSYRaV1IMBoJAKO0GxO5A7EGiflJAKBCHAXE4De0YBaNgFIyCUTB0AQBcuQnN
   </data>
  </layer>
  <layer name="Above Layer" width="25" height="25">
