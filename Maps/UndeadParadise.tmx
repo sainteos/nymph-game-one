@@ -2,35 +2,112 @@
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="dunegon" tilewidth="32" tileheight="32">
   <image source="../Tilesets/dunegon.png" width="480" height="800"/>
+  <tile id="87">
+   <animation>
+    <frame tileid="87" duration="100"/>
+    <frame tileid="74" duration="100"/>
+    <frame tileid="73" duration="100"/>
+    <frame tileid="74" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="388" name="save" tilewidth="32" tileheight="32">
+  <image source="../Sprites/save.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="400" name="LostSoul" tilewidth="32" tileheight="32">
+  <image source="../Sprites/LostSoul.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="150"/>
+    <frame tileid="4" duration="150"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="15" duration="800"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="3" duration="50"/>
+    <frame tileid="16" duration="50"/>
+    <frame tileid="3" duration="800"/>
+   </animation>
+  </tile>
  </tileset>
  <layer name="Ground Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztz7ENACAMBLGfN+zfswGiIlJw4f6ukhQAAAAAAAAAAADw3DrobvPr16/f29+Jzz+9AgAw2wbypdMe
+   eJzt1sEJACEMAEHr1f7/14FECBeD85ifSBZEnWOMCQAAAAAAAAAAAPxubVTP9mLvbr4TXXqzmrv0ZrWswJrq1pOOaEt0rxd6qzuBnrL+GSfv0S33VkZLl9bM3sheHVqzznJ16+kZ9N/gJh9cytPw
   </data>
  </layer>
  <layer name="Ground Layer 2" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
+   eJzt1U0KwjAQxfHxRF7BU1S3xQ/catV1N+25cjTfIgUpCC6cTFr+P3iEZPUmodQMAAAAAAAAAAAAAAAAAADAR2vWR3fwdo0uUJFtXg95HTbrf/+laJR9dImCzsolusRC6d6S7i9F9yhF30VqVj7vXf/iKd1sH93Nw+0jx9m+5pkfX87boi38aL5+VAbllM+eoY38TXNqZhsjiwTR/LvoDv/2+iFAjd40sB3H
   </data>
  </layer>
  <layer name="Player Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztzsEJACAQBLFtWSu40q1A/QiHkMD8JwEAAAAAAAAAAAAA2JtJner+e21cAgCAXywoAQsZ
+   eJztzkEKQEAYhuFxSU7AHqXs3IEDm42SMotBlOepr2YWf70hAAAAAAAAAAAAAPCksXi7IG2JffPHG7muCmEq43Juu3i3rd+9t91beo8mdtWZbe1ux397dgQAPzW8HQAkrTlOEDo=
   </data>
  </layer>
  <layer name="Wall Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt0yEOACAMA0AejOAJPB0MEixJd5fMrKqirQEAAAAAAAAAAAA/9MclqtYXEpyNjku+/zNpx9X6AgCQbwGcjQwJ
+   eJzt01EKgkAQBuA9mnfxtQfTC3i0jtZSLUyySwmlZN8HP+gyOA7spAQAAAAAAAAAAADUnL6Ud76/h3+bF45uTGkumfL7tDgr+7esq9UMjR5DqNl7r88htbPyX8u6Ws0vzMuxjSFhf5/yqGvu79p+sU++05d837tPzPJK3r05ps+9c7p4Fmqb+7u2Z3/P7XnLeQFga1dQFVN2
   </data>
  </layer>
  <layer name="Wall Decoration" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
+   eJzt07EJgDAQBdA4l67gALqA2DmCK7iRo6mdRdA0MSrvQeAIv/hXXAgAAAAAAAAAAAAA6er9NZH/ISHTZWmUx1KVbgD5TCHMp/k283VX+/aRzJ+NpQvwevstrKU7POnYty1dAgAy2gCANApR
   </data>
  </layer>
  <layer name="Above Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1LENgDAMBEBLLMoCgRUYhVEYDTcpQCBBgyDcSd/YKfKNIwAAAAAAAAAAAHib7kZa8Ne+Q6ZEzPvkfGqxbznZ53zR97v03Wqtb71LY/Y62ue8r2+e/RkAAHDFCtG5E7Y=
+   eJzt1NEJwyAUheELXSR7tA8ZJQvErtBRHCWjdJQqVCqiJtVULfwfXAh4kubQqAgAAAAAAAAAAAAAAAAAoMRlkGmld89R+iqRaRXRsTFr2stJReYxSt81c49Z2/ZyuczVzC3ItNKjbyzTCn379P32HUqV/NZdZHFnjrnezsjEzrpR+v6a+9/pW4++h/avXbd7bzHXOpN52slkpljG7evUvq8xyvnc6nuiL31D9N3NzKXPOVuqr3qfv7FR3numckFmduewP0eeUzIlff956PvxAjzBkUw=
   </data>
  </layer>
 </map>
