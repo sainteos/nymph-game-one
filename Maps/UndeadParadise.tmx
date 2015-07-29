@@ -10,6 +10,46 @@
     <frame tileid="74" duration="100"/>
    </animation>
   </tile>
+  <tile id="118">
+   <animation>
+    <frame tileid="118" duration="100"/>
+    <frame tileid="119" duration="100"/>
+    <frame tileid="134" duration="100"/>
+    <frame tileid="119" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <animation>
+    <frame tileid="126" duration="800"/>
+    <frame tileid="129" duration="800"/>
+   </animation>
+  </tile>
+  <tile id="136">
+   <animation>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="136" duration="200"/>
+    <frame tileid="137" duration="200"/>
+    <frame tileid="138" duration="200"/>
+    <frame tileid="137" duration="200"/>
+    <frame tileid="136" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="146">
+   <animation>
+    <frame tileid="146" duration="200"/>
+    <frame tileid="160" duration="200"/>
+    <frame tileid="159" duration="200"/>
+    <frame tileid="160" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="158">
+   <animation>
+    <frame tileid="158" duration="200"/>
+    <frame tileid="144" duration="200"/>
+    <frame tileid="143" duration="200"/>
+    <frame tileid="144" duration="200"/>
+   </animation>
+  </tile>
  </tileset>
  <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
@@ -17,6 +57,7 @@
    <animation>
     <frame tileid="1" duration="400"/>
     <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
     <frame tileid="0" duration="400"/>
    </animation>
   </tile>
@@ -80,34 +121,80 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="448" name="Bullithrumble" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="460" name="chest" tilewidth="32" tileheight="32">
+  <image source="../Sprites/chest.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="1" duration="800"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="800"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="472" name="shadow" tilewidth="32" tileheight="32">
+  <image source="../Sprites/shadow.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer name="Ground Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJACEMAEHr1f7/14FECBeD85ifSBZEnWOMCQAAAAAAAAAAAPxubVTP9mLvbr4TXXqzmrv0ZrWswJrq1pOOaEt0rxd6qzuBnrL+GSfv0S33VkZLl9bM3sheHVqzznJ16+kZ9N/gJh9cytPw
+   eJzt1kEKwyAQQNGB3jY5SRe9U49WuguhWAXjYHyLt5PoJ5q4RcQGAAAAAAAAAAAADLcXZK9txd7S+lrM0tureZbeXi17xZjs1paO2pbaZ63Qm91Z8op432EOLnt36WtYWa97Rsv/6Krv1uOkR/u/cVmtX8+DXu+6prfmWb/mH3nWR+7l7DPcugfvfN9gPh80utS9
   </data>
  </layer>
  <layer name="Ground Layer 2" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1U0KwjAQxfHxRF7BU1S3xQ/catV1N+25cjTfIgUpCC6cTFr+P3iEZPUmodQMAAAAAAAAAAAAAAAAAADAR2vWR3fwdo0uUJFtXg95HTbrf/+laJR9dImCzsolusRC6d6S7i9F9yhF30VqVj7vXf/iKd1sH93Nw+0jx9m+5pkfX87boi38aL5+VAbllM+eoY38TXNqZhsjiwTR/LvoDv/2+iFAjd40sB3H
+   eJzt1ksOgkAMgOFyId14AE+hbo2PuPS98oELWOoJvAvXMPEwNnFMZAJIRBgh/5c0dYYUW0CDCAAAAAAAAAAAAAAAAAAAQDmGIr7rHoo6mLxPOT7LUfsu7Tz/7pLjXrZNHpgcePW//03R0+i7bqJCE42p6yZqSq9bpNcvct1HVfR3EfUaPu9S/79fsbLWWXWdjNg9I7PelcVbjKz1p5ldWsvzvcF+d2gl7O3jn/0S24qZF/gunc8PNQKNsdnbFOzn5oncvYInkfKe59ecOrOEOWuSmjhb68u3DVVM5+/aeyeTjya3EuquZTX0A9scAfyjB7zZLfg=
   </data>
  </layer>
  <layer name="Player Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztzkEKQEAYhuFxSU7AHqXs3IEDm42SMotBlOepr2YWf70hAAAAAAAAAAAAAPCksXi7IG2JffPHG7muCmEq43Juu3i3rd+9t91beo8mdtWZbe1ux397dgQAPzW8HQAkrTlOEDo=
+   eJzt1jEKwjAAhtF4Ai/jWXR20L0Kgps36FAv5M2MYCGURmmJBuU9+Gk7BL4hQ0MAAAAAAAAAAABgTDcygCnaEC6P53lROeSNa+zrksa2XgoftIn3cf28k1Md4rl+x+S9X9nSMvaxazezrUk2/G5yhwC+YFs74IfcMv9fq8FyluWT/tapdgDw0h0J0Ra5
   </data>
  </layer>
  <layer name="Wall Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt01EKgkAQBuA9mnfxtQfTC3i0jtZSLUyySwmlZN8HP+gyOA7spAQAAAAAAAAAAADUnL6Ud76/h3+bF45uTGkumfL7tDgr+7esq9UMjR5DqNl7r88htbPyX8u6Ws0vzMuxjSFhf5/yqGvu79p+sU++05d837tPzPJK3r05ps+9c7p4Fmqb+7u2Z3/P7XnLeQFga1dQFVN2
+   eJzt19ENgjAUheFu4DIOwC68+lBggSZu4AKuwmheY6+5klaKqRrg/5ITGigtNS1F5wAAAAAAAAAAAAAAAACgzHWSNemdC4Mch1g+yXEu3tzv4z1r0UlaeeY2lrc+3m8p+d0+SUn7/7C38QJbd9/vNHYP1Oj6m9ZL1fGZPvybPfXXOpPUOX2uab1UnTWMF9vWm5j1+5JYL7t+l/Zn+5E5Pcp8b45STuXwSMhdt5kjay/YyPfrKGnsOVM3u36XiP3ot3LQ8S5sZpd039D5Vrv9c+0GIztfE9eS81nf+fG/1XOfqOlSuT0ASLkBqlJzCA==
   </data>
  </layer>
  <layer name="Wall Decoration" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt07EJgDAQBdA4l67gALqA2DmCK7iRo6mdRdA0MSrvQeAIv/hXXAgAAAAAAAAAAAAA6er9NZH/ISHTZWmUx1KVbgD5TCHMp/k283VX+/aRzJ+NpQvwevstrKU7POnYty1dAgAy2gCANApR
+   eJzt1zEKwjAUxvHXc+kVPIBObuJQzVZ0yuDQwcUbeQC9k6/QQqlpLGISYv8/eIQ0Sfs+KJSKAAAAAAAAAAAAAAAAAMC8GBGbuoeYmryX1E3gryy0lo7ruwl71kE6+q1nIfLQuhWpO8GYo1Ypsu3qIHJP3VNIZYB8/W+hmbAnplB5Kx217DDvxrHHd6/qfe7d/0mIvD77mA9ziJ03tRzzmrbnk9a5rU431zXbXx+rHDR5VzrWX5ytM/6vmFte3/s6fJ97Z+w1dqMAEMALg2sugg==
   </data>
  </layer>
  <layer name="Above Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1NEJwyAUheELXSR7tA8ZJQvErtBRHCWjdJQqVCqiJtVULfwfXAh4kubQqAgAAAAAAAAAAAAAAAAAoMRlkGmld89R+iqRaRXRsTFr2stJReYxSt81c49Z2/ZyuczVzC3ItNKjbyzTCn379P32HUqV/NZdZHFnjrnezsjEzrpR+v6a+9/pW4++h/avXbd7bzHXOpN52slkpljG7evUvq8xyvnc6nuiL31D9N3NzKXPOVuqr3qfv7FR3numckFmduewP0eeUzIlff956PvxAjzBkUw=
+   eJztl90NgjAUhZu4CHvoA6O4ADCAL47CKIzCKF5jaippL4UW5Of7khOJHEqP3JarMQAAAAAAAAAAAAAAAAAAAAAwh8qY7iKfY6p+r3kOz+8F8pJ3D3llTveQGpmv9TWf79oxia93r6k9mbcq91kl/J5RdbEFrZlX6qAI1Yycax2fSfCotbZmXu1e7hghn+a5im4RczlK3ti5kHc69Qny5t4b3XehHHc5PL69bit5l8Y+d/LGcaa8vp45w/r99r1y3Cqe/i3FU/g8dl2H1r3GEnmX2J9z1dOe8z6UOYQY7vluX3vEvNo9tp43B3/KW84dJ5UJ/wfvVUBuTxryDTyl3YddxYyTqtj+GR1DL3zjyts=
   </data>
  </layer>
 </map>
