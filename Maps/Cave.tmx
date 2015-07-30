@@ -231,6 +231,37 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="532" name="save" tilewidth="32" tileheight="32">
+  <image source="../Sprites/save.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer name="Ground Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
    eJytlltu6zAMRJNupOkOuv/V9X5cAQTLOTNUGkCwLcsU56X24/F4PP+Nj/+j3tfnZxn9/XP4tn/X7/uaqd60r+qH3qt6qsekJ9WfquHWKgyOk4TnPpSOtE71sO1z6w3iyb13Xk7mHF9ujetVvXNcUC4770oHh8VxRJqS9zdapv56R7dEC5W5DX7HA2XM6Z7kffpGYbnJsuuZcL2T3cQ/Li/Ojy5f5MkbfDdZ3NZwHCovK66THtV3LkuuF8qn64M8la5Veyb9EFbqK9FT+flWP6qXZD3BuskY+SjNJA3nU8pxorU7CxT3Ck+Kf7qmZ0DaV+KbxOOJbi5nSb3Ek1v85KEtfvKm0tPpdsMbeSb1j/OFw5jMuT1dRt0eiW+SZ6XPNqOJXs6zzjupn1U9p+1tn1s+KS9nfJdBmmxy6nyY5Np5gnpSmL8fjHfDb5KvJBvOP4kWan7Cm2qmsr7xO3FE3JDnqa+UL+JQec7lYOPvDaeJJlvvOR4TjrdnhPNMosfEaZLJmz4dhhTTVCPxZbrnxp/bHKi+qbeE+5s80H6qZ+rN8Uk9brAkuVU+Jvxuzun8F952XttkinhKfDn1d37qb77yhcNDvNF8oq3z6IR5wnkGceQ8ptZ+tZHouckd8XB0Pfjqr2Km7G+92/E6jhKe0+yd56ppx6yyQ14nX7/K+DT8bHPvzqTq6YqX/o913E0+rM8H57mqdeTtzblAdbrOdGaQJqTFqw3CRhn+S9yb8yDxd50/uh6NXc1tXsnrykuJfqo21X02rN3P2yvxrbyoek3m1f70fHC+ir4bThOPk44qe2d8ljH5g7wz9XJw9poTNxveqa/NXNXDZSDB/mpjquE4cNmb+qi6VUzqXmnhzoq+f6+reCb+HM7pXeW4Y1dz3QeqL6Xv8/Gb33pOq5pTT/2Md3l6iUG43ZmheK7vp9oTlum9Wqf06bhUTdUPnfXujKzzvQe1n+pZfatwqffTuro+OfeVtvVe6TZhmnRVGNRQNWkt+Xa6d17v+9O5SRo4zVUO6HxVvqScJl6f1k770Fp1Ja4mTyqc73Bxg9N5hb5RvqPM3Z5RTtONNzb7Uu+OY/ddck16ID9t/KbunR/dmLxP/tlgJM/T3rfeT79zedz4zmUtzWLSj9Ij1SzVSmm0wad0UT1tuUlz6TzruE59sMGecJecNYSV6k5rFL9qr3f4SDzh1tzWTDgl/m98keBKsqxwu2ylPkrzlHBJnlM8O14dftLB5Z56SPq64UjVcVfKO/VBGUuw3q6n/cn7G5+6/dLMqb1cPp1H0lw7j7yrIfWc7pP0N839ACm1Ov8=
@@ -243,7 +274,7 @@
  </layer>
  <layer name="Player Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1zEKgzAUxvHUQRC0Qq9gT9BeoQfxGt1cPJirdHLoBXqOQjN0CHGwUMlL8v4/EDM4fMnLe6AxAADkqf6+j6IpwmikA+zMr1lu+3PV259kSUNfAgDSVxXSCQDE5mzM0NlHOkcoV7vXi6L9Arm6OevpIBYDntHW4k49VlI/k5Z/CBVO1Pk3Ss7pmfjcwv+YCUjN25lbs4IZVtKj4hbnnj0U3DlfLx0AiMBLYe8DAAAAMfoAgmALWw==
+   eJzt1zEKwjAUxvHUoVCoFgRPoCfQK/QgXqNblx7MVZw69AKeQzCDQ0gFBaUvee//g9IOHb7k5T2IcwAA6FS/3hvRFMtYSwf4s7hm2tYXqj//opKFvgQA5K9aSScAkJqDc/3eP9I5lnLyaz0aWi+gVRt8XwqxGIgMvhYd9ZjJfU+aN3eIHfcKdbbU9DtG9mnKfG7hd8wE5OYRzK2rgRlW0qPixuCc3QycudhZOgCQgLvB3gcAAABS9AToqAty
   </data>
  </layer>
  <layer name="Wall Layer" width="60" height="60">
