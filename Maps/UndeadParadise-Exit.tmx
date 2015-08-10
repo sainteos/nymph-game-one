@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Crimsonwood" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
+ </tileset>
+ <tileset firstgid="376" name="Bullithrumble" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="388" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+ </tileset>
+ <layer name="Ground Layer" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzEmAWKqW0etcxFN49Sc3GZR665hMwbxaN4FI9icjEA/0oLVQ==
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAseBdgAJgJWBoYF1gN1gjEXMFojtoNieQvNBZsUDsS8U+1Fong8Q+wNxDBTHUsE8St1EqnmGVDaPFDAYzAMA/wcIXg==
+  </data>
+ </layer>
+ <layer name="Player Layer" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAJaGSF0JePAumMUjAJ6AwD+jAEB
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNzssOQEAMheFasXdbUy+A9383XYyESds5g0k0+VfDl0P075ukqoD3lRt7b13LK+2ioe4Tr5Yaw0XrpD4YgzQae9E4MrWt2lnvbJjaVgLeme6mthXZ1YZ/WWnJ3OVZKU+72bFyvdS2J55noR6yK+WdhudsSrvhrcb31w76RxCt
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuEIBiPSqbK09FcxWGgbnEYmLNJRc4MzA0OAExNnMVkMQVUOVR1CODIKBcIMRMkNlwwEyRKxkYAiFmgwETEAtBaXYg5sCinolMe8SAWJxMvaOAOgBXnJILRuMUNwAAuywJGA==
+  </data>
+ </layer>
+</map>

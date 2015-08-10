@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Crimsonwood" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
+ </tileset>
+ <layer name="Ground Layer" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6F71L/mCRkkrJqqqqrvHhB9DhE=
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAf+ACxHwX6R+0dtXcw2TsKRsEoGAWjYBSMglEwCkbBSAMAt8MDnQ==
+  </data>
+ </layer>
+ <layer name="Player Layer" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0rEJACAMRNHMYiZQ999NLAISgmA0WngPrtQPIhMROye85z0rQ7eonbrfWiVbdvb1/TtW3iHSrB3Nat/yopkeNDv577e74rcuAAAAQLQGWR4SZQ==
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfqACxEgX6ybXTGIgN0cSp5Q4VMvVRar8xmfpoFQ6kAsMRbPcoGAWjYBSMglEwCkbBKBgFQxUAAEFQApQ=
+  </data>
+ </layer>
+</map>

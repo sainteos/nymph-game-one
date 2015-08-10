@@ -106,6 +106,14 @@
     <frame tileid="0" duration="400"/>
    </animation>
   </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
  </tileset>
  <tileset firstgid="388" name="save" tilewidth="32" tileheight="32">
   <image source="../Sprites/save.png" width="96" height="128"/>
@@ -165,6 +173,14 @@
     <frame tileid="3" duration="800"/>
    </animation>
   </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="400"/>
+    <frame tileid="20" duration="400"/>
+    <frame tileid="19" duration="400"/>
+    <frame tileid="18" duration="400"/>
+   </animation>
+  </tile>
   <tile id="25">
    <animation>
     <frame tileid="25" duration="400"/>
@@ -182,6 +198,22 @@
     <frame tileid="2" duration="400"/>
     <frame tileid="1" duration="400"/>
     <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="11" duration="400"/>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="9" duration="400"/>
    </animation>
   </tile>
  </tileset>
@@ -222,10 +254,28 @@
  </tileset>
  <tileset firstgid="484" name="warden" tilewidth="64" tileheight="64">
   <image source="../Sprites/warden.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
   <tile id="4">
    <animation>
     <frame tileid="4" duration="400"/>
     <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="11" duration="400"/>
+    <frame tileid="10" duration="400"/>
+    <frame tileid="9" duration="400"/>
    </animation>
   </tile>
  </tileset>
@@ -236,12 +286,12 @@
  </layer>
  <layer name="Ground Layer 2" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztmrtOwzAYhd0XKgsPwFO0rKgtYuQ+0RBUtVupqFhBSEwswMCIUHbgAZB4DmZ+E0dyjZM4xLFNez7pyInjy3/i3OyWMQAAAAAAAECoHPoOIBC+fAcAAADAKju+A/BAn62mbwAAAKtD26DMNWNx03G45DZVLGR0Dv4ry+ytKj3fAVhmyliSk/+XtpYKnZ8OqWte/8ZeNH4YkLZ9BwEWOHdYJgSuHJYJkZnDMgAA4IKtAOaElzXrRyId5hwvWgOONHl57YTOzGAs10S6KdJxy//4h8iIpdflmcM+q8xrbDM3LHfRSmUDn/OaUclxvp50T3oQemw8omrQeUsGOesGOsrGl3t9Jb1ICgm6L5JOBb8yd5rr9Y30zMLyu0/P70wHyn5RvfUCnaT6qc89v0vyzZ6knrJf5llFfSY9Sdtl93pV+H/FIvb726GtyRsubseWQ9HC7/XdGn2Rv3hCGpP6Iu+oZkwfND6fFt4b8vVsk8wneWYTwzq6INT1nKbm+7xvm98m5H9DzcvaPxWp7jeIkNdzjg0EQIh8A5ceV/g=
+   eJztmrtOwzAUht0XKgsPwFMUVtQWMXKfaEhVtVupQKwgJCYWYGBEKDvwAEg8BzMnxJGMcRKHnNpu+T/plxPHl/PHudmtEAAAAAAAAIBQOfAdQCB8+g4AAAAAK9u+A/BAT/xP3wAAAMJnKEQ8ZGinbVHmivpi6KoxMVM7N5liKatzsKgss7e6dH0HwMxUiKQg/y9tLRUmPx3Sun39a75o/NAnbTnoh+M9tCg09XrqsEwIXDosEyIzh2UAAMAFmwHMCS8a1o9kOig4XrYGHBnyitoJnZnFWK7IdEOm45b/8Q+RkciuS5ffxHXmNdycW5Y7a2XiwNW8xsSo4ni6nnRHupd6mHtE9aDzlvQL1g1MVI1v6vWF9KwoJOi+SDo1/KrcGq7XV9KTCMvvHj2/c+1r+2X1Vkt0nOm7fur5TZFvdhV1tf0qzzr6M+lR2a661+uS/lcsEr+/HdqGvMHP7Zg5FCPpvb7ToC/yF09IY1JP5h02jOmdxueD4b2hXs+c5D7Js5hY1jEFoa/nzGu+n/bN+W1C/tf0vLz9E5mafoMIeT3nyEIAhMgXztNa/A==
   </data>
  </layer>
  <layer name="Player Layer" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2M0NgkAQQOGxApuxFj17kLNoYuKNDjiANqAtWICdWIpzkGRDWAx/O4d5XzIJkGx4m3AARAAAAAAAAACkcBQprBtS8rbfl7P9AkDo0X2tSN0BAAAALKHqGAAYovx9I19XxiF/1NpXBY2lXQoWtNPncTvyv81J1zVzDo6bmbd0Hpl2HUa25cG0z/PYIrh2tw5I7CnyuelYd3i0tw5IrJ6w9h15/9q0JmY94d7eXKwDAPT6AtrsH7c=
+   eJzt2EEKgkAYhuHfE3SZzlLrFrXOgqCdN5DQ2rmqTQfoAN2kozQLxUGcILX5tXkf+ECFwW9glFERAAAAAAAAAD5sRRLtDj6FNt9HYPMF/tU90m4wTdf2a4nvHqidWMvAJBVR/e4seI4BYDSylgDAN9LyG/k48j1ebvplVsdUrwp+aGnW46Ljf5udGVdlbx1XGbbpMDam17pjt9hK8zx2DULQLtoFPLuJvM4m2j1CtNIu4FneY+zTsf+aN+Iy63Hv0By0CwD46A0KOCKv
   </data>
  </layer>
  <layer name="Wall Layer" width="60" height="60">
@@ -251,7 +301,7 @@
  </layer>
  <layer name="Wall Decoration" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2U9OwkAUBvBHPAAH0it4AFmZsCAkgt01djULFizceIqeQVf+wUQTWRA8kK9paybjdIqlM68t3y/50mkZhvfSFtJABAAAAACmNyKljWuPAwAAwHEeOU/SRQT0wfksxs+cF847ZyNVkIBvzl66CAGpdAEBvGrjNI8SKiWInbE/9H51p3B+we3MkZsACa2u33POhVFjxPeINv6dM6PqvmzrSPTbRKR9J0SCdYAfh5zf/87pkolRV9N+Xet0ybylutpaB+BYU+kCAKC3uvpb7UvW70q6CBiU8hnWNDtgzpWXitq1HRF9cR5G0pVAlVvOgui6zDL/22WwFh766/KzvK9+Y95ylNnvxDLHtVb8d985v46Pfl3mIT/MInS/0vrYb1TUfMdJipTK/XEelWjHbOmDrN9L3q4bvHfd4+eKU+tXv57N8GvKdr1nx+9DFwoA4MEPfD1htw==
+   eJztmT1OwzAcxY04AAeCK3CAdkJiqCpRyFa1k4cOHVg4AHNPwAATH0UCCaQi2Jm69gz8QxJkGeOEqPbfsd9PevJHXfc9OUnjRAgAQIysuA144qEsP7V27Gy4DQCQAHQ9kUq9th8A16x3uB0AV2ywtgB8c0264TbhkSfSc1m/Jd2RHklLLkMMfJDeuU0wsOA24IF7pb4oJJmseOFNa8eeVyWF9QV2di068SDf1OXdJx1oHjM6R5T6z5iB+DuXaR6OvG3IlGtCxugDuKHJ+v53TEj0NV9t89rmCYnhlnw1mecysWcfed6rxDKHwDG3AQBAZwn1v9oVed4ZtwkQFdUeVmfQYEzPiaPt8kr3dS+kC9zfBcsZaSTEUaXT4rVLtIwc5At5L+8q75hKktTz9g1jbHONf7et4+twkdfG0OePGfCdl5su5s1KzxPStFRF1d4rJKdKn0ldIM97SOW8xXfnHd5XpJZXPZ510WfSdLzn/ee+jQIAgAO+ANx7aaE=
   </data>
  </layer>
  <layer name="Above Layer" width="60" height="60">
