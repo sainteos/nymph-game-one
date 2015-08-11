@@ -3,18 +3,7 @@
  <tileset firstgid="1" name="Crimsonwood" tilewidth="32" tileheight="32">
   <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
  </tileset>
- <tileset firstgid="376" name="Leon" tilewidth="32" tileheight="32">
-  <image source="../Sprites/Leon.png" width="96" height="128"/>
-  <tile id="1">
-   <animation>
-    <frame tileid="1" duration="400"/>
-    <frame tileid="2" duration="400"/>
-    <frame tileid="1" duration="400"/>
-    <frame tileid="0" duration="400"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="388" name="Bullithrumble" tilewidth="32" tileheight="32">
+ <tileset firstgid="376" name="Bullithrumble" tilewidth="32" tileheight="32">
   <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -25,32 +14,70 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="400" name="Junia" tilewidth="32" tileheight="32">
+ <tileset firstgid="388" name="Junia" tilewidth="32" tileheight="32">
   <image source="../Sprites/Junia.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="400" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="412" name="tyet" tilewidth="32" tileheight="32">
+  <image source="../Sprites/tyet.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
  </tileset>
  <layer name="Ground Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYWBgYBnFo3gUj2IKMBsEN7DR394GmN0DHQajeBSP4lGMjAFsvQrt
+   eJxjYWBgYBnFIx7ro2Escg0wPNBupYN/G4abf2mN2SC4gQ1PONIiPGF2stE5nnD5jdb+HcWjeBQPHQwA1ToceA==
   </data>
  </layer>
  <layer name="Ground Layer 2" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAf+ACxHwX6h4u95kBsQaJZmkhYC4i5oOIhQBwMxCZA7IBmL0wMJO+IZC8yxgXQ1YGwJZK92EA0EMdiEXfDYhbQnAZi7Ua2NxhKO2LRB5IDhYcDA8TvMLvdkTA+e9HtJuRfUgC6vejxiexGDyDmBGIJHFgSghtwySNjTjR70f1HTzBqL+0BejqiFyAmLVIjPSPjUTAKhhsAACetHBE=
+   eJxjYCAf+ACxHwX6h4u95kBsQaJZmkhYC4i5oOIhQBwMxCZA7IBmL0wMJg+zFxnjAujqQNgSyV5sIBqIY7GIu2ExC2hOA7F2I9sbDKUdsegDyYHCw4EB4l+Y3e5IGJ+96HYT8i8pAN1e9PhEdqMHEHMCsQQOLAnBDbjkkTEnmr3o/qMnGMz2muCRo6W91Abo6QiW95GBCQM8rzRQy15i0iI10jMyHgWjYLgBAHw2Hho=
   </data>
  </layer>
  <layer name="Player Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgx20MjIwVDISp9aStk4ZdPZ6DJC9gxnIDJC92kA8kch0OgpGwSgYBcMdAAA9qAKU
+   eJxjYBgFgx1UMjIwTGQkTq0lAXljil1Dnr20Ah4DZO9gBjJo/BQgTqWDvdpA3EpkOqUlcBhoB4yCUTAKRgEQAABI2QPQ
   </data>
  </layer>
  <layer name="Wall Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJztlVEKgCAQROcO1QWqC2jd/2wRIQzLZrmufkQDg4joc1zRBcBidJJ1vsWRuFHYa33NG3SFCj6vX6OSc7jL4aEce83M20XryW6ZN0mraWvN6JsxKeBdTb3FeceObOb2zPxzv8sdcN1h5p79qRGHrb2RPF6zB+aV/oVyn7IOWpanXBZLrrwfpT4AQlkhsw==
+   eJzlldEJgDAMROMM6gLqAFpdV3BUP1Q4Qkxtkn55cBTU9uVsaEciGo1+ZJ1vcQJuYo5aX/JKshYHH9f3qOQ/aFm80tiTMm++x60Cu1ZWlLSftbkDfcu4N7HcBbi98t0RzMW8ncJ+yzvLj4u4uT6O1FeuNZeXG60/cVu6ehi5Wk97OWjpjMT3nhqQV3oX8jr5PkhZcrks5lzeH6U+AXr1JEI=
   </data>
  </layer>
  <layer name="Wall Decoration" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfqACxEgX6ybXTGIgN0cSp5Q4VMvVRar8xmfpoFQ6kAkMq2W0KxGYDYLcLELuSoQ89/EfBKBgFo2AUjAIQAABnUgOI
+   eJxjYCAfqACxEgX6ybXTGIgN0cSp5Q4VMvWRYz+yXcZk2ktqOJDrP2LcQY04MAViMyraLUqkGS5A7EqivTC7SbVrFFAORsN6FIyCUTDYAQD5OwQP
   </data>
  </layer>
 </map>
