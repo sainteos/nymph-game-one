@@ -1,31 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="Crimsonwood" tilewidth="32" tileheight="32">
   <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
  </tileset>
- <layer name="Ground Layer" width="30" height="30">
+ <tileset firstgid="376" name="Leon" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="388" name="Bullithrumble" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="400" name="Junia" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Junia.png" width="96" height="128"/>
+ </tileset>
+ <layer name="Ground Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJztw0ENAAAMA6F71L/mCRkkrJqqqqrvHhB9DhE=
+   eJxjYWBgYBnFo3gUj2IKMBsEN7DR394GmN0DHQajeBSP4lGMjAFsvQrt
   </data>
  </layer>
- <layer name="Ground Layer 2" width="30" height="30">
+ <layer name="Ground Layer 2" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAf+ACxHwX6R+0dtXcw2TsKRsEoGAWjYBSMglEwCkbBSAMAt8MDnQ==
+   eJxjYCAf+ACxHwX6h4u95kBsQaJZmkhYC4i5oOIhQBwMxCZA7IBmL0wMJO+IZC8yxgXQ1YGwJZK92EA0EMdiEXfDYhbQnAZi7Ua2NxhKO2LRB5IDhYcDA8TvMLvdkTA+e9HtJuRfUgC6vejxiexGDyDmBGIJHFgSghtwySNjTjR70f1HTzBqL+0BejqiFyAmLVIjPSPjUTAKhhsAACetHBE=
   </data>
  </layer>
- <layer name="Player Layer" width="30" height="30">
+ <layer name="Player Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJxjYBgFgx20MjIwVDISp9aStk4ZdPZ6DJC9gxnIDJC92kA8kch0OgpGwSgYBcMdAAA9qAKU
   </data>
  </layer>
- <layer name="Wall Layer" width="30" height="30">
+ <layer name="Wall Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt0rEJACAMRNHMYiZQ999NLAISgmA0WngPrtQPIhMROye85z0rQ7eonbrfWiVbdvb1/TtW3iHSrB3Nat/yopkeNDv577e74rcuAAAAQLQGWR4SZQ==
+   eJztlVEKgCAQROcO1QWqC2jd/2wRIQzLZrmufkQDg4joc1zRBcBidJJ1vsWRuFHYa33NG3SFCj6vX6OSc7jL4aEce83M20XryW6ZN0mraWvN6JsxKeBdTb3FeceObOb2zPxzv8sdcN1h5p79qRGHrb2RPF6zB+aV/oVyn7IOWpanXBZLrrwfpT4AQlkhsw==
   </data>
  </layer>
- <layer name="Wall Decoration" width="30" height="30">
+ <layer name="Wall Decoration" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfqACxEgX6ybXTGIgN0cSp5Q4VMvVRar8xmfpoFQ6kAsMRbPcoGAWjYBSMglEwCkbBKBgFQxUAAEFQApQ=
+   eJxjYCAfqACxEgX6ybXTGIgN0cSp5Q4VMvVRar8xmfpoFQ6kAkMq2W0KxGYDYLcLELuSoQ89/EfBKBgFo2AUjAIQAABnUgOI
   </data>
  </layer>
 </map>
