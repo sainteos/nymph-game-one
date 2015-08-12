@@ -16,12 +16,12 @@
  </layer>
  <layer name="Ground Layer 2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAseBdgAJgJWBoYF1gN1gjEXMFojtoNieQvNBZsUDsS8U+1Fong8Q+wNxDBTHUsE8St1EqnmGVDaPFDAYzAMA/wcIXg==
+   eJxjYBgFo4B4oImEtahgngUStkSTc6TQPBCmhjvRzUR3JwiwMjA0sOLQr8GACDNizcMFQGalI+nF5k5k82yB2A6K7QmYhW4eDMDMA5kVD8S+UOxHwCxC5vkAsT8Qx0BxLJIacyLNAgEPJPP8cKhBN48YgM08WFwSE27EmEeKP8k1jxL3EQIAlv0YIw==
   </data>
  </layer>
  <layer name="Player Layer" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAJaGSF0JePAumMUjAJ6AwD+jAEB
+   eJxjYBgFo2AUUAJaGSF0JePAumMwAbGBdgCdwEjxJy4AAD6LAS0=
   </data>
  </layer>
  <layer name="Wall Layer" width="20" height="20">

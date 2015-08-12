@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Crimsonwood" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
+ </tileset>
+ <tileset firstgid="376" name="save" tilewidth="32" tileheight="32">
+  <image source="../Sprites/save.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ground Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6F7ZP+Zu0dRcNVUVVVVVVVVVVVVVVVV1VcPDYE4QQ==
+  </data>
+ </layer>
+ <layer name="Ground Layer2" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztz0ENAEAIA0EEkvMvBwxwAmAm6auvjZhl733+bfTuphcAAAAAAAAAAAAAAAC4pAB0PQMD
+  </data>
+ </layer>
+ <layer name="Player Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKwjAQBdB4Bj2BPUF7Oo9vQQMlVBwN4hjfg6FZNPD/IiFTKWXamdb5wX+RvZlEs87rLPeJ9s7YPZrvcrh9t70j3bPpyVe7Z++41ZuzPdfZ9eQ8rnMq/9N3787OTt+4uYzft57ZOqP3ffbOyu7V7KP2/dS+b/vV3O+amvXofQEAAAAAAAAAAAAY2xW14xWV
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztz0ENAAAIxDC04F8kDvheCK2CrYpNpwOCPr8DAAAAAAAAAAAAAAAAXDe8GgBF
+  </data>
+ </layer>
+</map>
