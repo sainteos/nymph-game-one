@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="Crimsonwood" tilewidth="32" tileheight="32">
   <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
+  <tile id="57">
+   <animation>
+    <frame tileid="57" duration="200"/>
+    <frame tileid="72" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="95">
+   <animation>
+    <frame tileid="95" duration="200"/>
+    <frame tileid="110" duration="400"/>
+    <frame tileid="111" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="108">
+   <animation>
+    <frame tileid="105" duration="400"/>
+    <frame tileid="108" duration="400"/>
+    <frame tileid="109" duration="400"/>
+    <frame tileid="125" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="123">
+   <animation>
+    <frame tileid="120" duration="400"/>
+    <frame tileid="123" duration="400"/>
+    <frame tileid="124" duration="400"/>
+    <frame tileid="125" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <animation>
+    <frame tileid="125" duration="800"/>
+    <frame tileid="126" duration="200"/>
+    <frame tileid="127" duration="200"/>
+    <frame tileid="125" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="138">
+   <animation>
+    <frame tileid="135" duration="400"/>
+    <frame tileid="138" duration="400"/>
+    <frame tileid="139" duration="400"/>
+    <frame tileid="125" duration="400"/>
+   </animation>
+  </tile>
  </tileset>
  <tileset firstgid="376" name="save" tilewidth="32" tileheight="32">
   <image source="../Sprites/save.png" width="96" height="128"/>
@@ -34,29 +79,70 @@
    </animation>
   </tile>
  </tileset>
- <layer name="Ground Layer" width="60" height="60">
+ <tileset firstgid="388" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="400" name="Bullithrumble" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="412" name="Junia" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Junia.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="424" name="tyet" tilewidth="32" tileheight="32">
+  <image source="../Sprites/tyet.png" width="192" height="256"/>
+ </tileset>
+ <layer name="Ground Layer" width="120" height="50">
   <data encoding="base64" compression="zlib">
-   eJztw8EJAAAMA6F7ZP+Zu0dRcNVUVVVVVVVVVVVVVVVV1VcPDYE4QQ==
+   eJzt0jESgzAQBEECP1T/f4UjMpcNMlerOnXQMXsaXsdxvDY0LkhvpLbvL+kbqO37r/QbdPd0r7vS9+/gyV53pW/fzVPd7krfTf0/k95Jbev0Nmobp3dR21fjHvTt7VvfscA+ahunt1Hbdyywj9q+Y4GN6Mt837HATmr7jgW2oi9zbU/pzejLfOP0XvRF311c7XpK70Vf9N3F1a5jga3oy1zj9Eb0Za5xehv6Mtc4vQl90Rd9u9O3N31707evT2017kPf3vTtTd++vrU9pTeiL3NtT+mt6Iu+O7nS9fTvt96Jwh+E
   </data>
  </layer>
- <layer name="Ground Layer2" width="60" height="60">
+ <layer name="Ground Layer2" width="120" height="50">
   <data encoding="base64" compression="zlib">
-   eJztz0ENAEAIA0EEkvMvBwxwAmAm6auvjZhl733+bfTuphcAAAAAAAAAAAAAAAC4pAB0PQMD
+   eJzt289Og0AQx/G56hN49yE0JlZPejHq3frnAXrq0V7otU/FozkbIBLCLhBY6A7fTzJpgEI2+WWWZAERvxet18BxLGeKbJrXuNG6HXlNTCNmvvXCMsbke6+10fqW7nzJeBlj8nXnvmlttT5r+5+0nj2FeY3Nt+3cy/L3ylNIQ1e+SJvL90uKe/BDbT/52vAhxb33XYqcq4wvhDnZEpdzM2PYUmXMOpZdrFPaRr52HUXy5joW7Nhrvs11LAAAAAA4RweRbOkxYJjDsP9mscaBOMjXNvK1jXxtI1/b+ua702x/RR5jjgXT65svvZsm7cl81/EfejdtXT1M76Yt1MMp9e710gM4Y74eTql315TvXnNx3wTUK/RecVsPp9S7zpryPWo27l2mqvq8O97sYd3O44wujjXl27SG7wPWnK9jPeO15+uEMmZ+tsGXcer54l894025b8izBpy/6tvbbbnd0r/ZrANCNIH1q585x4E4LKxvwO8uUEgf+dqlc3B28hw7FXM0EsbzX7tCvVuhh9PF+1e2ka9tc+b7B21uWWs=
   </data>
  </layer>
- <layer name="Player Layer" width="60" height="60">
+ <layer name="Ground Layer 3" width="120" height="50">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
+   eJzt2zEOgkAQQFEKDqMn0BPoCbTX0hsIDSXx1E6BCVkJsRBXNu8lP2Q2FJtMRUFVAQCwhMvQdeJ8bBNtkyjHLtqPoiyH6JgEAAAAAAAAAAAAAAAA5NG+z136zuk3V2EBn+wXXtL/ecnnNhPrd5+J9bPfsvXReXj2yQz8t7qa/j6qc1yGr2til4/kLOauyXIbAADgCfIUGZM=
   </data>
  </layer>
- <layer name="Wall Layer" width="60" height="60">
+ <layer name="Player Layer" width="120" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt1kEKwjAQBdB4Bj2BPUF7Oo9vQQMlVBwN4hjfg6FZNPD/IiFTKWXamdb5wX+RvZlEs87rLPeJ9s7YPZrvcrh9t70j3bPpyVe7Z++41ZuzPdfZ9eQ8rnMq/9N3787OTt+4uYzft57ZOqP3ffbOyu7V7KP2/dS+b/vV3O+amvXofQEAAAAAAAAAAAAY2xW14xWV
+   eJzt2sEJAjEUQMHdWqzPDixAsAbL2DLsSW97Eg9GiG9nIJBA+Jd3C1kWvnEauAAAAADYeTNp07dN3zZ92/Rt07dN3zZ92/Rt07dN3zZ92/Rt07dN3zZ9u/yZb9O3Td82fdv0bdO3Td82fedzHjhL3/lcBs7Sdz63gbP0PQZ94bfu677fXvvH+v4u/23TNuf64QwAAABwdE8WRxD8
   </data>
  </layer>
- <layer name="Wall Decoration" width="60" height="60">
+ <layer name="Wall Layer" width="120" height="50">
   <data encoding="base64" compression="zlib">
-   eJztz0ENAAAIxDC04F8kDvheCK2CrYpNpwOCPr8DAAAAAAAAAAAAAAAAXDe8GgBF
+   eJztm0FOwzAQRd0lbClS14QLpJyFA7RcgiUbDsCNoSIWobKTjD2eP+POk6wUNY3n+8VOiJQhhDAk2nP4z1NmP0tNO6U5KGNwnNrL1THG2XdoT7355cqx5bfzefu5C+Fr9/v5fdrOPWt3bQWuTFS/a0TXaI/W/Ua4sqR+n1uX19B6XbYKV5Yt8/Ycwsdle5raYWqRh5+2z9TkXsuR8ruGprnbG7W5evHrpOHwOyaO4051MMy2FL/xmhube9VNHLt9oj0m9keuyQ6dpfFMzWmEX6ec3Jgu/S8s9UzDqYcydyPjtG3xnNLhpcRviiNzXVT8/EiTWpdLnlOi8Pm/jLXx8fWdhpXxaX1N7/VcsZJH4n69x/u/krpb5EV769U5tcZWGdGOenXP5dc963RO6VOqfvT436Jf6QxoB7fkF5ED7eBW/CKzoD307ldDFrQL645b+63NgvbAkUer39y+iHPVks8t9UtB7Q81RhadLuWQgnPN6WEO90Ztri3jxT1u7nU7rdfPEPT71chd+Hsf6LXiOK3XT+4+lvrqweuF+6u/3yqOxZ3Vgl/tzOfuYWXfNVqPfas+cv1JeZU8TzTN39RxrcybLSDWg8t7uvEd3djOme+l1qwe/VpY+6XWLo3Za7BwbZe8NmnLXoOVeze0X3T+Eizdm7tfGlS36HwSdWnOT6HELTKfVG1a81Mp9YvKKFGb5vxUavxKZpSsS2P+EmrdSmWUrktb/lK4/HLnRNaFzs4F9xhy5UTWpSE/B63GEDFvvOEahdq+vgFmHjHn
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="120" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEKhDAUBNDcQYStxQvokbyIV1fQQotlZcF8+b4HIYE0A9NNKbxJ++O/q5KCJ9B1fk10AC7powMQblrPJzoEAABAZd92yqFsm4ZdI7fx8LZT5jbs91jOvfM8dsrc9JubfgEAAAAAAADgf3N0AG6l39z0CwAAAAAAQA0L2g0ESQ==
   </data>
  </layer>
 </map>
