@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="7">
+ <objectgroup name="Object Layer 1">
+  <properties>
+   <property name="Object..Lair?" value="&gt;9000"/>
+   <property name="Objection!" value="True"/>
+  </properties>
+  <object id="3" x="-51" y="10" width="269" height="249"/>
+  <object id="4" x="465" y="364" width="347" height="356">
+   <ellipse/>
+  </object>
+  <object id="5" x="155" y="542">
+   <polygon points="0,0 133,-139 246,-9"/>
+  </object>
+  <object id="6" x="483" y="241">
+   <polyline points="0,0 -88,-12 -13,-101 186,-77 197,24 15,97 -42,-4 -2,-1"/>
+  </object>
+ </objectgroup>
+</map>

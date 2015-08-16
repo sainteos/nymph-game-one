@@ -129,7 +129,7 @@
  </layer>
  <layer name="Player Layer" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgx1UMjIwTGQkTq0lAXljil1Dnr20Ah4DZC8tAR8Q8+LAQLkGQvplkNgrgekmBUinArEJUG8wkA4hw01yRKjRBuJWaDpdA6VvEpluKbEXGYD860CZlWTZSy1Aa3uR0xI/BDcA2Q2yaOo00bAWjd01CiDgAoX5ZRQMLgAAQM4Mdg==
+   eJxjYBgFgx1UMjIwTGQkTq0lAXljil1Dnr20Ah4DZC8tAR8Q8+LAQLkGQvplkNgrgekmBUinArEJUG8wkA4hw01yRKjRBuJWaDpdQ2R6pYa9yADkX4cBsJdagNb2IqclfghuALIbZNHUaaJhLRq7axRAwAUq5ZtRMDgAAP6EC5w=
   </data>
  </layer>
  <layer name="Wall Layer" width="30" height="20">

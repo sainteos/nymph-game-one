@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
+ <imagelayer name="Image Layer 1">
+  <image source="../clouds.png"/>
+ </imagelayer>
+ <imagelayer name="Image Layer 2" x="-27" y="6" opacity="0.5">
+  <image source="../white-gray gradient.png" trans="000000"/>
+ </imagelayer>
+ <imagelayer name="Image Layer 3" x="2">
+  <image source="../Sprites/charactertemplate.png"/>
+ </imagelayer>
+ <imagelayer name="Image Layer 4" x="500">
+  <image source="../Tilesets/tilesettemplate.png"/>
+ </imagelayer>
+ <imagelayer name="Image Layer 5" x="-496" y="-4">
+  <image source="../worldmap.png" trans="8ca1c1"/>
+ </imagelayer>
+</map>

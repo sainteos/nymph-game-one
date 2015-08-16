@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="10">
+ <objectgroup name="Object Layer 1">
+  <object id="2" x="171" y="326">
+   <polyline points="0,0 486,1"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 2">
+  <object id="3" x="654" y="331">
+   <polyline points="0,0 1,297"/>
+  </object>
+  <object id="4" x="654" y="625">
+   <polyline points="0,0 -487,-3"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 3">
+  <object id="5" x="235" y="576">
+   <polygon points="0,0 352,7 181,-236"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 4">
+  <object id="7" x="144" y="267" width="552" height="416"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 5">
+  <object id="9" x="343" y="714">
+   <polyline points="0,0 254,-6 432,-201 118,-508 -207,-228 2,0"/>
+  </object>
+ </objectgroup>
+</map>
