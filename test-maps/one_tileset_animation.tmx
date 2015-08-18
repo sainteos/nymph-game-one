@@ -26,6 +26,8 @@
     <frame tileid="0" duration="400"/>
     <frame tileid="1" duration="400"/>
     <frame tileid="0" duration="400"/>
+    <frame tileid="36" duration="197"/>
+    <frame tileid="37" duration="200"/>
    </animation>
   </tile>
   <tile id="38">
@@ -35,4 +37,9 @@
    </animation>
   </tile>
  </tileset>
+ <layer name="Tile Layer 1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaAXU0PjMWNfIE9IyCUTAKRsEowAQAV2oAcQ==
+  </data>
+ </layer>
 </map>
