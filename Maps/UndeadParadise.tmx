@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="8">
  <tileset firstgid="1" name="dunegon" tilewidth="32" tileheight="32">
   <image source="../Tilesets/dunegon.png" width="480" height="800"/>
   <tile id="87">
@@ -309,4 +309,8 @@
    eJztmsFOwzAMhjPxInsPOPRR9gCsPSMuu/Aeu/EaewwkhrTbENzRjiQqQVawHSdxm3b0lyxG5yb+msR1AjfGmJvFFlvsKqy1tjVmH5q9vs+5T2Kxtoc02z8qe/3AcXb2e+y+N6I9KHvvpha3lJfjhIyvSFsvxuymwh3jjY2n0xF8/kC+PwNebPzH5KZ4fQwcp9cn+HyxbCHTF+DFxt/pHvRZkBd2ubwpugTzlWJywsZfS9uReENxTP7ZSPJaqobk5eINxxvTS2a/nCS8bb9mSLNrao+1zc1Zp/dV/5N6LmfkWtfHzMbDxSfhzR1/bM5ibEfkGqWceLeF90t5sTmLvWc/wwuMpsyL6YzwXhLunxvvF5GnpLl4bryUYrmNije2J3H1hTavz99UnoaixjFWY/i8bEzas3Y1rzZvCjc1jtQa9pwtsRerySvhltaKMc4EXvX5HOPOsRinlLfrn/tpDN4xzPE+rWje5+D3ufNK5pB2PTl1C9bvoXY8tXk5MWeVv/Pkx2cdGuKDtbPXZLXtreH5i/3chH1wovIhPGeB+TC4d4c988BHdb7Z9pqSPkpqx0q8bBy5vHAf3hF7ghq8bRBP1187KfA2fp1S55VCnw22rkvWekl9pbEX0pIkdpcXYT5xz1NyJjtX3qHWbw3V5P3JVydnVL4S+qw1a0OFfNVgccK8yuTeXUo7sf6lubwwXy28C++QvGJfDd62rxn+5BF4HkHtSWGeYHzEvNLapOT9W9s03ofaNeu18Lb9uzFay0r2tpJ9dG1eri9hviJ9bq3dCWK5Fl5pLAtvujTOtqfOq50bg/Org4YPluumwju0/LgvvDL9J97Umlm4fo2vgam//wb7fcpnjflI/nfxwXI9jMQ7RH7Wmk9z5n1kYqAU5vycc9whWCQ+ObxcH1Pn1VAl3ia3nVIl7Ac3W8KE5xvQp/F5GJqknVKT1s+LXYd9A49vK0Y=
   </data>
  </layer>
+ <objectgroup name="Text Stuff"/>
+ <imagelayer name="Image Layer 1" x="1090" y="1843">
+  <image source="../banner.png"/>
+ </imagelayer>
 </map>
