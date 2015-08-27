@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="21" height="21" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
+ </tileset>
+ <layer name="Ground Layer" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eJyNlEESwzAIAzEv8P9f2x5ycLcrnAMTxo4RCMGuqv21lu96zM72Y/RpG3FO49sGVsKb8ur6zWuFOHyzgMkz5mh5pHr6OOd/ybr+a2Q9Uyzrgd3TJ/Z5Zxo5c2L+5Nk0YLFMC6m35GPS8aQz0y+5SvpgzdRAyjXNVJot+knD5JmxjX+rwWYg4S7Ennhkr9jTaaYN23iz2Kk+44axbnjWa/pp5xkvt91rfNlM2h69aekNBucm1We8ph5Me3Tinb1l/z/mcQwN
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANRPHIkQukaWCmFhBrE4HJNZNagF5myqBhSszUwSJGTvhaIrGZgZiVCmaqALEq1Dx9IBaB2mNFABMDhIBYGIj1gJiFCEwMUARiBai58kCsRAATC4Sg5imToIcYM0WoaN6omaNmDpSZABOUDfs=
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/kCEDEwu4cWBtLJhYIIUDU2KmJA5MiZkSODAlZg4lwAfEYkCsSgCPglEwCkYOAAClEQgZ
+  </data>
+ </layer>
+ <layer name="Wall Dec" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvEB3CZmpS2UxxKK2ORlNiphoZZhAykxqAFmaOglEwCkYBIQAA9PYBSA==
+  </data>
+ </layer>
+ <layer name="Wall Dec2" width="21" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwVoUKhfFkpLA7EMEh4swAqKrQfaIaNgFIyCEQMAq04BZA==
+  </data>
+ </layer>
+</map>

@@ -29,7 +29,7 @@
  </layer>
  <layer name="Ground Layer 2" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt1d0NwzAIBGCv007QibpVd+1TJMvCBY7DQSon8ZA/5wuOkzE6nU6lPJbtJ2HMV2K9BXMV21reXp60Xb20GndjfMDyGBEb6kKcXp92zzmW/ZrVY5t9Fod2bCzHmP1j+eZzov2zzld1n/X9zPRF6i7fr6DfG6ttN7/VfRGjtD97fWhh+TL/ayd80tiMYvjmeL8n1XxrTqxf1Mb0SUbP/Hlskgvp3+4ems/bM9RnsUbWamRud9dmuDSbxWcdB31ulo9dzGe903b5Mp3sVLZ1Ov+cL/VMKCc=
+   eJzt2M0NwjAMBWCvAxNwQTAAYgy2YhdGo0KKFEUO/slz4kOe5ANtSb86TSuVCJfHUU/geOhk992IPkfdVzt21ubU/D4DxrwE1osxZ7G1Ze3lTFvppdbYG+PtLIvRY/O6PE6rTzpnHc12yWqx1T6NQ9pHzT5k/1C++pjR/mnnK7tPe39G+kZqle9fvM8bra03v9l9I0Zue/T6kILyRb7XZvi4sRGF8NWxPk+y+drMWL9eG9LHGS3zZ7FxLk//eueQfNaeeX0a68haHZnb3n8jXJJN49OO471ulA9dyGtdaSu+SCc6mW07OyVX+n2DTpuI7/df75sr7w==
   </data>
  </layer>
  <layer name="Ground Layer3" width="40" height="40">
@@ -39,17 +39,17 @@
  </layer>
  <layer name="Player Layer" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt1NENgzAMRVGzTWEB6AItG9AJ6AqMTywUqYkQIvFzP6J3JH/WunXUihARUSuWMO/C+fyxa6747Et8O7WtpisXO9GtT+CuSFtRjR59agTsQL3tGUSf1+0U+2zYl9q6st2I/xjP+ynrDdln49n3CPM17mjp93uX3q0X++3UGmYA7IkQb/prkqNRv6+1E92Wq+1EvueVSdJ73h3vrryvdIiIqC075egaYA==
+   eJzt1EEKgzAQheHxNtWlm+oF1BvYE9QreHwzSEBDKSbzBkTeB7M0/k5oRYiI6C5a4/NzmDFzPsZ35nRNBc8O4tupbSVdqdiJbu2BZ0Xaimr06FNvwBmou/0F0ee1O8U+G/adrVXe2Yj/GM/9KesO2Wfj2fcKsxjPeNLv9yrdWy323alvmAZwToS406NO9kb9Xmsnui1V2om8z386Oe/z6nh3pX25Q0REz7IBsTwakg==
   </data>
  </layer>
  <layer name="Wall Layer" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt2FsKgDAMRNHupTtw/4uTfAil0JeTkCnMheCXcogIai2lVHBGodf1Gvnu9z2TGTU7px0PT2SnxmgPYsywfe3cb4ZmRpbkw2J7NvqYd2cx785i3p0lH5Z8WPJhyYclH5Z8WLe9X8l3FrOP9dto9e8gu9oc2Xyr3WUad20Zzj82b3+UwcOXYdt1elz/BTCjQTM=
+   eJzt2NENgzAMBFDv0LJA6QIt++/W+gMpAicxPTd2JJ90n6CHSRCwEtEK9knnPAzOa9X0ze97N7oJvlfnmLIWHslgkf06rtr+5UGNo21HY88prfWRYeeN4vo4rb2fvn5qPq+9cUzNF2F2HMkXZXYcyRdldpz0YUkflvRhSR+W9GGZ0Xf/dvFEFZnx/Sp9uvC3G6+1aL7dVbN5+zT/k7x8rXvq/YzR2krjKOdVm+SsVesv173UX2yaatYqMh+0vTl62jRztPr//AEkr05N
   </data>
  </layer>
  <layer name="Wall Decoration" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+   eJzt0LEJACAMRUF3EPdf1crOxkiCwl3/wyOtwftG0t0e3GX17Jw2VrYt0T9W+6UTAAAAALg3AbONAIw=
   </data>
  </layer>
 </map>
