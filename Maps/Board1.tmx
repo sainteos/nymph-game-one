@@ -254,12 +254,11 @@
    </animation>
   </tile>
   <tile id="1">
-   <animation>
-    <frame tileid="1" duration="400"/>
-    <frame tileid="2" duration="400"/>
-    <frame tileid="1" duration="400"/>
-    <frame tileid="0" duration="400"/>
-   </animation>
+   <properties>
+    <property name="AnimatedSprite" value="True"/>
+    <property name="CharacterName" value="Aidan"/>
+    <property name="DefaultAnimation" value="Down_Still"/>
+   </properties>
   </tile>
   <tile id="4">
    <animation>
@@ -381,7 +380,7 @@
  </layer>
  <layer name="Player Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2MEJwjAUxvGk4AjiqR2hKzmISoOr2GOX8OQSXaLgAL5De+ilIQR9vub/gxBKLl+gvLzEOQBAiV5+e/0aWbfg5tczkOJYaSdI95R/ffAuaOcAgJhaamxjsM4Cubq5L73/cX/6kNFrh8gk+YPsIyyzdh6UZQ93afzWae6JWiO9UUpOK3uCjnPke2G5rl54mwSKcNAOALMmOR9GGW/OCQD4ig8kDBGD
+   eJzt2MEJwjAUxvGk4AjiqR2hKzmISoOr2GOX8OQMHaPgAL5De+ilIQR9vub/gxBKLl+gvLzEOQBAiV5+e/0aWbfg5tczkOJYaSdI95R/ffAuaOcAgJhaamxjsM4Cubq5L73/cX/6kNFrh8gk+YPsIyyzdh6UZQ93afzWae6JWiO9UUpOK3uCjnPke2G5rl54mwSKcNAOALMmOR9GGW/OCQD4ig8T4BGA
   </data>
  </layer>
  <layer name="Behind Walls" width="50" height="50">

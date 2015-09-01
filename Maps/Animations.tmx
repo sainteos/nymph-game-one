@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Acerbus" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Acerbus.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Glow"/>
+    <property name="CharacterName" value="Acerbus"/>
+   </properties>
+   <animation>
+    <frame tileid="0" duration="150"/>
+    <frame tileid="1" duration="150"/>
+    <frame tileid="2" duration="150"/>
+    <frame tileid="1" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="13" name="Aidan" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Aidan.png" width="192" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="19" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="CharacterName" value="Aidan"/>
+   </properties>
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="26" duration="200"/>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="24" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="200"/>
+    <frame tileid="29" duration="200"/>
+    <frame tileid="28" duration="200"/>
+    <frame tileid="27" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="32" duration="200"/>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="30" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="34">
+   <animation>
+    <frame tileid="34" duration="200"/>
+    <frame tileid="35" duration="200"/>
+    <frame tileid="34" duration="200"/>
+    <frame tileid="33" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="36">
+   <animation>
+    <frame tileid="37" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="38" duration="200"/>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="36" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="40">
+   <animation>
+    <frame tileid="40" duration="200"/>
+    <frame tileid="41" duration="200"/>
+    <frame tileid="40" duration="200"/>
+    <frame tileid="39" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="42">
+   <animation>
+    <frame tileid="43" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="43">
+   <animation>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="44" duration="200"/>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="42" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="46">
+   <animation>
+    <frame tileid="46" duration="200"/>
+    <frame tileid="47" duration="200"/>
+    <frame tileid="46" duration="200"/>
+    <frame tileid="45" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="61" name="Bat" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bat.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="73" name="bear" tilewidth="64" tileheight="64">
+  <image source="../Sprites/bear.png" width="384" height="512"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="300"/>
+    <frame tileid="5" duration="300"/>
+    <frame tileid="4" duration="300"/>
+    <frame tileid="3" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="17" duration="200"/>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="15" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="23" duration="200"/>
+    <frame tileid="22" duration="200"/>
+    <frame tileid="23" duration="200"/>
+    <frame tileid="21" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="121" name="bug" tilewidth="32" tileheight="32">
+  <image source="../Sprites/bug.png" width="96" height="128"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <animation>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="9">
+   <animation>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="133" name="Bullithrumble" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="145" name="chest" tilewidth="32" tileheight="32">
+  <image source="../Sprites/chest.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="157" name="chest2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/chest2.png" width="96" height="128"/>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="169" name="imp" tilewidth="32" tileheight="32">
+  <image source="../Sprites/imp.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="800"/>
+    <frame tileid="21" duration="400"/>
+    <frame tileid="27" duration="800"/>
+    <frame tileid="21" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="800"/>
+    <frame tileid="22" duration="400"/>
+    <frame tileid="28" duration="800"/>
+    <frame tileid="22" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="17">
+   <animation>
+    <frame tileid="17" duration="800"/>
+    <frame tileid="23" duration="400"/>
+    <frame tileid="29" duration="800"/>
+    <frame tileid="23" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="26">
+   <animation>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="24" duration="100"/>
+    <frame tileid="25" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="217" name="Junia" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Junia.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="229" name="Knight" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Knight.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="299"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="17" duration="200"/>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="15" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="22" duration="200"/>
+    <frame tileid="23" duration="200"/>
+    <frame tileid="22" duration="200"/>
+    <frame tileid="21" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="26" duration="200"/>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="24" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="200"/>
+    <frame tileid="29" duration="200"/>
+    <frame tileid="28" duration="200"/>
+    <frame tileid="27" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="32" duration="200"/>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="30" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="34">
+   <animation>
+    <frame tileid="34" duration="200"/>
+    <frame tileid="35" duration="200"/>
+    <frame tileid="34" duration="200"/>
+    <frame tileid="33" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="38" duration="200"/>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="36" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="40">
+   <animation>
+    <frame tileid="40" duration="200"/>
+    <frame tileid="41" duration="200"/>
+    <frame tileid="40" duration="200"/>
+    <frame tileid="39" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="43">
+   <animation>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="44" duration="200"/>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="42" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="46">
+   <animation>
+    <frame tileid="46" duration="200"/>
+    <frame tileid="47" duration="200"/>
+    <frame tileid="46" duration="200"/>
+    <frame tileid="45" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="277" name="Leon" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="289" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="301" name="LostSoul" tilewidth="32" tileheight="32">
+  <image source="../Sprites/LostSoul.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="400"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="9" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="15" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="26" duration="200"/>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="24" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="32" duration="200"/>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="30" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="38" duration="200"/>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="36" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="43">
+   <animation>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="44" duration="200"/>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="42" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="349" name="movement" tilewidth="32" tileheight="32">
+  <image source="../Sprites/movement.png" width="96" height="128"/>
+  <tile id="5">
+   <animation>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="3" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="11">
+   <animation>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="9" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="361" name="rat" tilewidth="32" tileheight="32">
+  <image source="../Sprites/rat.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+    <frame tileid="8" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="373" name="save" tilewidth="32" tileheight="32">
+  <image source="../Sprites/save.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="385" name="shadow" tilewidth="32" tileheight="32">
+  <image source="../Sprites/shadow.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="400"/>
+    <frame tileid="8" duration="400"/>
+    <frame tileid="7" duration="400"/>
+    <frame tileid="6" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="397" name="Slime" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Slime.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="3" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="445" name="tyet" tilewidth="32" tileheight="32">
+  <image source="../Sprites/tyet.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="17" duration="200"/>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="15" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="22" duration="200"/>
+    <frame tileid="23" duration="200"/>
+    <frame tileid="22" duration="200"/>
+    <frame tileid="21" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="25">
+   <animation>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="26" duration="200"/>
+    <frame tileid="25" duration="200"/>
+    <frame tileid="24" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="32" duration="200"/>
+    <frame tileid="31" duration="200"/>
+    <frame tileid="30" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="38" duration="200"/>
+    <frame tileid="37" duration="200"/>
+    <frame tileid="36" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="43">
+   <animation>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="44" duration="200"/>
+    <frame tileid="43" duration="200"/>
+    <frame tileid="42" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="493" name="Veldes" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Veldes.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="14" duration="200"/>
+    <frame tileid="13" duration="200"/>
+    <frame tileid="12" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="17" duration="200"/>
+    <frame tileid="16" duration="200"/>
+    <frame tileid="15" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="20" duration="200"/>
+    <frame tileid="19" duration="200"/>
+    <frame tileid="18" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="541" name="warden" tilewidth="64" tileheight="64">
+  <image source="../Sprites/warden.png" width="192" height="256"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="11" duration="200"/>
+    <frame tileid="10" duration="200"/>
+    <frame tileid="9" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="553" name="watcher" tilewidth="64" tileheight="64">
+  <image source="../Sprites/watcher.png" width="192" height="256"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="400"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="565" name="wall" tilewidth="32" tileheight="32">
+  <image source="../Sprites/wall.png" width="192" height="256"/>
+  <tile id="8">
+   <animation>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1NFHnXEAh/H3JEaUODNO0lnptI6yWpZmKYspUaRu6iq6mhgxRsQ4lEVKs6tdnet00dWsTGQRERFdpJgii5RSytLsiR+7qT9gej48vu95nffifV/eWBRFBfSQiugxVVA11dELSlMN1VMjNVMLvaY2asqJbjVMI/SBMjRG4zRBU/SJsvSDZmiOvtJ3mqVvNE8LtEU79JP2aJ8O6ZQu6Q/lxqIojwrpgN/HdE5XFOPcA8qnOD2iBBVTksooRZVURbX0lJ7TS3pFrdRB3dRLA/SGBuktDdE7ek8ZGqWPNE2T9Jm+UJYWaZlWaT3275ktcbxCa7RBm7RNu/SLjuiMft9cw3M/YS/o+ubeOBWnBCUpRVX0jBpuf0XSf6UkfGtKw5aHfRK2PfyvK2xn2J6wfWH7w6bv+HZJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJku63vwKsOWE=
+  </data>
+ </layer>
+</map>
