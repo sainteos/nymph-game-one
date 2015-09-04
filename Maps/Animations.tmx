@@ -5,7 +5,7 @@
   <tile id="0">
    <properties>
     <property name="AnimationName" value="Glow"/>
-    <property name="CharacterName" value="Acerbus"/>
+    <property name="SpriteName" value="Acerbus"/>
    </properties>
    <animation>
     <frame tileid="0" duration="150"/>
@@ -20,7 +20,7 @@
   <tile id="0">
    <properties>
     <property name="AnimationName" value="Down_Still"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="1" duration="100"/>
@@ -29,7 +29,7 @@
   <tile id="1">
    <properties>
     <property name="AnimationName" value="Down_Movement"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="1" duration="200"/>
@@ -41,7 +41,7 @@
   <tile id="6">
    <properties>
     <property name="AnimationName" value="Right_Still"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="7" duration="100"/>
@@ -50,7 +50,7 @@
   <tile id="7">
    <properties>
     <property name="AnimationName" value="Right_Movement"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="7" duration="200"/>
@@ -62,7 +62,7 @@
   <tile id="12">
    <properties>
     <property name="AnimationName" value="Left_Still"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="13" duration="100"/>
@@ -71,7 +71,7 @@
   <tile id="13">
    <properties>
     <property name="AnimationName" value="Left_Movement"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="13" duration="200"/>
@@ -83,7 +83,7 @@
   <tile id="18">
    <properties>
     <property name="AnimationName" value="Up_Still"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="19" duration="100"/>
@@ -92,7 +92,7 @@
   <tile id="19">
    <properties>
     <property name="AnimationName" value="Up_Movement"/>
-    <property name="CharacterName" value="Aidan"/>
+    <property name="SpriteName" value="Aidan"/>
    </properties>
    <animation>
     <frame tileid="19" duration="200"/>
@@ -183,7 +183,16 @@
  </tileset>
  <tileset firstgid="61" name="Bat" tilewidth="32" tileheight="32">
   <image source="../Sprites/Bat.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+   </properties>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="CaveBat"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -192,6 +201,10 @@
    </animation>
   </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="CaveBat"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -200,6 +213,10 @@
    </animation>
   </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="CaveBat"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -208,6 +225,10 @@
    </animation>
   </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="CaveBat"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -219,6 +240,10 @@
  <tileset firstgid="73" name="bear" tilewidth="64" tileheight="64">
   <image source="../Sprites/bear.png" width="384" height="512"/>
   <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Sleeping"/>
+    <property name="SpriteName" value="CaveBear"/>
+   </properties>
    <animation>
     <frame tileid="0" duration="200"/>
     <frame tileid="1" duration="200"/>
@@ -227,6 +252,10 @@
    </animation>
   </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="CaveBear"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="300"/>
     <frame tileid="5" duration="300"/>
@@ -235,6 +264,10 @@
    </animation>
   </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Emote"/>
+    <property name="SpriteName" value="CaveBear"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -243,6 +276,10 @@
    </animation>
   </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="CaveBear"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -251,6 +288,10 @@
    </animation>
   </tile>
   <tile id="16">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="CaveBear"/>
+   </properties>
    <animation>
     <frame tileid="16" duration="200"/>
     <frame tileid="17" duration="200"/>
@@ -259,6 +300,10 @@
    </animation>
   </tile>
   <tile id="22">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="CaveBear"/>
+   </properties>
    <animation>
     <frame tileid="23" duration="200"/>
     <frame tileid="22" duration="200"/>
@@ -270,6 +315,10 @@
  <tileset firstgid="121" name="bug" tilewidth="32" tileheight="32">
   <image source="../Sprites/bug.png" width="96" height="128"/>
   <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Horizontal"/>
+    <property name="SpriteName" value="Bug"/>
+   </properties>
    <animation>
     <frame tileid="0" duration="100"/>
     <frame tileid="1" duration="100"/>
@@ -277,6 +326,10 @@
    </animation>
   </tile>
   <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Vertical"/>
+    <property name="SpriteName" value="Bug"/>
+   </properties>
    <animation>
     <frame tileid="3" duration="100"/>
     <frame tileid="4" duration="100"/>
@@ -284,6 +337,10 @@
    </animation>
   </tile>
   <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Horizontal"/>
+    <property name="SpriteName" value="Pill"/>
+   </properties>
    <animation>
     <frame tileid="6" duration="100"/>
     <frame tileid="7" duration="100"/>
@@ -291,6 +348,10 @@
    </animation>
   </tile>
   <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Vertical"/>
+    <property name="SpriteName" value="Pill"/>
+   </properties>
    <animation>
     <frame tileid="9" duration="100"/>
     <frame tileid="10" duration="100"/>
@@ -300,7 +361,20 @@
  </tileset>
  <tileset firstgid="133" name="Bullithrumble" tilewidth="32" tileheight="32">
   <image source="../Sprites/Bullithrumble.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -308,7 +382,20 @@
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -316,7 +403,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -324,7 +424,20 @@
     <frame tileid="6" duration="200"/>
    </animation>
   </tile>
+  <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
+   <animation>
+    <frame tileid="10" duration="100"/>
+   </animation>
+  </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Bullith"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -335,7 +448,20 @@
  </tileset>
  <tileset firstgid="145" name="chest" tilewidth="32" tileheight="32">
   <image source="../Sprites/chest.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Close"/>
+    <property name="SpriteName" value="BadChest"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Discover"/>
+    <property name="SpriteName" value="Badchest"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="100"/>
     <frame tileid="0" duration="100"/>
@@ -348,20 +474,49 @@
     <frame tileid="8" duration="100"/>
    </animation>
   </tile>
+  <tile id="8">
+   <properties>
+    <property name="AnimationName" value="Open"/>
+    <property name="SpriteName" value="BadChest"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="157" name="chest2" tilewidth="32" tileheight="32">
   <image source="../Sprites/chest2.png" width="96" height="128"/>
   <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Discover"/>
+    <property name="SpriteName" value="SmallChest"/>
+   </properties>
    <animation>
     <frame tileid="3" duration="200"/>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
    </animation>
   </tile>
+  <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Close"/>
+    <property name="SpriteName" value="SmallChest"/>
+   </properties>
+   <animation>
+    <frame tileid="3" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="AnimationName" value="Open"/>
+    <property name="SpriteName" value="SmallChest"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="169" name="imp" tilewidth="32" tileheight="32">
   <image source="../Sprites/imp.png" width="192" height="256"/>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -370,6 +525,10 @@
    </animation>
   </tile>
   <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Special"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="3" duration="200"/>
     <frame tileid="4" duration="200"/>
@@ -378,6 +537,10 @@
    </animation>
   </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -386,6 +549,10 @@
    </animation>
   </tile>
   <tile id="13">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="13" duration="200"/>
     <frame tileid="14" duration="200"/>
@@ -394,6 +561,10 @@
    </animation>
   </tile>
   <tile id="15">
+   <properties>
+    <property name="AnimationName" value="WingLeft"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="15" duration="800"/>
     <frame tileid="21" duration="400"/>
@@ -402,6 +573,10 @@
    </animation>
   </tile>
   <tile id="16">
+   <properties>
+    <property name="AnimationName" value="WingCenter"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="16" duration="800"/>
     <frame tileid="22" duration="400"/>
@@ -410,6 +585,10 @@
    </animation>
   </tile>
   <tile id="17">
+   <properties>
+    <property name="AnimationName" value="WingRight"/>
+    <property name="SpriteName" value="Imp"/>
+   </properties>
    <animation>
     <frame tileid="17" duration="800"/>
     <frame tileid="23" duration="400"/>
@@ -436,7 +615,20 @@
  </tileset>
  <tileset firstgid="217" name="Junia" tilewidth="32" tileheight="32">
   <image source="../Sprites/Junia.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Junia"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Junia"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -444,7 +636,20 @@
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Junia"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Junia"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -452,7 +657,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Junia"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Junia"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -471,7 +689,20 @@
  </tileset>
  <tileset firstgid="229" name="Knight" tilewidth="32" tileheight="32">
   <image source="../Sprites/Knight.png" width="192" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -479,7 +710,26 @@
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="2">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -487,7 +737,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -495,7 +758,20 @@
     <frame tileid="6" duration="299"/>
    </animation>
   </tile>
+  <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
+   <animation>
+    <frame tileid="10" duration="100"/>
+   </animation>
+  </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -503,7 +779,20 @@
     <frame tileid="9" duration="200"/>
    </animation>
   </tile>
+  <tile id="12">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
+   <animation>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
   <tile id="13">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
    <animation>
     <frame tileid="13" duration="200"/>
     <frame tileid="14" duration="200"/>
@@ -511,7 +800,20 @@
     <frame tileid="12" duration="200"/>
    </animation>
   </tile>
+  <tile id="15">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
+   <animation>
+    <frame tileid="16" duration="100"/>
+   </animation>
+  </tile>
   <tile id="16">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
    <animation>
     <frame tileid="16" duration="200"/>
     <frame tileid="17" duration="200"/>
@@ -519,7 +821,20 @@
     <frame tileid="15" duration="200"/>
    </animation>
   </tile>
+  <tile id="18">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
+   <animation>
+    <frame tileid="19" duration="100"/>
+   </animation>
+  </tile>
   <tile id="19">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Knight1"/>
+   </properties>
    <animation>
     <frame tileid="19" duration="200"/>
     <frame tileid="20" duration="200"/>
@@ -527,7 +842,20 @@
     <frame tileid="18" duration="200"/>
    </animation>
   </tile>
+  <tile id="21">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
+   <animation>
+    <frame tileid="22" duration="100"/>
+   </animation>
+  </tile>
   <tile id="22">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Knight2"/>
+   </properties>
    <animation>
     <frame tileid="22" duration="200"/>
     <frame tileid="23" duration="200"/>
@@ -535,7 +863,20 @@
     <frame tileid="21" duration="200"/>
    </animation>
   </tile>
+  <tile id="24">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
+   <animation>
+    <frame tileid="25" duration="100"/>
+   </animation>
+  </tile>
   <tile id="25">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
    <animation>
     <frame tileid="25" duration="200"/>
     <frame tileid="26" duration="200"/>
@@ -543,7 +884,20 @@
     <frame tileid="24" duration="200"/>
    </animation>
   </tile>
+  <tile id="27">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
+   <animation>
+    <frame tileid="28" duration="100"/>
+   </animation>
+  </tile>
   <tile id="28">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
    <animation>
     <frame tileid="28" duration="200"/>
     <frame tileid="29" duration="200"/>
@@ -551,7 +905,20 @@
     <frame tileid="27" duration="200"/>
    </animation>
   </tile>
+  <tile id="30">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
+   <animation>
+    <frame tileid="31" duration="100"/>
+   </animation>
+  </tile>
   <tile id="31">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
    <animation>
     <frame tileid="31" duration="200"/>
     <frame tileid="32" duration="200"/>
@@ -559,7 +926,20 @@
     <frame tileid="30" duration="200"/>
    </animation>
   </tile>
+  <tile id="33">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
+   <animation>
+    <frame tileid="34" duration="100"/>
+   </animation>
+  </tile>
   <tile id="34">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
    <animation>
     <frame tileid="34" duration="200"/>
     <frame tileid="35" duration="200"/>
@@ -567,7 +947,20 @@
     <frame tileid="33" duration="200"/>
    </animation>
   </tile>
+  <tile id="36">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
+   <animation>
+    <frame tileid="37" duration="100"/>
+   </animation>
+  </tile>
   <tile id="37">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
    <animation>
     <frame tileid="37" duration="200"/>
     <frame tileid="38" duration="200"/>
@@ -575,7 +968,20 @@
     <frame tileid="36" duration="200"/>
    </animation>
   </tile>
+  <tile id="39">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
+   <animation>
+    <frame tileid="40" duration="100"/>
+   </animation>
+  </tile>
   <tile id="40">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
    <animation>
     <frame tileid="40" duration="200"/>
     <frame tileid="41" duration="200"/>
@@ -583,7 +989,20 @@
     <frame tileid="39" duration="200"/>
    </animation>
   </tile>
+  <tile id="42">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
+   <animation>
+    <frame tileid="43" duration="100"/>
+   </animation>
+  </tile>
   <tile id="43">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="HelmKnight"/>
+   </properties>
    <animation>
     <frame tileid="43" duration="200"/>
     <frame tileid="44" duration="200"/>
@@ -591,7 +1010,20 @@
     <frame tileid="42" duration="200"/>
    </animation>
   </tile>
+  <tile id="45">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
+   <animation>
+    <frame tileid="46" duration="100"/>
+   </animation>
+  </tile>
   <tile id="46">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Cassio"/>
+   </properties>
    <animation>
     <frame tileid="46" duration="200"/>
     <frame tileid="47" duration="200"/>
@@ -602,7 +1034,20 @@
  </tileset>
  <tileset firstgid="277" name="Leon" tilewidth="32" tileheight="32">
   <image source="../Sprites/Leon.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -610,7 +1055,20 @@
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -618,7 +1076,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -626,7 +1097,20 @@
     <frame tileid="6" duration="200"/>
    </animation>
   </tile>
+  <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
+   <animation>
+    <frame tileid="10" duration="100"/>
+   </animation>
+  </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="YoungLeon"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -637,7 +1121,20 @@
  </tileset>
  <tileset firstgid="289" name="Leon2" tilewidth="32" tileheight="32">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -645,7 +1142,20 @@
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -653,7 +1163,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -661,7 +1184,20 @@
     <frame tileid="6" duration="200"/>
    </animation>
   </tile>
+  <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
+   <animation>
+    <frame tileid="10" duration="100"/>
+   </animation>
+  </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Leon"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -672,7 +1208,20 @@
  </tileset>
  <tileset firstgid="301" name="LostSoul" tilewidth="32" tileheight="32">
   <image source="../Sprites/LostSoul.png" width="192" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -681,6 +1230,10 @@
    </animation>
   </tile>
   <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Transform"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
    <animation>
     <frame tileid="3" duration="400"/>
     <frame tileid="4" duration="200"/>
@@ -691,7 +1244,31 @@
     <frame tileid="15" duration="200"/>
    </animation>
   </tile>
+  <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Idle"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
+   <animation>
+    <frame tileid="3" duration="1800"/>
+    <frame tileid="16" duration="100"/>
+    <frame tileid="3" duration="600"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="LoutSoulM"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -699,7 +1276,20 @@
     <frame tileid="6" duration="200"/>
    </animation>
   </tile>
+  <tile id="12">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
+   <animation>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
   <tile id="13">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
    <animation>
     <frame tileid="13" duration="200"/>
     <frame tileid="14" duration="200"/>
@@ -707,7 +1297,20 @@
     <frame tileid="12" duration="200"/>
    </animation>
   </tile>
+  <tile id="18">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
+   <animation>
+    <frame tileid="19" duration="100"/>
+   </animation>
+  </tile>
   <tile id="19">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="LostSoulM"/>
+   </properties>
    <animation>
     <frame tileid="19" duration="200"/>
     <frame tileid="20" duration="200"/>
@@ -715,7 +1318,20 @@
     <frame tileid="18" duration="200"/>
    </animation>
   </tile>
+  <tile id="24">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
+   <animation>
+    <frame tileid="25" duration="100"/>
+   </animation>
+  </tile>
   <tile id="25">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
    <animation>
     <frame tileid="25" duration="200"/>
     <frame tileid="26" duration="200"/>
@@ -723,7 +1339,20 @@
     <frame tileid="24" duration="200"/>
    </animation>
   </tile>
+  <tile id="30">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
+   <animation>
+    <frame tileid="31" duration="100"/>
+   </animation>
+  </tile>
   <tile id="31">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
    <animation>
     <frame tileid="31" duration="200"/>
     <frame tileid="32" duration="200"/>
@@ -731,7 +1360,20 @@
     <frame tileid="30" duration="200"/>
    </animation>
   </tile>
+  <tile id="36">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
+   <animation>
+    <frame tileid="37" duration="100"/>
+   </animation>
+  </tile>
   <tile id="37">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
    <animation>
     <frame tileid="37" duration="200"/>
     <frame tileid="38" duration="200"/>
@@ -739,7 +1381,20 @@
     <frame tileid="36" duration="200"/>
    </animation>
   </tile>
+  <tile id="42">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
+   <animation>
+    <frame tileid="43" duration="100"/>
+   </animation>
+  </tile>
   <tile id="43">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="LostSoulR"/>
+   </properties>
    <animation>
     <frame tileid="43" duration="200"/>
     <frame tileid="44" duration="200"/>
@@ -751,6 +1406,10 @@
  <tileset firstgid="349" name="movement" tilewidth="32" tileheight="32">
   <image source="../Sprites/movement.png" width="96" height="128"/>
   <tile id="5">
+   <properties>
+    <property name="AnimationName" value="Flash"/>
+    <property name="SpriteName" value="HeroTile"/>
+   </properties>
    <animation>
     <frame tileid="5" duration="200"/>
     <frame tileid="3" duration="200"/>
@@ -763,6 +1422,10 @@
    </animation>
   </tile>
   <tile id="11">
+   <properties>
+    <property name="AnimationName" value="Flash"/>
+    <property name="SpriteName" value="MobTile"/>
+   </properties>
    <animation>
     <frame tileid="11" duration="200"/>
     <frame tileid="9" duration="200"/>
@@ -777,28 +1440,80 @@
  </tileset>
  <tileset firstgid="361" name="rat" tilewidth="32" tileheight="32">
   <image source="../Sprites/rat.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="6" duration="200"/>
     <frame tileid="8" duration="200"/>
    </animation>
   </tile>
+  <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
+   <animation>
+    <frame tileid="10" duration="100"/>
+   </animation>
+  </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="CaveRat"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -809,6 +1524,10 @@
  <tileset firstgid="373" name="save" tilewidth="32" tileheight="32">
   <image source="../Sprites/save.png" width="96" height="128"/>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Flash"/>
+    <property name="SpriteName" value="Save"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="100"/>
     <frame tileid="2" duration="100"/>
@@ -839,7 +1558,20 @@
  </tileset>
  <tileset firstgid="385" name="shadow" tilewidth="32" tileheight="32">
   <image source="../Sprites/shadow.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Ver_Still"/>
+    <property name="SpriteName" value="Shadowman"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Ver_Movement"/>
+    <property name="SpriteName" value="Shadowman"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="400"/>
     <frame tileid="2" duration="400"/>
@@ -847,7 +1579,20 @@
     <frame tileid="0" duration="400"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="Shadowman"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Shadowman"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="400"/>
     <frame tileid="5" duration="400"/>
@@ -855,7 +1600,20 @@
     <frame tileid="3" duration="400"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Shadowman"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Shadowman"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="400"/>
     <frame tileid="8" duration="400"/>
@@ -867,6 +1625,10 @@
  <tileset firstgid="397" name="Slime" tilewidth="32" tileheight="32">
   <image source="../Sprites/Slime.png" width="192" height="256"/>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Slime"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -875,6 +1637,10 @@
    </animation>
   </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Rising"/>
+    <property name="SpriteName" value="Slime"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -883,6 +1649,10 @@
    </animation>
   </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Slime"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -909,7 +1679,20 @@
  </tileset>
  <tileset firstgid="445" name="tyet" tilewidth="32" tileheight="32">
   <image source="../Sprites/tyet.png" width="192" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -917,7 +1700,20 @@
     <frame tileid="0" duration="200"/>
    </animation>
   </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -925,7 +1721,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -933,7 +1742,20 @@
     <frame tileid="6" duration="200"/>
    </animation>
   </tile>
+  <tile id="9">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
+   <animation>
+    <frame tileid="10" duration="100"/>
+   </animation>
+  </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -941,7 +1763,20 @@
     <frame tileid="9" duration="200"/>
    </animation>
   </tile>
+  <tile id="12">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
+   <animation>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
   <tile id="13">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
    <animation>
     <frame tileid="13" duration="200"/>
     <frame tileid="14" duration="200"/>
@@ -949,7 +1784,20 @@
     <frame tileid="12" duration="200"/>
    </animation>
   </tile>
+  <tile id="15">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
+   <animation>
+    <frame tileid="16" duration="100"/>
+   </animation>
+  </tile>
   <tile id="16">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
    <animation>
     <frame tileid="16" duration="200"/>
     <frame tileid="17" duration="200"/>
@@ -957,7 +1805,20 @@
     <frame tileid="15" duration="200"/>
    </animation>
   </tile>
+  <tile id="18">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
+   <animation>
+    <frame tileid="19" duration="100"/>
+   </animation>
+  </tile>
   <tile id="19">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="TyetR"/>
+   </properties>
    <animation>
     <frame tileid="19" duration="200"/>
     <frame tileid="20" duration="200"/>
@@ -965,7 +1826,20 @@
     <frame tileid="18" duration="200"/>
    </animation>
   </tile>
+  <tile id="21">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
+   <animation>
+    <frame tileid="22" duration="100"/>
+   </animation>
+  </tile>
   <tile id="22">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="TyetY"/>
+   </properties>
    <animation>
     <frame tileid="22" duration="200"/>
     <frame tileid="23" duration="200"/>
@@ -973,7 +1847,20 @@
     <frame tileid="21" duration="200"/>
    </animation>
   </tile>
+  <tile id="24">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
+   <animation>
+    <frame tileid="25" duration="100"/>
+   </animation>
+  </tile>
   <tile id="25">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
    <animation>
     <frame tileid="25" duration="200"/>
     <frame tileid="26" duration="200"/>
@@ -981,7 +1868,20 @@
     <frame tileid="24" duration="200"/>
    </animation>
   </tile>
+  <tile id="30">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
+   <animation>
+    <frame tileid="31" duration="100"/>
+   </animation>
+  </tile>
   <tile id="31">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
    <animation>
     <frame tileid="31" duration="200"/>
     <frame tileid="32" duration="200"/>
@@ -989,7 +1889,20 @@
     <frame tileid="30" duration="200"/>
    </animation>
   </tile>
+  <tile id="36">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
+   <animation>
+    <frame tileid="37" duration="100"/>
+   </animation>
+  </tile>
   <tile id="37">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
    <animation>
     <frame tileid="37" duration="200"/>
     <frame tileid="38" duration="200"/>
@@ -997,7 +1910,20 @@
     <frame tileid="36" duration="200"/>
    </animation>
   </tile>
+  <tile id="42">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
+   <animation>
+    <frame tileid="43" duration="100"/>
+   </animation>
+  </tile>
   <tile id="43">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="TyetB"/>
+   </properties>
    <animation>
     <frame tileid="43" duration="200"/>
     <frame tileid="44" duration="200"/>
@@ -1008,7 +1934,20 @@
  </tileset>
  <tileset firstgid="493" name="Veldes" tilewidth="32" tileheight="32">
   <image source="../Sprites/Veldes.png" width="192" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -1017,6 +1956,10 @@
    </animation>
   </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Down_Panic"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -1024,7 +1967,20 @@
     <frame tileid="3" duration="200"/>
    </animation>
   </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Right_Still"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -1033,6 +1989,10 @@
    </animation>
   </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Right_Panic"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -1040,7 +2000,20 @@
     <frame tileid="9" duration="200"/>
    </animation>
   </tile>
+  <tile id="12">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
+   <animation>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
   <tile id="13">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="13" duration="200"/>
     <frame tileid="14" duration="200"/>
@@ -1049,6 +2022,10 @@
    </animation>
   </tile>
   <tile id="16">
+   <properties>
+    <property name="AnimationName" value="Left_Panic"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="16" duration="200"/>
     <frame tileid="17" duration="200"/>
@@ -1056,7 +2033,20 @@
     <frame tileid="15" duration="200"/>
    </animation>
   </tile>
+  <tile id="18">
+   <properties>
+    <property name="AnimationName" value="Up_Still"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
+   <animation>
+    <frame tileid="19" duration="100"/>
+   </animation>
+  </tile>
   <tile id="19">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
    <animation>
     <frame tileid="19" duration="200"/>
     <frame tileid="20" duration="200"/>
@@ -1064,10 +2054,20 @@
     <frame tileid="18" duration="200"/>
    </animation>
   </tile>
+  <tile id="25">
+   <properties>
+    <property name="AnimationName" value="KO"/>
+    <property name="SpriteName" value="YoungVeldes"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="541" name="warden" tilewidth="64" tileheight="64">
   <image source="../Sprites/warden.png" width="192" height="256"/>
   <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Warden"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="200"/>
     <frame tileid="2" duration="200"/>
@@ -1076,6 +2076,10 @@
    </animation>
   </tile>
   <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Warden"/>
+   </properties>
    <animation>
     <frame tileid="4" duration="200"/>
     <frame tileid="5" duration="200"/>
@@ -1084,6 +2088,10 @@
    </animation>
   </tile>
   <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Warden"/>
+   </properties>
    <animation>
     <frame tileid="7" duration="200"/>
     <frame tileid="8" duration="200"/>
@@ -1092,6 +2100,10 @@
    </animation>
   </tile>
   <tile id="10">
+   <properties>
+    <property name="AnimationName" value="Up_Movement"/>
+    <property name="SpriteName" value="Warden"/>
+   </properties>
    <animation>
     <frame tileid="10" duration="200"/>
     <frame tileid="11" duration="200"/>
@@ -1103,6 +2115,10 @@
  <tileset firstgid="553" name="watcher" tilewidth="64" tileheight="64">
   <image source="../Sprites/watcher.png" width="192" height="256"/>
   <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Blink"/>
+    <property name="SpriteName" value="Watcher"/>
+   </properties>
    <animation>
     <frame tileid="0" duration="400"/>
     <frame tileid="1" duration="100"/>
@@ -1114,6 +2130,10 @@
  <tileset firstgid="565" name="wall" tilewidth="32" tileheight="32">
   <image source="../Sprites/wall.png" width="192" height="256"/>
   <tile id="8">
+   <properties>
+    <property name="AnimationName" value="Flash"/>
+    <property name="SpriteName" value="Boundary"/>
+   </properties>
    <animation>
     <frame tileid="8" duration="100"/>
     <frame tileid="7" duration="100"/>
@@ -1126,9 +2146,183 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="613" name="Crimsonwood" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/Crimsonwood.png" width="480" height="800"/>
+  <tile id="105">
+   <properties>
+    <property name="AnimationName" value="Normal"/>
+    <property name="SpriteName" value="BridgeTop"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="AnimationName" value="Break"/>
+    <property name="SpriteName" value="BridgeTop"/>
+   </properties>
+   <animation>
+    <frame tileid="105" duration="400"/>
+    <frame tileid="108" duration="400"/>
+    <frame tileid="109" duration="400"/>
+    <frame tileid="125" duration="800"/>
+   </animation>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="AnimationName" value="Normal"/>
+    <property name="SpriteName" value="BridgeMiddle"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="AnimationName" value="Break"/>
+    <property name="SpriteName" value="BridgeMiddle"/>
+   </properties>
+   <animation>
+    <frame tileid="120" duration="400"/>
+    <frame tileid="123" duration="400"/>
+    <frame tileid="124" duration="400"/>
+    <frame tileid="125" duration="800"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="AnimationName" value="Break"/>
+    <property name="SpriteName" value="Woodbreak"/>
+   </properties>
+   <animation>
+    <frame tileid="126" duration="200"/>
+    <frame tileid="127" duration="200"/>
+    <frame tileid="125" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="AnimationName" value="Normal"/>
+    <property name="SpriteName" value="BridgeBottom"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="AnimationName" value="Break"/>
+    <property name="SpriteName" value="BridgeBottom"/>
+   </properties>
+   <animation>
+    <frame tileid="135" duration="400"/>
+    <frame tileid="138" duration="400"/>
+    <frame tileid="139" duration="400"/>
+    <frame tileid="125" duration="800"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="988" name="dunegon" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/dunegon.png" width="480" height="800"/>
+  <tile id="146">
+   <animation>
+    <frame tileid="146" duration="100"/>
+    <frame tileid="160" duration="100"/>
+    <frame tileid="159" duration="100"/>
+    <frame tileid="160" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="AnimationName" value="Discover"/>
+    <property name="SpriteName" value="Safe"/>
+   </properties>
+   <animation>
+    <frame tileid="157" duration="100"/>
+    <frame tileid="155" duration="100"/>
+    <frame tileid="154" duration="100"/>
+    <frame tileid="153" duration="100"/>
+    <frame tileid="170" duration="100"/>
+    <frame tileid="169" duration="100"/>
+    <frame tileid="168" duration="100"/>
+    <frame tileid="152" duration="100"/>
+    <frame tileid="167" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="AnimationName" value="Close"/>
+    <property name="SpriteName" value="Safe"/>
+   </properties>
+  </tile>
+  <tile id="158">
+   <properties>
+    <property name="AnimationName" value="Blaze"/>
+    <property name="SpriteName" value="DarkFire"/>
+   </properties>
+   <animation>
+    <frame tileid="158" duration="100"/>
+    <frame tileid="144" duration="100"/>
+    <frame tileid="143" duration="100"/>
+    <frame tileid="144" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="AnimationName" value="Open"/>
+    <property name="SpriteName" value="Safe"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="AnimationName" value="Still"/>
+    <property name="SpriteName" value="HangedManTop"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="AnimationName" value="Moving"/>
+    <property name="SpriteName" value="HangedManTop"/>
+   </properties>
+   <animation>
+    <frame tileid="218" duration="200"/>
+    <frame tileid="217" duration="200"/>
+    <frame tileid="218" duration="200"/>
+    <frame tileid="216" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="AnimationName" value="Still"/>
+    <property name="SpriteName" value="HangedManMiddle"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="AnimationName" value="Moving"/>
+    <property name="SpriteName" value="HangedManMiddle"/>
+   </properties>
+   <animation>
+    <frame tileid="233" duration="200"/>
+    <frame tileid="232" duration="200"/>
+    <frame tileid="233" duration="200"/>
+    <frame tileid="231" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="AnimationName" value="Still"/>
+    <property name="SpriteName" value="HangedManShadow"/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="AnimationName" value="Moving"/>
+    <property name="SpriteName" value="HangedManShadow"/>
+   </properties>
+   <animation>
+    <frame tileid="245" duration="200"/>
+    <frame tileid="247" duration="200"/>
+    <frame tileid="245" duration="200"/>
+    <frame tileid="246" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer name="Tile Layer 1" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt1NFHnXEAh/H3JEaUODNO0lnptI6yWpZmKYspUaRu6iq6mhgxRsQ4lEVKs6tdnet00dWsTGQRERFdpJgii5RSytLsiR+7qT9gej48vu95nffifV/eWBRFBfSQiugxVVA11dELSlMN1VMjNVMLvaY2asqJbjVMI/SBMjRG4zRBU/SJsvSDZmiOvtJ3mqVvNE8LtEU79JP2aJ8O6ZQu6Q/lxqIojwrpgN/HdE5XFOPcA8qnOD2iBBVTksooRZVURbX0lJ7TS3pFrdRB3dRLA/SGBuktDdE7ek8ZGqWPNE2T9Jm+UJYWaZlWaT3275ktcbxCa7RBm7RNu/SLjuiMft9cw3M/YS/o+ubeOBWnBCUpRVX0jBpuf0XSf6UkfGtKw5aHfRK2PfyvK2xn2J6wfWH7w6bv+HZJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJku63vwKsOWE=
+   eJzt01toj2EcwPH3P/8mcsqQoc20mZnTHHLKqRwSyuECV8oVcoqiScmcJpomN1yNS7lQaiGEOUSOE4UtYzlltsY0puH71nNHSk1K3299+vU+vW/v4elNRFHUBT3QB/0xEEMwEuOQh+EYg4mYjGmYjlmYlBJFtdiRjKJCbEZcIbZiG4qwG3uxHwdwEGWowHGcRDnO4QRO4wzO4gmqUYNavEIdPuAzviGZiKKO6Ia3HDfgE74iwVp7dEYaeiEd/ZCJAcjBIORjBIZhNCZgKmZiLhZiCZZjBVZhDdZjIzahCLtQjFKU4BCOoAwXcAU3cQ8XcQ2XcB238QCPUIUXeIN6NKEFEd+8kdmM1vjdWEpDOjKRg3wUYCzec85HfMH3+PlYK8Y+lKAUh3EUx6Lf9xhVeBaOX+IdGtGMVrTjHh3QNX52juvRhJb4AtZS0Qnd0RO90RcZyEI2cjEYBRiKURiPKZiBOViAxViJ1ViHDdiOndiD86jADdzFQzzFc7xO/Px+lazd+sV6W3WHvbuPU/wr5diC1JS/d7//pYzwjbLCzA4zN8zZ4bz5Yc4Lc1GYS8NcFmZeuK6aWYPL7MNVrE229ZPbn1THXjTE/wj7UOlemJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmdk/6Acx/2rE
   </data>
  </layer>
 </map>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
+  <tile id="8">
+   <animation>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ground Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJydlUlu40AQBEW9QP9/rX2wASImIpueA6GFZC259ef1er2/r8/P9b79vvCd9+//35+/8L/Vv27v1GX9PtGPde/9uAfnYZ3r9S8O93mtzv0d1uce/M9mW7VqnkvqsxZxJV7Gg81g77AvMaZeiDlxfKIx9qIWyMs7eludpXvjgfwQ95qDM9h9cmUatjmeYEHP1SwL+/JPaZpatawxvdhFnvjbfEFcDB/DpnRtuWda5/OmRz5v+Wl+td0KL9u/+Da8zKvL/0+1v/CxvKqrMqzyZ+Va9Sy+7DyqvK58qbqW98U9Nbr6W4/Sdz1j+qkM5/P0qOUaM6iy2PRnn6um6d1wsqwrjkwXpXnL2pVT3Ll8VBlUGJ1m5fvsZblXHrJssZ42C/No7VxY8z51afoxz5ou7TyhXk6eL24qB57kTOVC5T7rVr2V1VbD7q3sonaferu8VT0KY9Pv6VwrPm3GOq9K90uD5PGkdeJgtU1ztkudDZU5C2dqyzC2mWxu04vpyvRhHjFu14xrZsszesR8+b++Mv9z3/K3nR9PM9S0ZeeFeXGdBSduiW3l3zo3CiPqZmXV0op9r10XxuaZ2r/OCuPWsCmf2m/DhD6y3SzXjQ/Ti/UtD7JmcWJcnvCwnDNu6E/WNX+b94hR4Wl8VFZVnpCz8pL50OobJitzy2uFf2m8tLCyiRlpPcyzrF38r0ysXKpsOOnH+LH5LWsMb/YyLuiX0mpx/JcdOGs9X3qsM2PhYfvXRe2VnstD93unbORslYHUZ3Fl/BfGluP1/OLMPEwd2HPEts6T1a/wLRyMt8oh8kq91f4rU/if6cH4L3ytt2nEdqJeqQnTkPmCPU3bxeWqb/ftLFiar2wqHxnfhRd3tfdYw/gwjRgfK+sMr1OG2jOWEeYX80BpnX0tu5aGjQPLMcO4uCB/NYNlitW5c8q9iT3rW7YvnA3bpY/yE73EbLH8phasr+1BfAx/ywrjvmY95XthQBwtL8uv1I7NUjiadizfS0eVQSvbDA/WJ3+LA+PE+DGuiLl5sfRdWJYnLT9KX1a7fG77Et/KScOgfFGasdwq3VnekLua59T/9Fl+IwZPdG5clVcKh+Uhm9X4K95OeWG65i7EwnY46dg8y+dMC5zFLu5q/i3M6n3yWPiXlsyXNadlwinz+T7xYm9qsvJjcbg4Z8YuT9rMlk+mkZWdrE1eyKd5/ff6AozjP1g=
+  </data>
+ </layer>
+ <layer name="Ground Layer2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENgDAMRFEXTEILE4T998IVE+DEkd6Tfn8XAcBMV3avHvEDP3rxoxc/evGjl5E9q0fwOYqa7SwKAAAAAADYzwtSDAbJ
+  </data>
+ </layer>
+ <layer name="Player Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz7EJACAQBMGPze1A+7R0bcBM9JEZuPw2AoDbasR4/eEEHbnoyEVHLjry6Gtt01E+6AMAAAAAAOCtCcKaBpE=
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz0EKgCAURdGmrbZWYG7A1tyHECSaOAgTzoGL5ci3LAAAfGWL9kczStHRFP+5boszD3xal7cdqfke+LQuJTqbyqQ71rvc3tVtZaIdAAAAAAAA/McFNvwT5A==
+  </data>
+ </layer>
+ <layer name="Wall Dec" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjEKgDAQRcEcwFxTawWt9QR6ZLewsBAsUqzIDDwCS4pfCgAAvKvX26WuaDNGU9RHw+1en79/1hpt0RwtuVOa7NGRPQIAAAAAAIBfOQHl6wTi
+  </data>
+ </layer>
+</map>

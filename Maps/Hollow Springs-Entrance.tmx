@@ -3,29 +3,32 @@
  <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
   <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
  </tileset>
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+ </tileset>
  <layer name="Ground Layer" width="21" height="21">
   <data encoding="base64" compression="zlib">
-   eJyNlEESwzAIAzEv8P9f2x5ycLcrnAMTxo4RCMGuqv21lu96zM72Y/RpG3FO49sGVsKb8ur6zWuFOHyzgMkz5mh5pHr6OOd/ybr+a2Q9Uyzrgd3TJ/Z5Zxo5c2L+5Nk0YLFMC6m35GPS8aQz0y+5SvpgzdRAyjXNVJot+knD5JmxjX+rwWYg4S7Ennhkr9jTaaYN23iz2Kk+44axbnjWa/pp5xkvt91rfNlM2h69aekNBucm1We8ph5Me3Tinb1l/z/mcQwN
+   eJyNlEsWwzAIAzEn8P1P2y68cKYjmgUvPDvmIyR2Ve2vtXzXMTvbx+jTNuLcxreNXCnfVFfXs64V4vDNQk6esUarI/XT1zn/S9b12yP7mWLZDOyePnPfd8aRuybWT5yNAxbLuJBmSzwmHk88M/4Sq8QP9kwOpFqTppK26CcOE2fGNvytB9NAyrsQe8KRs+JMJ01bbvbEWMSbfRg2xrNpTjZr+uw37cs3uzdpIGkt7QLL+a9+cocxjLOmdb6Z9uiEO2dLXX4ASg0Log==
   </data>
  </layer>
  <layer name="Ground Layer 2" width="21" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYMANRPHIkQukaWCmFhBrE4HJNZNagF5myqBhSszUwSJGTvhaIrGZgZiVCmaqALEq1Dx9IBaB2mNFABMDhIBYGIj1gJiFCEwMUARiBai58kCsRAATC4Sg5imToIcYM0WoaN6omaNmDpSZABOUDfs=
+   eJxjYMANRPHIkQukaWCmFhBrE4HJNZNagF5myqBhSszUwSJGbPh2I7GR0xIzELNSwUwVIFaFmqcPxCJAbAnEVgQwPjNhQAiIhYFYD4hZiMDEmKkIxApQc+WBWIkAJsZMmFtB5ikDcSAQB+FQhw3gM1MEyk4A4kQqmwkCpjgwJWa64MCkAHLNDKCBmfFUNjOeRDODcWB0kEeCmdQApJgJAFD6Hv4=
   </data>
  </layer>
  <layer name="Wall Layer" width="21" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYKA/kCEDEwu4cWBtLJhYIIUDU2KmJA5MiZkSODAlZg4lwAfEYkCsSgCPglEwCkYOAAClEQgZ
+   eJzl0bEKwjAQxvHsgqOou5NrERcVFKuCOlkd1EXre2SuT6BP61eSwBHuNJpsHvw4uvybppVSqhL8OlIvdfNh0WkI+gyueWfe3RXENDuCmGZbENKs7/EJU6YbOty/Piilr2Ynada9C/YKsDXtNqEFvQ/85hx2tomt8axjz+mawy+bIxjDRGgOYGl2cHMNG9gyzRwWsDdb54HNI5zgzDQL23MKoZnBzMrIVkyzhBtRvmly3ZjxW05sk35zinP656P3+c/zAhrDTQ4=
   </data>
  </layer>
  <layer name="Wall Dec" width="21" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvEB3CZmpS2UxxKK2ORlNiphoZZhAykxqAFmaOglEwCkYBIQAA9PYBSA==
+   eJxjYMAOuijA+EA3EM8kA2MDNVB6FgE7yQGiWMQ0qWymOJRWR6MpMVONDDNAoAaJjc3vlAJLGpjpBcTeVDYzEoijqGwmtQHbQDuACCCIRpMKjAhgQwaGBlLNdCSAHcgwMwAJO1DJzHgk7I9mRwBEjCIz49D4UDGSzcxDwtQyExnkotmRBxEj2UwAwVsrCw==
   </data>
  </layer>
  <layer name="Wall Dec2" width="21" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwVoUKhfFkpLA7EMEh4swAqKrQfaIaNgFIyCEQMAq04BZA==
+   eJxjYKA/kCEDjwSgQaF+WSgtzTA4w84Kiq0H2iGjACvQpYGZNjQwcxSQB+QYGB7wAzGtzDdmYGjIANKZEDbVQDkQV1CgHwDScQfM
   </data>
  </layer>
 </map>
