@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32" tilecount="375">
   <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
   <tile id="8">
    <animation>
@@ -10,9 +10,28 @@
     <frame tileid="8" duration="100"/>
    </animation>
   </tile>
+  <tile id="150">
+   <animation>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="135" duration="100"/>
+    <frame tileid="180" duration="100"/>
+    <frame tileid="135" duration="100"/>
+   </animation>
+  </tile>
  </tileset>
- <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32" tilecount="12">
+  <image source="../Sprites/nun.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
  </tileset>
  <layer name="Ground Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
@@ -21,17 +40,17 @@
  </layer>
  <layer name="Ground Layer2" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt0dEJwjAURuEL1gXUBayPSn23swk+xwnqVOIC4gLiCN5Cg33QoEm0iZwPDgipJT81ImK69pIvI+xICTvSYjc02mHgu4RoJP8NraW2CnzHUTtFuEuIGDvO2iXCXUKw4yG1HVvHc3q2e3WW2g6Xf9nhwo54nu2YaFNt9uY7rtot5qU8bLS6+z3SCm0tn+1o/zeOfzVvc63stXA8azfb3ZUMu6XwzH6zflXv/NfKLwUAAAAAAAAAAPJzB2MeKiY=
+   eJzt1UEKwjAQheEB6wXUC1iXSt3r2QTX8QT1VOIFxAuIR3AKDWRhB9rGNpX/gweFtGEehcSJiKtzkelyQo+U0CMtvkOpuY48Sx+lTL9DZavZ9dzjprlHmKWPph4zTRZkbuzx0Dzjj9ZKU4+FZhlkZeyRco+1Jg+yMfZIrcfJeE/Xzk1rqfWw/EsPCz3i+dbDn1XWGRV6ad4xh+rgoDnWz/7O2Eu7HtV31v0ytDZnbXhPVr0LGbdL1jH+n4UpgvWh5T8KAAAAAAAAAACYng91EytD
   </data>
  </layer>
  <layer name="Player Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztzyEOwCAQRNHV+N4A7lnfS4PC4Zrspn0vGT8/AviLJ/sA2xVxZ394g45adNSioxYddYy1fuhoH+gDAAAAAAAg1wTWFwcc
+   eJzt0rEJgEAMQNHY2ruB7mlj5QCuq5XdNRrIoe/BwVUhHxIB/MVevQC3KWKt3iFDVsc2ZEx57k3H0fhXcFd9cVd90dGP5Xpzo2P8QB8AAAAAAAC1TgpcCf4=
   </data>
  </layer>
  <layer name="Wall Layer" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztlc1OAjEUhe/Wt3HFK/gC4hPgGhPcgg06snFMRoQ1/sW1Pw/oKW3xWmYSJ5rpNDlf8mXaudxwzgZE9jmGA6fB2YT3c3jZ0rna7xrb4chpBipHpT7zqc5X8LphViXsMYQn3mFND5v7XFx2e17AQt3DzO/s9rtmBE+9o6jHm2xzmw/ZZjcLb+HueibvkrZHE7bHHVzCFbz3HZb+XESzJ9jXHpa1uKxr32El39n1zO+YLrK9tjD0eIHP7rnLHbLrWZc92lDVvAu5dfZoZ+9daup6/GLH/HeOv5JLjwm8aXDifntak6LHFB42OM2oxxieRebYYwYvlLib0G2ceY+ZOufSo4S3yjLqscHzIfJR7eNs4vkmQY8D54/vDd3KHv4PEEIIIYQQQgghhBBCCCGEkP7zBW3GfzA=
+   eJztlc1OAjEUhbv1bVzxCr6A+ASwhgS3YIOObBySEWEr/sWdiejWnb6Xp7Qdr3VmItFMZ5LzJV+m5bbDORtQ6ieHsGPVWGv/+RSe7uhU3K8b0+HAqjsiRybOvIr1GTwvmWURe3ThkbNb0MPkPlY2u1nPYCL2fubu5Pfrpgf7zl7Q41ltc+sXtc2uZ87E7uVMbVTcHmWYHpdwAZfwynVYuHUSzO5gU3sYVspmXbkOS/WVXc7cHV1Htscd9D0e4L195rl9djmrs0cV7/DDacgKzvjcMrukCT1Cinr84o7+7xx/Rfa4rjgnZzF6jOBFiSP725PzVPEeOYvRYwz3Sxy3qMcADgPb2GMCT4TYa99t0PIeE7GWPd4q3iNnMXqkcC5Mgx5rPG8Cb8V9rHU4X0fosWf99r2+W9rA/wFCCCGEEEIIIYQQQgghhBDSfD4BRhKJpg==
   </data>
  </layer>
  <layer name="Wall Dec" width="50" height="50">
