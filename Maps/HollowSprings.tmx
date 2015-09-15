@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32" tilecount="375">
+ <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
   <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
   <tile id="8">
    <animation>
@@ -19,10 +19,10 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32">
   <image source="../Sprites/nun.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -40,7 +40,7 @@
  </layer>
  <layer name="Ground Layer2" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt1UEKwjAQheEB6wXUC1iXSt3r2QTX8QT1VOIFxAuIR3AKDWRhB9rGNpX/gweFtGEehcSJiKtzkelyQo+U0CMtvkOpuY48Sx+lTL9DZavZ9dzjprlHmKWPph4zTRZkbuzx0Dzjj9ZKU4+FZhlkZeyRco+1Jg+yMfZIrcfJeE/Xzk1rqfWw/EsPCz3i+dbDn1XWGRV6ad4xh+rgoDnWz/7O2Eu7HtV31v0ytDZnbXhPVr0LGbdL1jH+n4UpgvWh5T8KAAAAAAAAAACYng91EytD
+   eJztlUEKwjAQRQfUC6h7sS6VutezCa7rCepJ7AncihcQLyAewQk0MKgd0yapLfwHD4TUOD+ZjhkRZaUH6i8ZIUeXQI5uYTPk7PHPtfiQU/8zGJbsynOPC3sNUIsPVTkG7FA4Uva4sffwpdWiKseYnQinyh5dzjFnE+FC2cM1h71j7W6bInPslOd4bV+15pLDZFizM9LPpCmu77lvDtOnMsOJLYTn0sKhlm+EmFeuObR3zJc2ctieajuHnVWuv/tgn8r6e0/FYMNuy892npizq5PDfE+bQbF76p06s1b+T5rcKX1mkecSO8ewofbOpOmXZ0w//TqTECSRjV0/AAAAAAAAAAAAAAAAAADC8QLMGDNv
   </data>
  </layer>
  <layer name="Player Layer" width="50" height="50">
@@ -55,7 +55,7 @@
  </layer>
  <layer name="Wall Dec" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztz8EJg0AQheEtIHZgzulMzwaS81qBqSBHEWO6SGF5EA+DqBhEdpX/g8csO3OYcW652jn/x3i09njH5Rdv//Z4xxjuiIu9o5uZm+ttJVXOC2ebvj5NtTt3g16MPub9HtRWeU30AGArSV9PQbdYp1CuSqbk5j8ZH4+WV0rlptzDrrJKpTxCLwEAAAAAAAAAAIBD+QKn7xdq
+   eJzt1k0KwjAQBeA5gL2Brr2ZrhV0HU+gJ3Ap/tStVFddeDCnGGEIsSTtVNPyPnhEmhBnmlIlCncgMhHLk9XHPqbvGHmtj334oA+ik2Idbck+8pp1vrmu+xhzJoFrj3bci1HWnDtzUirn8RSfr8545ly+zH0UnLvNo4sC/6DqaSi9pPKctXVT3IvvSam4Xex3a+5VKm6nJvZd4Osjs+NIo6AWYs7L7WPBWXJmnLm4ntHvxbzT3D4MZ8NZcdaqVTUTeiZuH1vOTr2a5uRvZ12Kgfx/BQAAAAAAAAAAAAAAGKIX1pc04Q==
   </data>
  </layer>
 </map>
