@@ -2386,9 +2386,75 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="1375" name="Ferdinand" tilewidth="32" tileheight="32" tilecount="12">
+  <image source="../Sprites/Ferdinand.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="AnimationName" value="Down_Still"/>
+    <property name="SpriteName" value="Ferdinand"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="AnimationName" value="Down_Movement"/>
+    <property name="SpriteName" value="Ferdinand"/>
+   </properties>
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="AnimationName" value="Right_Stilll"/>
+    <property name="SpriteName" value="Ferdinand"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="AnimationName" value="Right_Movement"/>
+    <property name="SpriteName" value="Ferdinand"/>
+   </properties>
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="AnimationName" value="Left_Still"/>
+    <property name="SpriteName" value="Ferdinand"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="AnimationName" value="Left_Movement"/>
+    <property name="SpriteName" value="Ferdinand"/>
+   </properties>
+   <animation>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="6" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer name="Tile Layer 1" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt01toj2EcwPFnbBM5ZcjQZtrMzGkOOeVUDgmFycyNcoWcomhSMqeJpskNV+NSLpRaCGEOkeNEYctYTpmtMY1p+P7be8eNmpS+3/r06316397D0xsXQuiKnuiLARiEoRiF8cjCCIzFJEzBdMzAbExuF0INdsaHUIAtiFWAbdiOQuzBPhzAQRxCKcpxAqdQhvM4iTM4i3N4iipUowavUYuP+ILviI8LoRO64x3H9fiMb4hjrQO6IAm9kYz+SMVAZGAwsjESwzEGEzENszAPi7AUK7ASq7EWG7AJm1GI3ShCCYpxGEdRiou4ilu4j0u4jsu4gTt4iMeoxEu8RR0a0YzAN29gNqEl9m4sJSEZqchANnIwDh845xO+4kfs+Vgrwn4UowRHcAzHsTghhFzkYQmWIT+hdW+foBLPWw/DK7xHA5rQgvbcoyO6xZ6d4zo0ojl2AWuJ6Iwe6IU+6IcUpCEdmRiCHAzDaEzAVMzEXCxEHlZhDdZjI3ZgF/biAspxE/fwCM/wAm/iwi9VsHb7N+tt1V327gFO86+UYSsS2/29+/0vpUTfKC2a6dHMjOac6LwF0Zwfzdxo5kdzeTSzouuqmNW4wj5cw7r4tn5y+5Nq2Yv62D/CPlS4F2ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb2D/oJvp9s6Q==
+   eJzt01tojnEcwPHnZZvIKUOGNtNmZk5zyCmnckgoTGZupomQUxRNSuY00TS54WpcyoVSCyHMIXKcKGwZyymzNaYxDd+3PXfcqEnq+61Pv/7/nqf3eZ9/TyQIgs7ojt7ohwEYjBEYi3QMw2hMwCRMxTTMxMQ2QVCNnTFBkI8tiJaPbdiOAuzBPhzAQRxCCcpwAqdQivM4iTM4i3N4ikpUoRqvUYOP+ILviIkEQQd0xTvWdfiMb4iw1w6dEI+eSEBfJKE/UjEQGRiOoRiF8ZiCGZiDBViMPKzEaqzFBmzCZhRgNwpRjCIcxlGU4CKu4hbu4xKu4zJu4A4e4jEq8BJvUYsGNCHgndczG9Ec/W9sxSMBSUhFBjIxBh+45hO+4kf0+dgrxH4UoRhHcAzHsTA2CLKQjUVYgpzYlrN9ggo8b1kGr/Ae9WhEM9ryG+3RJfrsrGvRgKboDezFoSO6oQd6oQ8SkYwUpGEQMjEEIzEOkzEdszEf2ViFNViPjdiBXdiLCyjDTdzDIzzDC7yJBL9Uzt7t3+y3Vnc5uwc4zbdSiq2IY72U95uLZcjDCiyP/XvP8b+V2KZlJoczJZxp4ZwVXjcvnHPDmRXOnHDmhjM9vK+SWYUrnMM1rItp7Se3P6mGs6iLfiOcQ7lnYWZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb/oJ8ekm9W
   </data>
  </layer>
 </map>

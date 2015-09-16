@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="Leon" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Leon" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/Leon.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -11,7 +11,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="13" name="Ramsestileset" tilewidth="32" tileheight="32">
+ <tileset firstgid="13" name="Ramsestileset" tilewidth="32" tileheight="32" tilecount="375">
   <image source="../Tilesets/Ramsestileset.png" width="480" height="800"/>
   <tile id="11">
    <animation>
@@ -40,7 +40,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32">
+ <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32" tilecount="48">
   <image source="../Sprites/Veldes.png" width="192" height="256"/>
   <tile id="1">
    <animation>
@@ -67,7 +67,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="436" name="Leon2" tilewidth="32" tileheight="32">
+ <tileset firstgid="436" name="Leon2" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
   <tile id="1">
    <animation>
