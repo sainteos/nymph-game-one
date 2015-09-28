@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="hud" tilewidth="32" tileheight="32">
+  <image source="../Tilesets/hud.png" width="480" height="800"/>
+  <tile id="6">
+   <animation>
+    <frame tileid="6" duration="200"/>
+    <frame tileid="7" duration="200"/>
+    <frame tileid="8" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="21">
+   <animation>
+    <frame tileid="21" duration="200"/>
+    <frame tileid="22" duration="200"/>
+    <frame tileid="23" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Leon2.png" width="96" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjEOglAURcEHFFiCBZRogSuQ/W/NuwZC8iOZSU5/uqrq05DG9Kj/NKU5PdOS1rY7p23pld5pT5+mN9f4pqP1BAAAAAAAAAAAcHs/xgsBig==
+  </data>
+ </layer>
+</map>
