@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="35" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32" tilecount="375">
   <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
   <tile id="8">
    <animation>
@@ -19,10 +19,10 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32">
+ <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/nun.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -33,8 +33,38 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="400" name="Ferdinand" tilewidth="32" tileheight="32">
+ <tileset firstgid="400" name="Ferdinand" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/Ferdinand.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="2" duration="400"/>
+    <frame tileid="1" duration="400"/>
+    <frame tileid="0" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="412" name="apprentice" tilewidth="32" tileheight="32" tilecount="12">
+  <image source="../Sprites/apprentice.png" width="96" height="128"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="2" duration="200"/>
+    <frame tileid="1" duration="200"/>
+    <frame tileid="0" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="5" duration="400"/>
+    <frame tileid="4" duration="400"/>
+    <frame tileid="3" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="424" name="blacksmith" tilewidth="32" tileheight="32" tilecount="12">
+  <image source="../Sprites/blacksmith.png" width="96" height="128"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
@@ -56,12 +86,12 @@
  </layer>
  <layer name="Player Layer" width="50" height="35">
   <data encoding="base64" compression="zlib">
-   eJzt2LEJgDAQBdA7SysbN9A901hZWTmCa7hSdAEPFbuA6Mkl8T/4kCrcxxCCRADwF731AHCpiZz1DBq0enSssctzb3qMgbUFnKu44FzFBT3i0UqaQI8yg34AoMdLljM+4fuhYHKDvHeZ93WyVknFR+R7zNbzAADA93L5l4geaZmsB7hhA49+FGw=
+   eJzt2L0JgDAQBeA7SysbN9AldLk0VlZWjuAarqQu4PmLIIJo4BJ9HzyIjdzDEIJEAPAXpfYAsIuJjPYMNtjqUbCNtzz3pkd9sdaAfeUW7Cu3oIc7Ukly0SP8QD8AsKeT9Gs6j8+HgMlUct9lntfeGiQRL5Hv0WrPAwCwyfj0bFQGeWnqkR/iQo+v/EtED7802gPcMALePRcM
   </data>
  </layer>
  <layer name="Wall Layer" width="50" height="35">
   <data encoding="base64" compression="zlib">
-   eJztmD1MFEEUx2eDjYUFiQ2NFKhoQSIW1FhZQiGW2GCNCbTABD1I0DM5+WhBhRgajB+FMbHTAhIrsFIaSrXUxor/MDPH8/l2b2dvd4+L/JNfZnbfztz7wR67Qal/cwsMWDTm2p+fBfcDmSXry45xuGnRA6SPGrnmLZk/AHMxtVoOHp+xx0s7BmUE3HaMCB6m70llezfzeVAhx77m1tTXh2SHYDzcGJQxcNcxxjxe2b71G9u7nndUnAupqdeCx1fwDew36GGbQJ3yiPF4AhbBMlhyDotuXmG154B7fAc/wM+Az6VOecTfVyvK9rriHJbVce+05tZovs+fnPqheRGA99gA63as9+17p7U4j7LzEXxymNSEa3zftHeak+DBI3mkWKPz7qPZUI/VhOtorRUeE+BRDBP2b089Wwn70ForPKbAtRim2shjHNxjtKPHNJgh4Fh7t/GSPd6B91kWKtljmsypx4eEfWitmd/HZsZ1VfCYUGUeaxifMp6R9ZhrXl9rwX111vLX53q36gl8Dpzm/8uuRTe7z9VIqSsMnBP37YySaZRf4Dc7d2ARPy8kZXp04JozKa5L0yPvtxfjZUZvoMcFR9bsgS8xtdWUHvyZ5p8BIR7djiIivQ9IP/c8PPocRXlIPca9TzTyWEjwKDIhHgKih/8ecIr24DG9n4+O0HycYXXJozuSKTLSe6bp82J0hO7BeAmjP/YeOKd6Yjz6Ipl2ykKrG8gpaTz6wfWM9Jf0nsw9zgn30yC4kZHBU4+gpLmvhsBwRoZK9HjIznVFx5j/646COxkZLcnjEKWO/Tw=
+   eJztmD1MFEEYhneDDYUFCY2NFChgkARIPAsaqCihEEposMYEWmCCnCTokZz8dATkJ4RG4k9hTOy0wIRKqZSGEiihseKdm5m7L5+zezd7e7uQ8CZPZne/nb3vudu/nOf9n2cgoxBYFmb7LHjpyCyZn3SkQ79CZEgfebLPZ7I8B14F1PIxeBziGPtqdMoQGNYMWTxk35Oe6l0uz4MsWTc1Pac43yU/CdJDj04ZA881Y8zjg+pbfFK9i3lNVruQmvfR4vEH/AXHZXo4IFCnOCI93oIlsAKWtcOSXs6y2hbgHqfgDJw7fC51iiPmvFr1VK+r2mHFK/VOa3qO4Mf5F1M/NLsOGI8dsK3GYt+md1oL8kg638EPjUzeso/pm/ZOcx08eGweFcwRcfdRbajHesh+tJaGxwR4E8CEuvcU8z7kOLSWhscU6Axg6gZ5jIMXjJvoMQ1mCFgXxm08YY8v4GuUiZ7dY5osU49vIcehtWp+j72I83JgkZBjHhsY3zE2yXwsC17fSOG8qlcUPnfPV9uMW+4aPgdcsuan3cFt4sgvhaj2OI9wPrQxsM163AY/nHK5AJds24nC+nkuSdKjDvvciXAd2Xrk/bZibGG0Onrc10TNb3AUUFuv0IM/08wzwMWjSVOL2N4HbN97HB4dGp6nfgFhxkpr3MPWY9D7RDmPhRCPWsbFw4LVw1wHnFp78MjeG/0Cgo8zrP4EI0V6mOuAU8vY3jNlnw/8AqIZ40OMZt14YJvXbDlfpYe5DjhhaUf9MaE95FpIIgtVzO3xS6SdSjy6QHdEuhJ6T+Yedy3fbS/oi0jvrUdgMuxeZe5X5TIABiMykODv8Zptu+eXkP/rjoDRiIwk5HEFdKQGTQ==
   </data>
  </layer>
  <layer name="Wall Dec" width="50" height="35">
