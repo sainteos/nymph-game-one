@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32" tilecount="375">
+  <image source="../Tilesets/hollowspringsinterior.png" width="480" height="800"/>
+ </tileset>
+ <layer name="Ground Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzzEOgCAQRcG9jzXg8Ti6kmBiAYWxkJgpJtlii/9SRCQAAAB4aRvIEbW5fnI3+v16v471Oka7nnas0KJjnQYdOnTo0KFDhw4dOv7eMTPr+HrXU6Xbu/Ou5dYFANAciNUThw==
+  </data>
+ </layer>
+ <layer name="Ground Layer 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7CJw78mFOzg4mmTJgAAAAAAAFxNCQAAwJ8F4nsBmQ==
+  </data>
+ </layer>
+ <layer name="Player Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJACAMA8CupdN1dAuO0EdR7iCQRz6JAAAAAAAAACasyr7J6tndTfnlBwAA7zvSbgeZ
+  </data>
+ </layer>
+ <layer name="Wall Layer" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2MEJgDAQBMBUoBVoH1rdle6BHx/x5YFRZmAhHPvJd1sDACpMBRnBUhAAAAAAxrVl9jOR73jae8tf/gGV7rbnudPNW3xtp1473byFnRoAuDoAg44Npw==
+  </data>
+ </layer>
+ <layer name="Wall Decoration" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmM0RgyAQRjGpgA4ozVIsxVIoLUscDjHrYRciGeYx88aDfgvPP8QlhLAAAADAm4fwdCC53ZttqVEymofsW4OjSW73Zk81kjWDx+UYXNlTjWTN4PHd4sHmybbU6O0xquGht3jc21m22TumUsOa/8Vz3no9ez7nMj+u5bxakVzu4WHtv/bbm1aP0d9leOCBBx544IEHHnjggQced6Ot57Q1d13P37G2c3qU8/qB9k8qKsdJdhs9/tnuKzzwwGN+j6v/gfKeTXW82tzxb/MHwEy8AA66YJY=
+  </data>
+ </layer>
+</map>

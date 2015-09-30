@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="16" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32" tilecount="375">
   <image source="../Tilesets/hollowspringsinterior.png" width="480" height="800"/>
  </tileset>
- <tileset firstgid="376" name="blacksmith" tilewidth="32" tileheight="32">
+ <tileset firstgid="376" name="blacksmith" tilewidth="32" tileheight="32" tilecount="12">
   <image source="../Sprites/blacksmith.png" width="96" height="128"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="5" duration="200"/>
+    <frame tileid="4" duration="200"/>
+    <frame tileid="3" duration="200"/>
+   </animation>
+  </tile>
  </tileset>
  <layer name="Ground Layer" width="23" height="16">
   <data encoding="base64" compression="zlib">
@@ -13,22 +21,22 @@
  </layer>
  <layer name="Ground Layer 2" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMBQBAAXAAAE=
+   eJxjYBgFo2BkAU0kPApGwVAGAFvnAHw=
   </data>
  </layer>
  <layer name="Player Layer" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZgAuKaQEkoZgVCVMDKAMxN5RNbbNBgIeKZgkBsTAVzUMGikCsxAAJj1EwCkYBAgAAbVQBKg==
+   eJxjYBjegBVKc0ExLYAkFLMiYWoAZSDmhrKpbTYI8FDRLCEgFqaiechAEYiVGCDhMVSBFBKbmmElDcQySHxYWNECDFV3D2cAANeKAoc=
   </data>
  </layer>
  <layer name="Wall Layer" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtYKUyRgYiJGIuAvLoQAiIhYFYmQh/SgKxKgNDgwqEJggUgVgJyq5kJKzeBGi2MYQmCJQZiHMzCLADzWUnUi0IwMKEGCAGNFuMBLNhYUKs20fBKBjpAAAyLQcd
+   eJxjYKAtYKUyRgYiRGBeJDYXAbXoQAiIhYFYmQh/SgKxKgNDgwqEJggUgVgJyq5kJKzeBGi2MYQmCJQZiHMzCLADzWUnUi0IwMKEGCAGNFuMBLNhYUKs20fBKBjpAAAQDQcW
   </data>
  </layer>
  <layer name="Wall Decoration" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYKQhZgJiZhIwUP0CYs0Gqk9gwAI4gJiTgaGBC0gjY2YyzFZjYHiAbLY4EEsAzZYE0sgYZDbMr0C6gRiz1bE5HgsAmQ3TQ8gPuMIEFxAE+k+QBLPZgBgYJg6k2EELd5NiNjA+EoBqDsAw0L8KIH2CkHCFiR0gx2xK0umo2bQxGz2+YRgofoBSswcbBgAoQB4D
+   eJxjZGBgYKQhZgJiZhIwUP0CYs0Gqk9ggAJeINaCsjmAmJOBoYELSCNjZjLMVmNgeMCABMSBWAJotiSQRsYgs2F+BdINxJitzkAcAJkN00PID8hhQgwQBPpPkASz2YAYGCYOpNhBC3eTYjYwPhKAag7AMNC/CiB9gpBwhYkdIMdsUtMpCAjQ0GxaultjiLgbPb5hGCh+gFKzBxsGAJzPHnI=
   </data>
  </layer>
 </map>
