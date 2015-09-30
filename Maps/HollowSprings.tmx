@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="35" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32" tilecount="375">
+ <tileset firstgid="1" name="hollowsprings" tilewidth="32" tileheight="32">
   <image source="../Tilesets/hollowsprings.png" width="480" height="800"/>
   <tile id="8">
    <animation>
@@ -19,10 +19,10 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="376" name="Leon2" tilewidth="32" tileheight="32">
   <image source="../Sprites/Leon2.png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="388" name="nun" tilewidth="32" tileheight="32">
   <image source="../Sprites/nun.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -33,7 +33,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="400" name="Ferdinand" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="400" name="Ferdinand" tilewidth="32" tileheight="32">
   <image source="../Sprites/Ferdinand.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -44,7 +44,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="412" name="apprentice" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="412" name="apprentice" tilewidth="32" tileheight="32">
   <image source="../Sprites/apprentice.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -63,7 +63,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="424" name="blacksmith" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="424" name="blacksmith" tilewidth="32" tileheight="32">
   <image source="../Sprites/blacksmith.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -96,7 +96,7 @@
  </layer>
  <layer name="Wall Dec" width="50" height="35">
   <data encoding="base64" compression="zlib">
-   eJzlmE9PFDEYxqeHXUR3QyKiqEsiggIeVHa5634ZOUOCFznUo3KAo3DwaBTWeDOrB+XgDcIXEL4Aet4lJBKeznSyb2pb5k9n9g9P8svbtJ237zMz3W3G86Lrg+fxGNN9vQFvFdZi5jjAul+C6ERJfLwDmwpbEa77SUijmQBO+5L4SKofBKF9h7nz9EG1J9fdc5QvjY9PjmpwIeqjYZmnG8vaRwVMRJz7Ucb3JNKaG8oYVa88j1+k/VmJ22DHMBaqCb5JvmdRYBckPA2Kl155z9Lqq8NcuCe7DtPFXdtlrl2H6Zwp7m+BzkdZxpKLghLqNzgERxHnqz6WwDJ4ARZJf9nLV8fgD/gbcb7qg4PXYAW8dFlYAp160feQ6mMdbLguKIXof6eNZpfOr5dRFYbznwL6uG7uJPqvY1wHxvpG9wz+5Nh/aoOTAN5O8W7q7nWU+26pVTv/MXI90fgoom8ogKPNW+hrdXmvvfL0PnTPIdQYxm4GcLR5Ae1CzHsXR1Wmb1OJ7zAmH6MZ740Z5H9IMKnO9G0qm4/7OezxeblG1RDDOTWwwMzPQwh7gIu9QNHtiyz0XK5TN0Q6R+3XihnaGeoG8+FhvGtZ9ynz4bZ8q2CE5BjJyccU1nmA2qYRAX9kWfcZ8+G2fHG/t/aqBtXHFTzDq310HglVZh2Eh2tgGO9iv3kpsQ7Cwy0wDh/Cyz8H+S86R6U9V+l8CA+3JcLLmYNvEXPINRuDuYQ+7pDaBTWc+YDfDlU0XFu8YCwvH+eJFnqB
+   eJzlmD1vEzEYx89DQoFEkcp7SaSmvIQwUEg70AkylU9CZ5Do0g5mBAY6FgZGxEsqNhQ6lA5sVHyBli8AzAlCKuLve1EeGftyPvuOJPylnx7LfvLYf1/cOud5yfXS87hBuq9H4LHEE8MaXzDvuyA6URofm+CZxPMEn/tIsFEjgNO+ND7SaocgtOewdp4+hJZZED9j3iXmRyey8fHacu47zLIAEfXRiclTjdn6GKYqqCXMfRXGFyTSNXekMaqsfSTVJ9LekuIb8FYzFqkLPoRsZ7HAfyDhaVK8jMr3zFbvHdbCnuw6LGc6t8tauw7LOZPp3wKVj3IYSy4WlFL74AB8TZgv+7gH7oO7YIX0l7189Q18Bz8S5ss+OHgIHoBVlwtLoV9e8jMk+3gKNlwvyEL0f2cc3SH3vpsO72b/u6rYy5oE+rgqt47+aYyrqI/RM5nV+AvH/lIf/AzgfYvfJKq9TrLvMWtV5l9DrXmFjyL6jgRwtHkPfb2cfyvKWvPUPlTPIdIpjJ0O4GjzAtoFw70zUYup21TiPYzOx4mMz0YD9S8TdGozdZsqzsdcDmf8RjhHSxOjnAWwyPTPQwhngIuzQFGdiyx0O5ynrYk0R+5XimnaGeok8+FRPB8z73Xmw+PqrYMKqVHJyccFzHMJa7uICPjVmHlvMR8eV8/0feuoalJ9TOEZHhuj+0ikMhsgPBwHR/FdHDcvJTZAeDgDzsKH8HLooP6we5TtvUrlQ3g4FyK8/HbwLqKJWlcMaKb0MUPWLljAnQ/47UhFzWeLQ8by8vEHvdB7hQ==
   </data>
  </layer>
 </map>

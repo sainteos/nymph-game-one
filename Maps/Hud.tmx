@@ -2,6 +2,12 @@
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="hud" tilewidth="32" tileheight="32">
   <image source="../Tilesets/hud.png" width="480" height="800"/>
+  <tile id="0">
+   <properties>
+    <property name="ElementPiece" value="UpperLeft"/>
+    <property name="UIElement" value="UIArea"/>
+   </properties>
+  </tile>
   <tile id="6">
    <animation>
     <frame tileid="6" duration="200"/>
@@ -22,7 +28,7 @@
  </tileset>
  <layer name="Tile Layer 1" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztzjEOglAURcEHFFiCBZRogSuQ/W/NuwZC8iOZSU5/uqrq05DG9Kj/NKU5PdOS1rY7p23pld5pT5+mN9f4pqP1BAAAAAAAAAAAcHs/xgsBig==
+   eJztzssNglAUANGLgrIEEV2KfKxA+2/NqeEZc0MyJ5n9VBFxoCOdqY196qinC93onrtT7EETPWmjV+pNuZoaOtGbPrk7xQa60pg98qOZFlqzRyRJkiRJkiRJkiRJkqQ/+gLDCgI+
   </data>
  </layer>
 </map>
