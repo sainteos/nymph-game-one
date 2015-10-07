@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="45" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32" tilecount="375">
+ <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32">
   <image source="../Tilesets/hollowspringsinterior.png" width="480" height="800"/>
   <tile id="94">
    <animation>
@@ -9,10 +9,10 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="376" name="nun" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="376" name="nun" tilewidth="32" tileheight="32">
   <image source="../Sprites/nun.png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="388" name="Wagner" tilewidth="32" tileheight="32" tilecount="12">
+ <tileset firstgid="388" name="Wagner" tilewidth="32" tileheight="32">
   <image source="../Sprites/Wagner.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -30,12 +30,12 @@
  </layer>
  <layer name="Ground Layer 2" width="50" height="45">
   <data encoding="base64" compression="zlib">
-   eJzt1tEJwyAUhWFH6QDJAPYpDzULNBt0EUfpKBmtB5IHEZO2VhIr/weHCyrhXhCiMQAAIEe/xgQ13v8XXVRTe0AL7soURWt+6/yYSImzv1Lfl4dqGK09v/mG09w31TCucJ/vlJijBrpDg/qew2htPrsvAEBbUm+Nrf/5ke+SHFa5LvF25y326bmzMEddmKMurcwBAACANr0AlTkwAQ==
+   eJzt1tEJgzAQxvEbpQPUAexTH2oXsAMUSjuHoziKo/VCIhwS26ZEjPL/wUcikdOLD0YEAAD8owoRM07Xt+I4GWNr2I5WcwvReWfXXnr99GPx9P0PD5G7i877HDXt3sztkXWNJPXeJfoINcUmtXajfV90tGm+P7N3KamPVK3/DoOLzodMNc9jzdy1AQAYxc4ac//zlDPMGmrNyaerP5zFfr1vLfRRFvooy176AAAAwD69AVkSQLg=
   </data>
  </layer>
  <layer name="Player Layer" width="50" height="45">
   <data encoding="base64" compression="zlib">
-   eJzt1jsKgDAMgOF6Hz2Buy9wcHfwGm49uo8qOqQ+sKLV/4PQkGYIlJYqBQAAXIs2atLeW4UbNWnvbpVl9U1jWf+iNKGfnmPPcFdzIbJp9trEmGeW3rOSizPP2mDJbXc1lWta6o09OC8A8Mn6nQaOkv4ahdDX17SLfwkAAAAAAF/VAXqrEKU=
+   eJzt1jsKgDAMgGG9j57A3Rc4uDu46RXcenTfKJJKxfrk/yCkpKEEpFLHAQAAtvk7NWnvrbydmrR3tVyT71JZOqfU5DvUm/yEbAz14AhG+ruaCBFPsxdjDOtY03tUeHLmWeMua91djeSaknqDD3wvAPiS9X8aMCW9NVKhr6spG+8SAAAAAAD+qgVcjBHc
   </data>
  </layer>
  <layer name="Wall Layer" width="50" height="45">
@@ -45,7 +45,7 @@
  </layer>
  <layer name="Wall Decoration" width="50" height="45">
   <data encoding="base64" compression="zlib">
-   eJztmEEKgzAQRbWeIDfwKMWdFEo3pe2i4KIH8Sg9ikfrlxgRm6RJVRzlD3wSwsxkHkZjkiZJkm5MNlu7JnKQQ4rIIUvkkCUfxwHKAgXfd2yMLUdsvJnXxwG/yuHyZVmXLybGlgPKr+hDtWlD5rXZ2hwv9KHatHfo5uCRzDEeJ0c8h4IKzFWEBsDOWn19rvgHxk9oy9F4mczP0dpFq/7lZ+yp1fvHxrcmgWOO+BAOfJsr+DUxwro4/stRdPEx86HGZon9fOp7LuW/hBzkIAc5yEEOcpCDHOTYM4frzIJzb27yK30Od54lhHBY78vU4Dkphw9iaykc7boKuT+zmaR1NbxH2zpHbP3kWPb9IIccDs/+0Zj8W9g/PHxHk39KvWtzLK09c3wA8LVsJQ==
+   eJztmEEOgjAQRYucoDfwKMSVxMS4MerCBBMP0qN4FI7mJ7WEaIutSBjIn+SnpMxM54VCaTOlVDYz+WzqmshBDikihyyRQ5b6OFZQHin4PlJjfDlS4924fRzwqwIuH5a/8qXE+HJA6yOuIePa5t721YbG9dnUHHdcQ8a1Z+g0Q473fnKkc2joplS9iQ2A7a3a+hBrfPEX9O/Qlm/9pfo/R2MHK/PNz9nVqvVPjW9MAsc/4mM48G2u4FfH6mbnRfErx8bmUCljosZ6jPV86Hsu5b+EHOQgBznIQQ5ykIMc5FgyR2jPgn3v2uXXdh8e3EsI4fCel+nOc9IBH8QaKRzNvOqen6WYpHnVPUebO0dq/eQY9/0ghxyOnvWjdvnnsH708BUu/5B6p+YYW0vmeAKKo21J
   </data>
  </layer>
 </map>
