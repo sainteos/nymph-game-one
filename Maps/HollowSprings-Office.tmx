@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32" tilecount="375">
+ <tileset firstgid="1" name="hollowspringsinterior" tilewidth="32" tileheight="32">
   <image source="../Tilesets/hollowspringsinterior.png" width="480" height="800"/>
  </tileset>
  <layer name="Ground Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJyFlUEOxCAMA3kv5P/n7ko9RMM4PaBSoMRxHPesteo39jvOO/q82lrhyf3+Xjh38H3hbH/2eIYn3ctvS87sdeMlpjQsXr+H2NK9PTdyyrm9c5CjvpawHJmztkkDjMc908HEJ2tPfX3lmzBbHNtnTl8xqNe9brzWS+Rvr5s34kt15LrVk5ya/qxnmKt5AL9lnqbblOOk16QN3m+aS9pK/WpasH4yXRke4yj5I3On3xrO5BFWF8Nl2jRNMSY9g7xMvmRaIqfUjPUpa2DeZPdYXpOHmg8kD5g8zzRn3Bg/qQapv5N/pHhJB8ln7F+SuGGNE6fW1195mQ7NX8yzyCOxkZ/Ub+YZpqfJv5gvuUq+/X9/AHXSBWY=
+   eJzdlUEOwzAIBP1em/+f20Ms0emsk0svtYSUkNjLwoLH+K+1Lptvq8u2ry7/bP90fwUzjArnlHyzM7d/7+PqsU55p/U4Fnz7OfHocXSsNT5z1/kQb7+fMMwMg/kl94RhMRuOfSenO4wa33lhvKwF82cYFh/PZw1m2JN0Rf1Zz5Ar698xjUfSbeJoej3lys5nXagnPpOrYaR+Ml1ZPHf9ceLez0s1sRmReFhcpk3TFDENg3GmuWRaYk5Trri318BmE7VHHaRcpXlqvW+z8XR/WI6ME+vPGvR/udL8SHhJB0/qkXrLdMp6cQ6ceFhv8+463QFpthsP03Pqtyf3xy/XCzH5wS4=
   </data>
  </layer>
  <layer name="Ground Layer 2" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALCIB+ICyD0AhA/CVWsgRp21AFxPYQ+AOIXoopRxQ6gWx2Abj6QD7UDKpYAFXtADTtw2EvVsMIGqB1W2AA9wmoUjIJRQBwAADjUFjk=
+   eJxjYBgFo2AUjALCIB+ICyB0A4ifRAM76oC4HkIfAPELaWAH0P0OQH8cyIfaMQpGwSgYBUMVAACpYAfr
   </data>
  </layer>
  <layer name="Player Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+   eJxjYBgFo2AUjALSQAMd7Oingx2jYBSMglEwlAEAsWcBEA==
   </data>
  </layer>
  <layer name="Wall Layer" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBheIJeGGAZqaIhHKsiD4AZa2lELwTS1YxQMH4Cc99HTZh4D8eUFPoCc99HTZi3DaHkxCoY+YGJgODDQbhjOAAAcHCVh
+   eJxjYBheIJcGGB3U0ACPdJAHwQ20tKMWgmlqxygYPgC5DEBPm3kMhMsJYgByGYCeNmsZRsuJUTAKRgF+AABVuB8p
   </data>
  </layer>
  <layer name="Wall Layer 2" width="25" height="25">
