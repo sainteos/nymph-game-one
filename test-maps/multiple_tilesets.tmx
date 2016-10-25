@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="tilesettemplate" tilewidth="32" tileheight="32">
-  <image source="../Tilesets/tilesettemplate.png" width="480" height="800"/>
- </tileset>
- <tileset firstgid="376" name="shittytileset" tilewidth="32" tileheight="32">
-  <image source="../Tilesets/shittytileset.png" width="480" height="800"/>
- </tileset>
-</map>

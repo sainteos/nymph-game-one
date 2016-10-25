@@ -3,29 +3,22 @@
  <tileset firstgid="1" name="shittytileset" tilewidth="32" tileheight="32">
   <image source="../Tilesets/shittytileset.png" width="480" height="800"/>
  </tileset>
- <layer name="Ground Layer" width="10" height="10">
+ <tileset firstgid="376" name="imp" tilewidth="32" tileheight="32">
+  <image source="../Sprites/imp.png" width="192" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJxjZGBgYBzFgwYDAFB4AGU=
   </data>
  </layer>
- <layer name="Ground Layer 2" width="10" height="10">
+ <layer name="Tile Layer 2" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJyzY2BgsCMSOzLgBg5I6vAB22GoLgCPOn8G4sMXhAHC9AtH
+   eJxjYCAOaBKJiQWj5mHHALNHCAM=
   </data>
  </layer>
- <layer name="Player Layer" width="10" height="10">
+ <layer name="Tile Layer 3" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBha4AgQHyVC3WUgvkJjt9ACAACDMgMx
-  </data>
- </layer>
- <layer name="Wall Layer" width="10" height="10">
-  <data encoding="base64" compression="zlib">
-   eJxjYKANEMKByVU3UgAA74AA2Q==
-  </data>
- </layer>
- <layer name="Above Layer" width="10" height="10">
-  <data encoding="base64" compression="zlib">
-   eJxjYCANKOPAo4A6AAAaKwDT
+   eJxjYCAfVDIiMC5xZDlsaokBvYwQ3AfE/VjsIqQW2S3o8sgYl5nYxPH5G5/7CAEAjywR6g==
   </data>
  </layer>
 </map>

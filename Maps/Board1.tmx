@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="shittytileset" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="7">
+ <tileset firstgid="1" name="shittytileset" tilewidth="32" tileheight="32" tilecount="375" columns="15">
   <image source="../Tilesets/shittytileset.png" width="480" height="800"/>
   <tile id="1">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
    <animation>
     <frame tileid="1" duration="800"/>
     <frame tileid="5" duration="800"/>
@@ -16,6 +19,51 @@
     <frame tileid="94" duration="400"/>
    </animation>
   </tile>
+  <tile id="5">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
   <tile id="35">
    <animation>
     <frame tileid="35" duration="300"/>
@@ -23,6 +71,121 @@
     <frame tileid="37" duration="300"/>
     <frame tileid="38" duration="300"/>
    </animation>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
   </tile>
   <tile id="110">
    <animation>
@@ -32,6 +195,31 @@
     <frame tileid="111" duration="200"/>
    </animation>
   </tile>
+  <tile id="117">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
   <tile id="125">
    <animation>
     <frame tileid="125" duration="200"/>
@@ -40,12 +228,107 @@
     <frame tileid="126" duration="200"/>
    </animation>
   </tile>
+  <tile id="132">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="142">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
   <tile id="151">
    <animation>
     <frame tileid="181" duration="200"/>
     <frame tileid="150" duration="200"/>
     <frame tileid="151" duration="200"/>
    </animation>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="163">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="164">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
   </tile>
   <tile id="166">
    <animation>
@@ -54,8 +337,93 @@
     <frame tileid="153" duration="250"/>
    </animation>
   </tile>
+  <tile id="171">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="173">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="174">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="195">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="196">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="collide level" type="int" value="0"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="376" name="Alex" tilewidth="32" tileheight="32">
+ <tileset firstgid="376" name="Alex" tilewidth="32" tileheight="32" tilecount="12" columns="3">
   <image source="../Sprites/Alex.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -85,7 +453,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="388" name="dice" tilewidth="32" tileheight="32">
+ <tileset firstgid="388" name="dice" tilewidth="32" tileheight="32" tilecount="12" columns="3">
   <image source="../Sprites/dice.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -106,7 +474,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="400" name="alex2" tilewidth="32" tileheight="32">
+ <tileset firstgid="400" name="alex2" tilewidth="32" tileheight="32" tilecount="12" columns="3">
   <image source="../Sprites/alex2.png" width="96" height="128"/>
   <tile id="0">
    <animation>
@@ -141,7 +509,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="412" name="Leon" tilewidth="32" tileheight="32">
+ <tileset firstgid="412" name="Leon" tilewidth="32" tileheight="32" tilecount="12" columns="3">
   <image source="../Sprites/Leon.png" width="96" height="128"/>
   <tile id="1">
    <animation>
@@ -176,7 +544,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="424" name="Knight" tilewidth="32" tileheight="32">
+ <tileset firstgid="424" name="Knight" tilewidth="32" tileheight="32" tilecount="48" columns="6">
   <image source="../Sprites/Knight.png" width="192" height="256"/>
   <tile id="1">
    <animation>
@@ -243,7 +611,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="472" name="Aidan" tilewidth="32" tileheight="32">
+ <tileset firstgid="472" name="Aidan" tilewidth="32" tileheight="32" tilecount="48" columns="6">
   <image source="../Sprites/Aidan.png" width="192" height="256"/>
   <tile id="0">
    <animation>
@@ -301,7 +669,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="520" name="Acerbus" tilewidth="32" tileheight="32">
+ <tileset firstgid="520" name="Acerbus" tilewidth="32" tileheight="32" tilecount="12" columns="3">
   <image source="../Sprites/Acerbus.png" width="96" height="128"/>
   <tile id="0">
    <animation>
@@ -320,7 +688,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="532" name="imp" tilewidth="32" tileheight="32">
+ <tileset firstgid="532" name="imp" tilewidth="32" tileheight="32" tilecount="48" columns="6">
   <image source="../Sprites/imp.png" width="192" height="256"/>
   <tile id="1">
    <animation>
@@ -383,6 +751,18 @@
    eJzt2MEJwjAUxvGk4AjiqR2hKzmISoOr2GOX8OQMHaPgAL5De+ilIQR9vub/gxBKLl+gvLzEOQBAiV5+e/0aWbfg5tczkOJYaSdI95R/ffAuaOcAgJhaamxjsM4Cubq5L73/cX/6kNFrh8gk+YPsIyyzdh6UZQ93afzWae6JWiO9UUpOK3uCjnPke2G5rl54mwSKcNAOALMmOR9GGW/OCQD4ig8T4BGA
   </data>
  </layer>
+ <objectgroup name="Sprite Layer">
+  <object id="2" name="Aidan" type="sprite" x="160" y="1376" width="32" height="32">
+   <properties>
+    <property name="default animation" value="Down Still"/>
+    <property name="name" value="Aidan"/>
+   </properties>
+  </object>
+  <object id="3" name="door 1" type="door" x="384" y="224" width="64" height="32"/>
+  <object id="4" name="door 2" type="door" x="832" y="1152" width="32" height="32"/>
+  <object id="5" name="door 3" type="door" x="1408" y="640" width="32" height="32"/>
+  <object id="6" name="door 4" type="door" x="1344" y="224" width="32" height="32"/>
+ </objectgroup>
  <layer name="Behind Walls" width="50" height="50">
   <data encoding="base64" compression="zlib">
    eJztln+KwjAQhXsi8Qq6KtQuhfUH+LcK6g2ExRt4hD2BnkDBuzmFBEIMNSYOM7v7PviQljadR2h9RQEAAOCvcXIE4D9zcbT8OGqnT35ID/EGvsiJ9BBM3KQHyODqaDk7AgDkKY1jY2X8beTm+E545iHxvjYk9uPIsGbpWBVyOQbkkBwlrmkzWLhzNP/5oRxTckbOE9ctA+dsDq6eEcqxJFfkmumZHHC8HxI8y1Gb30/uQTJpy1F7x5qzhHL0iscM2vFzaJl/Q25fuN7NoSnDgtwbY9D4vWoy2C6wi7xHYw6/08Tg5+i2XJvbV2JJ6Wah/bBZOt753L4Si+01OfvRhua+ovH9SIGjt0vA0dslQG8HAAAA8rgDVE81sQ==

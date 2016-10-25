@@ -15,7 +15,7 @@
   </tile>
  </tileset>
  <tileset firstgid="388" name="Veldes" tilewidth="32" tileheight="32">
-  <image source="../Sprites/Veldes.png" width="96" height="128"/>
+  <image source="../Sprites/Veldes.png" width="192" height="256"/>
   <tile id="1">
    <animation>
     <frame tileid="1" duration="400"/>
