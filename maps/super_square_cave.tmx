@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" backgroundcolor="#969696" nextobjectid="2">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="../tilesets/terrain.png" width="1024" height="1024"/>
+  <tile id="15">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="144">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="158">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="159">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="195">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="254">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="255">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="287">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="311">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="341">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="342">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="343">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="387">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="395">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="396">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="397">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="408">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="409">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="410">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="419">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="427">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="429">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="430">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="440">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="441">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="442">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="448">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="450">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="451">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="453">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="459">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="460">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="461">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="462">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="463">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="464">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="465">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="469">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="470">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="471">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="472">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="473">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="474">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="477">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="478">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="482">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="483">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="485">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="491">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="492">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="493">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="494">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="495">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="497">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="501">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="503">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="509">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="512">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="514">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="515">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="516">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="517">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="527">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="528">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="529">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="533">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="534">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="535">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="559">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="560">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="561">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="574">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="575">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="606">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="615">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="616">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="617">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="618">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="629">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="630">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="631">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="639">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="661">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="663">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="664">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="665">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="666">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="667">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="668">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="693">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="694">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="695">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="703">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="728">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="729">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="730">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="731">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+  <tile id="732">
+   <properties>
+    <property name="collides" type="int" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzbENAAAIA6B+beL1XqFxYGCmk/SBWuRwOBwOh8Px7dg2ug4jtw==
+  </data>
+ </layer>
+ <layer name="Ground 2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5AB3IPZAw55UtiMdiDPQcOYwswNbOJITnu1A3AHEnEh2aEDN0cRiP7IaUuMNm38IYVLtIccOUu0h1w5S7KHEDmLT4qgdxNsByifIeYQWdlBqDynlD7n2kFrGkRo3HEDcSaIdpPiFHPPR7QGZ0YEHk2s+sj2UmjEKCAMAccRhiA==
+  </data>
+ </layer>
+ <objectgroup name="Player">
+  <object id="1" name="Aidan" type="sprite" x="160" y="160" width="32" height="32">
+   <properties>
+    <property name="default animation" value="Down_Still"/>
+    <property name="name" value="Aidan"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Player Default Collision" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzNVtsJAjEQDHZhY2olYiVqJd6Xf7bhXwoxgsIwTPYRiN7Aksvldiezuwm3K6XsJ9qh2bHMxQk4lsEYW5pzHOSYBYvjvtHvFxoRrMnjeHY4svh1rrI1fxhrGGtEx+0zVpr34HF4/hH8u3ctKH09zVEO1feRtQwHgs+m1V+KI9K/fDYrPKt8ZXTwfqM9l+Go/ifyjkMOr3aReOqOUzqsmmB+MJ61vzWfwbVwfHPOHNm6R3wsHSP/EMrnzXFudplo12YvyFNGZg==
+  </data>
+ </layer>
+ <layer name="Walls" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+  </data>
+ </layer>
+</map>

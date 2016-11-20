@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="light" color="#dce564">
+  <property name="color" type="color" default="#ff000000"/>
+  <property name="cutoff angle" type="float" default="0"/>
+  <property name="intensity" type="float" default="0"/>
+  <property name="light type" type="string"/>
+  <property name="linear attenuation" type="float" default="0"/>
+  <property name="quadratic attenuation" type="float" default="0"/>
+  <property name="rotation x" type="float" default="0"/>
+  <property name="rotation y" type="float" default="0"/>
+  <property name="rotation z" type="float" default="0"/>
+  <property name="z position" type="float" default="0"/>
+ </objecttype>
+ <objecttype name="door" color="#eab5c4">
+  <property name="connecting door" type="string"/>
+  <property name="connecting map" type="string"/>
+ </objecttype>
+ <objecttype name="sprite" color="#00a485">
+  <property name="default animation" type="string"/>
+  <property name="name" type="string"/>
+ </objecttype>
+</objecttypes>
